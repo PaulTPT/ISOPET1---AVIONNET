@@ -175,6 +175,7 @@ body {
 
 .myfooter {
     margin-bottom:0px;
+    margin-left: -50px;
     position: fixed;
     bottom: 0;
     width: 100%;
