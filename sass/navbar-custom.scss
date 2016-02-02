@@ -1,6 +1,6 @@
 /*navbar colors*/
-$im_man_c: #ffcf06;
-$ed_cri_c: #e78626;
+$im_man_c: #e78626;
+$ed_cri_c: #ffcf06;
 $trans_c: #e76040;
 $comp_c: #ff3c15;
 
@@ -54,19 +54,28 @@ $light: 15%;
 }
 
 /* Couleur au survol */
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: #e8e8e8;
+@mixin hover_color($menu, $color){
+  .navbar-custom .navbar-nav #{$menu}:hover,
+  .navbar-custom .navbar-nav #{$menu}:focus {
+    color: #ffffff;
+    background-color: lighten($color, $light);
+  }
 }
+
+@include hover_color(#im_man, $im_man_c);
+@include hover_color(#ed_cri, $ed_cri_c);
+@include hover_color(#trans, $trans_c);
+@include hover_color(#comp, $comp_c);
+
+
 
 /* Couleur du menu sélectionné */
 @mixin select_color($menu, $color) {
   .navbar-custom .navbar-nav > .active > #{$menu},
   .navbar-custom .navbar-nav > .active > #{$menu}:hover,
   .navbar-custom .navbar-nav > .active > #{$menu}:focus {
-    color: #555;
-    background-color: lighten($color, $light);
+    color: #ffffff;
+    background-color: $color;
   }
 }
 

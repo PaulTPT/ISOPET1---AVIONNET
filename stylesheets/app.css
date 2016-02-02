@@ -1,72 +1,128 @@
+/* line 1, ../sass/app.scss */
 .img-responsive {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-    }
+  /* line 6, ../sass/app.scss */
+  .navbar-collapse .nav > .divider-vertical {
+    display: none;
+  }
+}
+/* line 13, ../sass/app.scss */
+h2 {
+  margin-top: 10px;
+  vertical-align: middle;
 }
 
-
-
-h2{
-    margin-top:10px;
-    vertical-align: middle;
-}
-
+/* line 18, ../sass/app.scss */
 .row.vertical-divider {
-    overflow: hidden;
+  overflow: hidden;
 }
+
+/* line 21, ../sass/app.scss */
 .row.vertical-divider > div[class^="col-"] {
-    text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: -100px;
-    border-right: 2px solid #dbdfe1;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  border-right: 2px solid #dbdfe1;
 }
+
+/* line 27, ../sass/app.scss */
 .row.vertical-divider div[class^="col-"]:first-child {
-    border-left: none;
+  border-left: none;
 }
+
+/* line 30, ../sass/app.scss */
 .row.vertical-divider div[class^="col-"]:last-child {
-    border-right: none;
+  border-right: none;
 }
 
-
-#title{
+/* line 38, ../sass/app.scss */
+#content {
+  background-color: #fff6fc;
 }
 
-#content{
-    background-color: #fff6fc;
-}
-
-
+/* line 43, ../sass/app.scss */
 body {
-    /* Margin bottom by footer height */
-    margin-bottom: 50px;
-    margin-left: 50px;
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
-
-.gly-centerl{
-    top:10px;
-
-}
-.gly-centers{
-    top:35px;
-
+/* line 51, ../sass/app.scss */
+.gly-centerl {
+  top: 10px;
 }
 
-.marge{
-    margin-left: 20px;
+/* line 55, ../sass/app.scss */
+.gly-centers {
+  top: 35px;
 }
 
+/* line 62, ../sass/app.scss */
+.marge10 {
+  margin-left: 10px;
+}
+
+/* line 62, ../sass/app.scss */
+.marge15 {
+  margin-left: 15px;
+}
+
+/* line 62, ../sass/app.scss */
+.marge20 {
+  margin-left: 20px;
+}
+
+/* line 62, ../sass/app.scss */
+.marge30 {
+  margin-left: 30px;
+}
+
+/* line 72, ../sass/app.scss */
 .myfooter {
-    margin-bottom: 0;
-    margin-left: -50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 25px;
-    background-color: #f5f5f5;
+  margin-bottom: 0;
+  margin-left: -50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 25px;
+  background-color: #f5f5f5;
+}
+
+/* line 83, ../sass/app.scss */
+#navigation {
+  font-size: 125%;
+}
+
+/* line 87, ../sass/app.scss */
+#title_desc {
+  margin-left: 30px;
+  font-size: 150%;
+}
+
+/* line 92, ../sass/app.scss */
+.navbar-default {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 97, ../sass/app.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ff4ab2;
+  background-color: transparent;
+}
+
+/* line 105, ../sass/app.scss */
+#menu_desc {
+  color: #ff4ab2;
+}
+
+/* line 109, ../sass/app.scss */
+.glyphicon-menu-hamburger {
+  color: #337ab7;
 }
