@@ -1,3 +1,5 @@
+$desc_c: #e02b3b;
+
 .img-responsive {
   margin: 0 auto;
 }
@@ -97,13 +99,13 @@ body {
 .navbar-default .navbar-nav> .active >a,
 .navbar-default .navbar-nav> .active >a:hover,
 .navbar-default .navbar-nav> .active >a:focus {
-  color: #ff4ab2;
+  color: $desc_c;
   background-color: rgba(0, 0, 0, 0);
 }
 
 
 #menu_desc{
-  color: #ff4ab2;
+  color: $desc_c;
 }
 
 .glyphicon-menu-hamburger{

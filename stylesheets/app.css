@@ -1,26 +1,27 @@
-/* line 1, ../sass/app.scss */
+/* line 3, ../sass/app.scss */
 .img-responsive {
   margin: 0 auto;
 }
 
 @media (max-width: 767px) {
-  /* line 6, ../sass/app.scss */
+    /* line 8, ../sass/app.scss */
   .navbar-collapse .nav > .divider-vertical {
     display: none;
   }
 }
-/* line 13, ../sass/app.scss */
+
+/* line 15, ../sass/app.scss */
 h2 {
   margin-top: 10px;
   vertical-align: middle;
 }
 
-/* line 18, ../sass/app.scss */
+/* line 20, ../sass/app.scss */
 .row.vertical-divider {
   overflow: hidden;
 }
 
-/* line 21, ../sass/app.scss */
+/* line 23, ../sass/app.scss */
 .row.vertical-divider > div[class^="col-"] {
   text-align: center;
   padding-bottom: 100px;
@@ -28,59 +29,59 @@ h2 {
   border-right: 2px solid #dbdfe1;
 }
 
-/* line 27, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
 .row.vertical-divider div[class^="col-"]:first-child {
   border-left: none;
 }
 
-/* line 30, ../sass/app.scss */
+/* line 32, ../sass/app.scss */
 .row.vertical-divider div[class^="col-"]:last-child {
   border-right: none;
 }
 
-/* line 38, ../sass/app.scss */
+/* line 40, ../sass/app.scss */
 #content {
   background-color: #fff6fc;
 }
 
-/* line 43, ../sass/app.scss */
+/* line 45, ../sass/app.scss */
 body {
   /* Margin bottom by footer height */
   margin-bottom: 50px;
   margin-left: 50px;
 }
 
-/* line 51, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 .gly-centerl {
   top: 10px;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 57, ../sass/app.scss */
 .gly-centers {
   top: 35px;
 }
 
-/* line 62, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .marge10 {
   margin-left: 10px;
 }
 
-/* line 62, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .marge15 {
   margin-left: 15px;
 }
 
-/* line 62, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .marge20 {
   margin-left: 20px;
 }
 
-/* line 62, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .marge30 {
   margin-left: 30px;
 }
 
-/* line 72, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 .myfooter {
   margin-bottom: 0;
   margin-left: -50px;
@@ -92,37 +93,37 @@ body {
   background-color: #f5f5f5;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 #navigation {
   font-size: 125%;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 89, ../sass/app.scss */
 #title_desc {
   margin-left: 30px;
   font-size: 150%;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 .navbar-default {
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 97, ../sass/app.scss */
+/* line 99, ../sass/app.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ff4ab2;
+    color: #e02b3b;
   background-color: transparent;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 #menu_desc {
-  color: #ff4ab2;
+    color: #e02b3b;
 }
 
-/* line 109, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 .glyphicon-menu-hamburger {
   color: #337ab7;
 }
