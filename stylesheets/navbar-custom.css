@@ -30,7 +30,7 @@
 /* Bordure haute */
 /* line 40, ../sass/navbar-custom.scss */
 #im_man {
-  border-top: 6px solid #e78626;
+    border-top: 6px solid #ffb72e;
 }
 
 /* line 44, ../sass/navbar-custom.scss */
@@ -40,12 +40,12 @@
 
 /* line 48, ../sass/navbar-custom.scss */
 #trans {
-  border-top: 6px solid #e76040;
+    border-top: 6px solid #ff7d28;
 }
 
 /* line 52, ../sass/navbar-custom.scss */
 #comp {
-  border-top: 6px solid #ff3c15;
+    border-top: 6px solid #f45b1b;
 }
 
 /* Couleur au survol */
@@ -53,28 +53,28 @@
 .navbar-custom .navbar-nav #im_man:hover,
 .navbar-custom .navbar-nav #im_man:focus {
   color: #ffffff;
-  background-color: #efac6b;
+    background-color: #ffb72e;
 }
 
 /* line 58, ../sass/navbar-custom.scss */
 .navbar-custom .navbar-nav #ed_cri:hover,
 .navbar-custom .navbar-nav #ed_cri:focus {
   color: #ffffff;
-  background-color: #ffde53;
+    background-color: #ffcf06;
 }
 
 /* line 58, ../sass/navbar-custom.scss */
 .navbar-custom .navbar-nav #trans:hover,
 .navbar-custom .navbar-nav #trans:focus {
   color: #ffffff;
-  background-color: #f09984;
+    background-color: #ff7d28;
 }
 
 /* line 58, ../sass/navbar-custom.scss */
 .navbar-custom .navbar-nav #comp:hover,
 .navbar-custom .navbar-nav #comp:focus {
   color: #ffffff;
-  background-color: #ff7c62;
+    background-color: #f45b1b;
 }
 
 /* Couleur du menu sélectionné */
@@ -83,7 +83,7 @@
 .navbar-custom .navbar-nav > .active > #im_man:hover,
 .navbar-custom .navbar-nav > .active > #im_man:focus {
   color: #ffffff;
-  background-color: #e78626;
+    background-color: #ffb72e;
 }
 
 /* line 74, ../sass/navbar-custom.scss */
@@ -99,7 +99,7 @@
 .navbar-custom .navbar-nav > .active > #trans:hover,
 .navbar-custom .navbar-nav > .active > #trans:focus {
   color: #ffffff;
-  background-color: #e76040;
+    background-color: #ff7d28;
 }
 
 /* line 74, ../sass/navbar-custom.scss */
@@ -107,7 +107,7 @@
 .navbar-custom .navbar-nav > .active > #comp:hover,
 .navbar-custom .navbar-nav > .active > #comp:focus {
   color: #ffffff;
-  background-color: #ff3c15;
+    background-color: #f45b1b;
 }
 
 /* line 87, ../sass/navbar-custom.scss */
