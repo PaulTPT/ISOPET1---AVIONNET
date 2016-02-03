@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" ng-app="joanaApp">
+
 <head>
     <meta charset="utf-8">
     <title>ISOPET1 - AVIONNET</title>
-    <meta name="description" content="">
+    <meta name="description" content="Joana_app">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
@@ -13,7 +14,7 @@
 </head>
 
 
-<header class="page-header ">
+<header class="page-header " ng-controller="HeaderController">
     <div class="container-fluid">
 
         <div class="row">
@@ -58,10 +59,14 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="menu-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">PROJET</a></li>
-                            <li class="active"><a href="#">CORPUS</a></li>
-                            <li><a href="#">OUTILS</a></li>
-                            <li><a href="#">BIBLIOGRAPHIE</a></li>
+                            <li><a href="#" ng-mouseover="showDesc('Description du projet')"
+                                   ng-mouseleave="clearDesc()">PROJET</a></li>
+                            <li class="active" ng-mouseover="showDesc('Affichage des fables')"
+                                ng-mouseleave="clearDesc()"><a href="#">CORPUS</a></li>
+                            <li><a href="#" ng-mouseover="showDesc('Outils de recherche')" ng-mouseleave="clearDesc()">OUTILS</a>
+                            </li>
+                            <li><a href="#" ng-mouseover="showDesc('Bibliographie complète')"
+                                   ng-mouseleave="clearDesc()">BIBLIOGRAPHIE</a></li>
                         </ul>
 
                         <form class="navbar-form navbar-right " role="search">
@@ -75,7 +80,7 @@
 
                 </nav>
 
-                <span class="marge15" id="menu_desc">Accès à l'édition critique électronique</span>
+                <span class="marge15" id="menu_desc">{{desc}}</span>
 
             </div>
 
@@ -203,47 +208,12 @@
 
     </section>
 
-    <section id="content" class="row vertical-divider">
+    <section id="content" class="row vertical-divider" ng-controller="FablesController">
 
         <div class="col-sm-6 col-xs-12">
             <h3 class="text-center">Édition critique</h3>
             <h4 class="text-center">D'un chien qui tient en sa gueule un frommage</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend
-                aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam
-                iaculis dolor. Nulla sit amet sagittis mauris. Nullam sodales vehicula ipsum. Aliquam laoreet varius
-                diam id feugiat. Pellentesque et arcu et ligula tempus venenatis id nec enim. Donec in feugiat arcu.
-                Duis et dictum dui. Mauris non urna velit. Vestibulum rhoncus ullamcorper lectus. Donec maximus laoreet
-                magna a lacinia.
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend
-                aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam
-                iaculis dolor. Nulla sit amet sagittis mauris. Nullam sodales vehicula ipsum. Aliquam laoreet varius
-                diam id feugiat. Pellentesque et arcu et ligula tempus venenatis id nec enim. Donec in feugiat arcu.
-                Duis et dictum dui. Mauris non urna velit. Vestibulum rhoncus ullamcorper lectus. Donec maximus laoreet
-                magna a lacinia.
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend
-                aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam
-                iaculis dolor. Nulla sit amet sagittis mauris. Nullam sodales vehicula ipsum. Aliquam laoreet varius
-                diam id feugiat. Pellentesque et arcu et ligula tempus venenatis id nec enim. Donec in feugiat arcu.
-                Duis et dictum dui. Mauris non urna velit. Vestibulum rhoncus ullamcorper lectus. Donec maximus laoreet
-                magna a lacinia.
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend
-                aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam
-                iaculis dolor. Nulla sit amet sagittis mauris. Nullam sodales vehicula ipsum. Aliquam laoreet varius
-                diam id feugiat. Pellentesque et arcu et ligula tempus venenatis id nec enim. Donec in feugiat arcu.
-                Duis et dictum dui. Mauris non urna velit. Vestibulum rhoncus ullamcorper lectus. Donec maximus laoreet
-                magna a lacinia.
-            </p>
-
+            <p ng-repeat="p in fable_p">{{p}}</p>
         </div>
 
         <div class="col-sm-6 col-xs-12">
@@ -287,7 +257,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="javascript/sidebar.js"></script>
+<script src="javascript/module.js"></script>
 </html>
 
 
