@@ -3,7 +3,15 @@
  */
 
 
-var app = angular.module("joanaApp", []);
+var app = angular.module("joanaApp", ['ngRoute']);
+
+app.config(function ($routeProvider) {
+    $routeProvider
+        .when('/', {templateUrl: 'partials/home.html'})
+        .when('/corpus', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
+        .otherwise({redirectTo: '/corpus'});
+
+});
 
 app.controller('FablesController', function ($scope) {
 
@@ -40,5 +48,11 @@ app.controller('HeaderController', function ($scope) {
     $scope.clearDesc = function () {
         $scope.desc = "";
     };
+
+});
+
+app.controller('CorpusController', function ($scope) {
+
+    $scope.request = "ed_cri";
 
 });

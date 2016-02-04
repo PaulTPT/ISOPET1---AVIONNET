@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="f59383de-a878-47ab-8632-1e4ac8a48d16" name="Joana" url="http://avionnet.comli.com">
-        <fileTransfer host="avionnet.comli.com" port="21" username="a5809811">
+        <fileTransfer host="avionnet.comli.com" port="21" password="dfd9dfc9dfcfdfcbdfdfdfd2df93df98" username="a5809811">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

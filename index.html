@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html" ng-app="joanaApp">
 
+
 <head>
     <meta charset="utf-8">
     <title>ISOPET1 - AVIONNET</title>
@@ -14,20 +15,23 @@
 </head>
 
 
+<!-- Header : Nom du site, logos et barre de navigation principale -->
 <header class="page-header " ng-controller="HeaderController">
+
     <div class="container-fluid">
 
         <div class="row">
 
+            <!-- Logo de l'UdeM -->
             <div class="col-xs-6 col-lg-2">
                 <div class="center-block">
                     <div class="img-container">
                         <img src="images/UDEM-logo.jpg" class="img-responsive" alt="Udem logo">
                     </div>
                 </div>
-
             </div>
 
+            <!-- Logo de l'UPEC-->
             <div class="col-xs-6 col-lg-2 col-lg-push-8">
                 <div class="center-block">
                     <div class="img-container">
@@ -38,17 +42,19 @@
 
 
             <div class="col-xs-12 col-lg-7 col-lg-pull-1">
+
+                <!-- Nom du site -->
                 <h1 class=" hidden-lg text-center">ISOPET 1 - AVIONNET </h1>
                 <h1 class=" visible-lg-inline">ISOPET 1 - AVIONNET </h1>
                 <span class=" visible-lg-inline" id="title_desc"> fables ésopiques médiévales </span>
 
+                <!-- Barre de navigation principale -->
                 <nav class="navbar navbar-default ">
 
-                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- Repli de la barre sur un petit écran (smarphone) -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                                 data-target="#menu-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -56,8 +62,10 @@
                         <a class="navbar-brand visible-xs-block">Menu</a>
                     </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!-- Contenu de la barre -->
                     <div class="collapse navbar-collapse" id="menu-collapse">
+
+                        <!-- Différentes sections du site -->
                         <ul class="nav navbar-nav">
                             <li><a href="#" ng-mouseover="showDesc('Description du projet')"
                                    ng-mouseleave="clearDesc()">PROJET</a></li>
@@ -69,6 +77,7 @@
                                    ng-mouseleave="clearDesc()">BIBLIOGRAPHIE</a></li>
                         </ul>
 
+                        <!-- Formulaire de recherche -->
                         <form class="navbar-form navbar-right " role="search">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Recherche">
@@ -76,166 +85,25 @@
                             <button type="submit" class="btn btn-default">Go !</button>
                         </form>
 
-                    </div><!-- /.navbar-collapse -->
+                    </div>
 
                 </nav>
 
+                <!-- Description de chaque section au survol du lien correspondant -->
                 <span class="marge15" id="menu_desc">{{desc}}</span>
 
             </div>
 
         </div>
 
-    </div><!-- /.container-fluid -->
+    </div>
 
 </header>
 
-<div id="wrapper" class="toggled-2">
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-
-            <li>
-                <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>
-                    Rhétorique</a>
-                <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="#">link1</a></li>
-                    <li><a href="#">link2</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>
-                    Actants</a>
-                <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="#"><span class="fa-stack fa-lg pull-left"><i
-                            class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
-                    <li><a href="#"><span class="fa-stack fa-lg pull-left"><i
-                            class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
-
-                </ul>
-            </li>
-
-            <li>
-                <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-pencil fa-stack-1x "></i></span>
-                    Schéma naratif</a>
-                <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="#"><span class="fa-stack fa-lg pull-left"><i
-                            class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
-                    <li><a href="#"><span class="fa-stack fa-lg pull-left"><i
-                            class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
-
-                </ul>
-            </li>
-
-        </ul>
-    </div><!-- /#sidebar-wrapper -->
-</div>
 
 <body>
 
-<div class="container">
-
-    <section class="row">
-
-        <div id="title">
-
-
-            <div class="col-xs-10 col-xs-offset-1">
-
-                <h2 class="text-center">
-                    <span style="font-size:1em;" class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                    <span style="font-size:0.8em;" class="glyphicon glyphicon-menu-hamburger marge30" aria-hidden="true"></span>
-                    <span class="marge10"> Le chien qui tenait un fromage </span>
-                    <span style="font-size:1em;" class="glyphicon glyphicon-arrow-right marge30" aria-hidden="true"></span>
-                </h2>
-                <p class="text-center">
-                    <i id="navigation">
-                        <a href="#" >ABC<span class="caret"></span></a > <span class="marge20">-></span> <a href="#" class="marge20">A<span
-                            class="caret"></span></a>
-                    </i>
-                </p>
-
-            </div>
-
-
-            <div class="hidden-xs col-xs-1 gly-centerl">
-                <span style="font-size:1.5em;" class="glyphicon glyphicon-print" aria-hidden="true"></span>
-                <span style="font-size:1.5em;" class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            </div>
-
-        </div>
-
-
-        <div class="col-xs-12">
-            <div class="center-block">
-                <nav class="navbar navbar-custom">
-
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <div class="visible-xs">
-                            <span style="font-size:1.5em;" class="glyphicon glyphicon-print gly-centers" aria-hidden="true"></span>
-                            <span style="font-size:1.5em;" class="glyphicon glyphicon-save gly-centers marge20 "
-                              aria-hidden="true"></span>
-                        </div>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#menu2-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="menu2-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a id="ed_cri" href="#">EDITION CRITIQUE</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a id="im_man" href="#">IMAGE MANUSCRIT</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a id="trans" href="#">TRANSCRIPTION</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a id="comp" href="#">COMPARAISON ABC</a></li>
-                        </ul>
-
-                    </div><!-- /.navbar-collapse -->
-
-                </nav>
-            </div>
-        </div>
-
-
-    </section>
-
-    <section id="content" class="row vertical-divider" ng-controller="FablesController">
-
-        <div class="col-sm-6 col-xs-12">
-            <h3 class="text-center">Édition critique</h3>
-            <h4 class="text-center">D'un chien qui tient en sa gueule un frommage</h4>
-            <p ng-repeat="p in fable_p">{{p}}</p>
-        </div>
-
-        <div class="col-sm-6 col-xs-12">
-            <h3 class="text-center">Traduction</h3>
-            <h4 class="text-center">Du chien qui tien en sa gueule un fromage</h4>
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tempus
-                diam nec urna mattis luctus. Duis placerat ligula metus, vitae mattis augue dictum ut. Maecenas at odio
-                in ex dictum pulvinar. Quisque elementum arcu in neque auctor, at scelerisque nunc congue. Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. Nam vitae mi eu augue finibus ultrices. Vestibulum diam
-                arcu, tempor eleifend ligula sit amet, sagittis tristique tellus. Cras in purus eu nulla ullamcorper
-                suscipit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            </p>
-
-        </div>
-
-    </section>
-
-</div>
-
-
+<div ng-view></div>
 
 </body>
 
@@ -257,8 +125,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-<script src="javascript/sidebar.js"></script>
+<script src="https://code.angularjs.org/1.4.9/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.4.9/angular-route.min.js"></script>
 <script src="javascript/module.js"></script>
 </html>
 

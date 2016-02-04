@@ -1,0 +1,13 @@
+<!-- Barre de  choix latérale -->
+<ng-include src="'partials/corpus/sidebar.html'"></ng-include>
+
+<!-- Titre et Sous-menu -->
+<ng-include src="'partials/corpus/title_bar.html'"></ng-include>
+
+<!-- Chargement du bon contenu -->
+<div ng-switch on="request">
+    <div ng-switch-when="ed_cri">
+        <ng-include src="'partials/corpus/fable.html'"></ng-include>
+    </div>
+</div>
+
