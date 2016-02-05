@@ -7,13 +7,15 @@ var app = angular.module("joanaApp", ['ngRoute']);
 
 app.config(function ($routeProvider) {
     $routeProvider
-        .when('/', {templateUrl: 'partials/home.html'})
-        .when('/corpus', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
-        .otherwise({redirectTo: '/corpus'});
+        .when('/projet/', {templateUrl: 'partials/projet/projet.html'})
+        .when('/corpus/', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
+        .when('/outils/', {templateUrl: 'partials/outils/outils.html'})
+        .when('/bibliographie/', {templateUrl: 'partials/bibliographie/bibliographie.html'})
+        .otherwise({redirectTo: '/projet'});
 
 });
 
-app.controller('FablesController', function ($scope) {
+app.controller('EdCriController', function ($scope) {
 
     $scope.fable_p = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend\
                     aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam\
@@ -42,17 +44,53 @@ app.controller('FablesController', function ($scope) {
 app.controller('HeaderController', function ($scope) {
 
     $scope.desc = "";
+
     $scope.showDesc = function (text) {
         $scope.desc = text;
     };
+
     $scope.clearDesc = function () {
         $scope.desc = "";
     };
+
+    $scope.desactive = function () {
+        $scope.dp = false;
+        $scope.af = false;
+        $scope.cp = false;
+        $scope.bb = false;
+    };
+
+    $scope.activedp = function () {
+        $scope.desactive();
+        $scope.dp = true;
+    };
+
+    $scope.activeaf = function () {
+        $scope.desactive();
+        $scope.af = true;
+    };
+
+    $scope.activecp = function () {
+        $scope.desactive();
+        $scope.cp = true;
+    };
+
+    $scope.activebb = function () {
+        $scope.desactive();
+        $scope.bb = true;
+    };
+
+    $scope.activedp();
+
 
 });
 
 app.controller('CorpusController', function ($scope) {
 
     $scope.request = "ed_cri";
+
+    $scope.setRequest = function (req) {
+        $scope.request = req;
+    };
 
 });

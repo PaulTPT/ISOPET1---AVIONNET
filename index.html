@@ -67,14 +67,22 @@
 
                         <!-- Différentes sections du site -->
                         <ul class="nav navbar-nav">
-                            <li><a href="#" ng-mouseover="showDesc('Description du projet')"
-                                   ng-mouseleave="clearDesc()">PROJET</a></li>
-                            <li class="active" ng-mouseover="showDesc('Affichage des fables')"
-                                ng-mouseleave="clearDesc()"><a href="#">CORPUS</a></li>
-                            <li><a href="#" ng-mouseover="showDesc('Outils de recherche')" ng-mouseleave="clearDesc()">OUTILS</a>
+                            <li ng-class="dp ? 'active' : ''"><a href="#/projet"
+                                                                 ng-mouseover="showDesc('Description du projet') "
+                                                                 ng-mouseleave="clearDesc()" ng-click="activedp()">PROJET</a>
                             </li>
-                            <li><a href="#" ng-mouseover="showDesc('Bibliographie complète')"
-                                   ng-mouseleave="clearDesc()">BIBLIOGRAPHIE</a></li>
+                            <li ng-class="af ? 'active' : ''"><a href="#/corpus"
+                                                                 ng-mouseover="showDesc('Affichage des fables')"
+                                                                 ng-mouseleave="clearDesc()" ng-click="activeaf()">CORPUS</a>
+                            </li>
+                            <li ng-class="cp ? 'active' : ''"><a href="#/outils"
+                                                                 ng-mouseover="showDesc('Outils de recherche')"
+                                                                 ng-mouseleave="clearDesc()" ng-click="activecp()">OUTILS</a>
+                            </li>
+                            <li ng-class="bb ? 'active' : ''"><a href="#/bibliographie"
+                                                                 ng-mouseover="showDesc('Bibliographie complète')"
+                                                                 ng-mouseleave="clearDesc()" ng-click="activebb()">BIBLIOGRAPHIE</a>
+                            </li>
                         </ul>
 
                         <!-- Formulaire de recherche -->

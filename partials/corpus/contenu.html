@@ -7,7 +7,16 @@
 <!-- Chargement du bon contenu -->
 <div ng-switch on="request">
     <div ng-switch-when="ed_cri">
-        <ng-include src="'partials/corpus/fable.html'"></ng-include>
+        <ng-include src="'partials/corpus/edition_critique.html'"></ng-include>
+    </div>
+    <div ng-switch-when="im_man">
+        <ng-include src="'partials/corpus/image_manuscrit.html'"></ng-include>
+    </div>
+    <div ng-switch-when="trans">
+        <ng-include src="'partials/corpus/transcription.html'"></ng-include>
+    </div>
+    <div ng-switch-when="comp">
+        <ng-include src="'partials/corpus/comparaison_abc.html'"></ng-include>
     </div>
 </div>
 

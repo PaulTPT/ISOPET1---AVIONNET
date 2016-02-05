@@ -55,13 +55,20 @@
 
                     <div class="collapse navbar-collapse" id="menu2-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a id="ed_cri" href="">EDITION CRITIQUE</a></li>
+                            <li ng-click="setRequest('ed_cri')" ng-class="request=='ed_cri' ? 'active' : '' "><a
+                                    id="ed_cri" href="">EDITION CRITIQUE</a></li>
                             <li class="divider-vertical"></li>
-                            <li><a id="im_man" href="">IMAGE MANUSCRIT</a></li>
+                            <li ng-click="setRequest('im_man')" ng-class="request=='im_man' ? 'active' : '' "><a href=""
+                                                                                                                 id="im_man">IMAGE
+                                MANUSCRIT</a></li>
                             <li class="divider-vertical"></li>
-                            <li><a id="trans" href="">TRANSCRIPTION</a></li>
+                            <li ng-click="setRequest('trans')" ng-class="request=='trans' ? 'active' : '' "><a href=""
+                                                                                                               id="trans">TRANSCRIPTION</a>
+                            </li>
                             <li class="divider-vertical"></li>
-                            <li><a id="comp" href="">COMPARAISON ABC</a></li>
+                            <li ng-click="setRequest('comp')" ng-class="request=='comp' ? 'active' : '' "><a href=""
+                                                                                                             id="comp">COMPARAISON
+                                ABC</a></li>
                         </ul>
 
                     </div>
