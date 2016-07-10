@@ -1,0 +1,11 @@
+16:17:31.806	SERVER	admin	OK	Server was started (port: 1984).
+16:17:31.874	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:18:16.291	192.168.99.1:53279	admin	ERROR	Access denied.	16363.79 ms
+16:18:16.556	192.168.99.1:53284	admin	REQUEST	[GET] http://192.168.99.100:32790/
+16:18:16.571	192.168.99.1:53284	admin	404	No function found that matches the request.	23.44 ms
+16:18:16.971	192.168.99.1:53284	admin	REQUEST	[GET] http://192.168.99.100:32790/favicon.ico
+16:18:16.984	192.168.99.1:53284	admin	404	No function found that matches the request.	13.75 ms
+16:18:35.927	192.168.99.1:53284	admin	REQUEST	[GET] http://192.168.99.100:32790/
+16:18:35.946	192.168.99.1:53284	admin	404	No function found that matches the request.	18.9 ms
+16:19:20.801	192.168.99.1:53284	admin	REQUEST	[GET] http://192.168.99.100:32790/
+16:19:20.806	192.168.99.1:53284	admin	404	No function found that matches the request.	4.93 ms

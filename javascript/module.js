@@ -3,94 +3,131 @@
  */
 
 
-var app = angular.module("joanaApp", ['ngRoute']);
+    var app = angular.module("joanaApp", ['ngRoute']);
 
-app.config(function ($routeProvider) {
-    $routeProvider
-        .when('/projet/', {templateUrl: 'partials/projet/projet.html'})
-        .when('/corpus/', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
-        .when('/outils/', {templateUrl: 'partials/outils/outils.html'})
-        .when('/bibliographie/', {templateUrl: 'partials/bibliographie/bibliographie.html'})
-        .otherwise({redirectTo: '/projet'});
+    app.config(function ($routeProvider) {
+        $routeProvider
+            .when('/projet/', {templateUrl: 'partials/projet/projet.html'})
+            .when('/corpus/', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
+            .when('/outils/', {templateUrl: 'partials/outils/outils.html'})
+            .when('/bibliographie/', {templateUrl: 'partials/bibliographie/bibliographie.html'})
+            .otherwise({redirectTo: '/projet'});
 
-});
+    });
 
-app.controller('EdCriController', function ($scope) {
+    app.controller('EdCriController', function ($scope, EdCriFactory, $routeParams) {
+        $scope.fable_id=1;
+        $scope.fable_p=EdCriFactory.getFable_p($scope.fable_id).then(function(fable_p){
+            $scope.fable_p=fable_p;
+        },function(msg){
+            alert(msg);
+        });
+    });
 
-    $scope.fable_p = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices pretium lacinia. Sed eleifend\
-                    aliquet maximus. Proin viverra et ex vel semper. Integer metus lacus, viverra a diam sed, aliquam\
-                    iaculis dolor. Nulla sit amet sagittis mauris. Nullam sodales vehicula ipsum. Aliquam laoreet varius\
-                    diam id feugiat. Pellentesque et arcu et ligula tempus venenatis id nec enim. Donec in feugiat arcu.\
-                    Duis et dictum dui. Mauris non urna velit. Vestibulum rhoncus ullamcorper lectus. Donec maximus laoreet\
-                    magna a lacinia.",
+    var toXML = function(text){
+        if(window.ActiveXObject)
+        {
+            var doc=new ActiveXObject('Microsoft.XMLDOM');
+            doc.async='false';
+            doc.loadXML(text);
+        }
+        else
+        {
+            var parser=new DOMParser();
+            var doc=parser.parseFromString(text,'text/xml');
+        }
+        return doc;
+    }
 
-        'Vivamus nulla ex, aliquet eu rutrum sed, suscipit id velit. Curabitur nec eros risus. Proin luctus sapien\
-        eu est iaculis, in tristique ligula posuere. Nam laoreet urna eu imperdiet venenatis. Vestibulum accumsan\
-        mauris sed ipsum elementum, sed convallis velit tempor. Suspendisse a sapien vel erat elementum mattis.\
-        Sed nec sapien pellentesque, accumsan erat vel, scelerisque sapien. Phasellus ullamcorper urna ac risus\
-        pellentesque, quis varius dolor congue. Quisque nec velit sed turpis faucibus varius. Cras nec placerat neque,\
-        eu aliquam erat. Donec ultricies, sem eget hendrerit fringilla, mi leo ornare eros, vel venenatis velit purus\
-        id libero. Proin mollis varius ex. Sed quis magna condimentum ex tristique laoreet nec ut nibh.',
-
-        'Curabitur iaculis, est quis sagittis interdum, sapien massa tincidunt libero, quis laoreet elit dui eu dui.\
-        Duis sed porttitor nisi. Vestibulum ultrices ante ante, nec convallis elit pulvinar egestas. Duis mollis nec\
-        tortor sit amet maximus. Ut ac justo justo. Vestibulum eu augue eros. Aliquam velit ex, malesuada et bibendum\
-        in, condimentum et lectus. Cras congue auctor fermentum. Integer varius ac nulla nec dapibus. Nam rhoncus nisi\
-        ut ultrices varius. Fusce efficitur varius nisi, sed tincidunt odio convallis id. Pellentesque finibus enim est,\
-        vitae porttitor odio volutpat vel.'];
-});
-
-
-app.controller('HeaderController', function ($scope) {
-
-    $scope.desc = "";
-
-    $scope.showDesc = function (text) {
-        $scope.desc = text;
+    var ParseFable = function(fable){
+        var fable_xml=toXML(fable);
+        var element = fable_xml.evaluate("//text[@id='fable0001']/body/div[@id='f1-ms-BPL']/div[@type='edition-critique']/div[@type='edition-critique-latin']//l", fable_xml, null, XPathResult.ORDERED_ANY_TYPE, null );
+        var iter = element.iterateNext ();
+        var result=[];
+        var i =0;
+        while (iter) {
+            result.push(iter.textContent);
+            iter = element.iterateNext ();
+            i++;
+        }
+        console.log(result);
+        return result;
     };
 
-    $scope.clearDesc = function () {
+    app.factory('EdCriFactory', function($http, $q){
+        var factory = {
+            getFable_p: function (fable_id) {
+                if(factory.fable_id==fable_id){
+                    return factory.fable_p;
+                }else{
+                    var deferred =$q.defer();
+                    $http.get('resources/Isopet-codage-fable-' + fable_id +'.xml')
+                        .success(function(data, status){
+                            factory.fable_p=ParseFable(data);
+                            deferred.resolve(factory.fable_p);
+                        }).error(function(data, status){
+                            deferred.reject('Impossible de récupérer la fable '+fable_id);
+                    });
+                    return deferred.promise;
+                }
+            },
+            fable_p: false,
+            fable_id: 0,
+        };
+        return factory;
+
+    });
+
+
+    app.controller('HeaderController', function ($scope) {
+
         $scope.desc = "";
-    };
 
-    $scope.desactive = function () {
-        $scope.dp = false;
-        $scope.af = false;
-        $scope.cp = false;
-        $scope.bb = false;
-    };
+        $scope.showDesc = function (text) {
+            $scope.desc = text;
+        };
 
-    $scope.activedp = function () {
-        $scope.desactive();
-        $scope.dp = true;
-    };
+        $scope.clearDesc = function () {
+            $scope.desc = "";
+        };
 
-    $scope.activeaf = function () {
-        $scope.desactive();
-        $scope.af = true;
-    };
+        $scope.desactive = function () {
+            $scope.dp = false;
+            $scope.af = false;
+            $scope.cp = false;
+            $scope.bb = false;
+        };
 
-    $scope.activecp = function () {
-        $scope.desactive();
-        $scope.cp = true;
-    };
+        $scope.activedp = function () {
+            $scope.desactive();
+         };
 
-    $scope.activebb = function () {
-        $scope.desactive();
-        $scope.bb = true;
-    };
+        $scope.activeaf = function () {
+            $scope.desactive();
+            $scope.af = true;
+        };
 
-    $scope.activedp();
+        $scope.activecp = function () {
+            $scope.desactive();
+            $scope.cp = true;
+        };
+
+        $scope.activebb = function () {
+            $scope.desactive();
+            $scope.bb = true;
+        };
+
+        $scope.activedp();
 
 
-});
+    });
 
-app.controller('CorpusController', function ($scope) {
+    app.controller('CorpusController', function ($scope) {
 
-    $scope.request = "ed_cri";
+        $scope.request = "ed_cri";
 
-    $scope.setRequest = function (req) {
-        $scope.request = req;
-    };
+        $scope.setRequest = function (req) {
+            $scope.request = req;
+        };
 
-});
+    });
