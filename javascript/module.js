@@ -39,9 +39,25 @@
         return doc;
     }
 
+
+    var create_nsResolver = function (element) {
+        var
+            nsResolver = element.ownerDocument.createNSResolver(element),
+            defaultNamespace = element.getAttribute('xmlns');
+
+        return function (prefix) {
+            return nsResolver.lookupNamespaceURI(prefix) || defaultNamespace;
+        };
+    };
+
+
+
     var ParseFable = function(fable){
         var fable_xml=toXML(fable);
-        var element = fable_xml.evaluate("//text[@id='fable0001']/body/div[@id='f1-ms-BPL']/div[@type='edition-critique']/div[@type='edition-critique-latin']//l", fable_xml, null, XPathResult.ORDERED_ANY_TYPE, null );
+
+        var nsResolver = create_nsResolver(fable_xml.documentElement);
+
+        var element = fable_xml.evaluate("//tei:text[@xml:id='fable0001']/tei:body/tei:div[@xml:id='f1-ms-BPL']/tei:div[@type='edition-critique']/tei:div[@type='edition-critique-latin']//tei:l", fable_xml, nsResolver, XPathResult.ANY_TYPE, null );
         var iter = element.iterateNext ();
         var result=[];
         var i =0;
@@ -50,7 +66,6 @@
             iter = element.iterateNext ();
             i++;
         }
-        console.log(result);
         return result;
     };
 
