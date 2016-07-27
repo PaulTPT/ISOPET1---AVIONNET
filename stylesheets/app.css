@@ -13,8 +13,8 @@ h2 {
 
 .row.vertical-divider > div[class^="col-"] {
   text-align: center;
-  padding-bottom: 100px;
-  margin-bottom: -100px;
+  padding-bottom: 200px;
+  margin-bottom: -200px;
   border-right: 2px solid #dbdfe1; }
 
 .row.vertical-divider div[class^="col-"]:first-child {
@@ -24,7 +24,8 @@ h2 {
   border-right: none; }
 
 #content {
-  background-color: #fff6fc; }
+  background-color: #fff6fc;
+  border-radius: 10px; }
 
 body {
   /* Margin bottom by footer height */
@@ -86,9 +87,11 @@ body {
   color: #337ab7; }
 
 .note {
-  color: #b10301; }
+  color: #ff1300;
+  font-weight: bolder;
+  font-size: larger; }
 
-.l_rend_rubrique {
+.rend_rubrique {
   text-align: left;
   position: relative;
   left: 30px; }
@@ -101,14 +104,17 @@ body {
   position: absolute;
   color: #c0c0c0; }
 
-.head_type_title {
+.type_title {
   text-align: center; }
 
-.Enluminure {
+.EdCri .Enluminure {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   width: 200px; }
+
+.Comp .Enluminure {
+  display: none; }
 
 .im_fable {
   margin-left: 10%;
@@ -124,5 +130,10 @@ p {
 
 #pad {
   margin-top: 120px; }
+
+.highlight {
+  border-radius: 15px;
+  background-color: #ffdebb;
+  padding: 3px; }
 
 /*# sourceMappingURL=app.css.map */

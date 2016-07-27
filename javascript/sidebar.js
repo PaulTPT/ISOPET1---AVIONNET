@@ -20,6 +20,11 @@ function initMenu() {
                 $('#sidebar-wrapper').toggleClass('open',true);
                 return false;
             }
+
+            if($(this).is('a')){
+                $('#menu ul li a').toggleClass('selected', false);
+                $(this).toggleClass('selected', true)
+            }
         }
     );
     $('#menu').hover(

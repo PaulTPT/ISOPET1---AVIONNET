@@ -1,14 +1,22 @@
+
+<!-- Barre de  choix latérale -->
+<ng-include src="'partials/corpus/sidebar.html'"></ng-include>
+
 <div class="container">
-    <section id="content" class="row vertical-divider" ng-controller="EdCriController">
+    <section id="content" class="row vertical-divider EdCri" ng-controller="EdCriController">
 
         <div class="col-sm-6 col-xs-12">
             <ng-include src="'partials/fables/f1-BPL-ed-crit-lat.htm'"></ng-include>
+            <ng-include src="'partials/fables/f1-BPL-ed-crit-frm.htm'"></ng-include>
         </div>
 
         <div class="col-sm-6 col-xs-12">
             <div id="pad"></div>
             <ng-include src="'partials/fables/f1-BPL-lat-trad.htm'"></ng-include>
+            <ng-include src="'partials/fables/f1-BPL-frm-trad.htm'"></ng-include>
         </div>
 
     </section>
 </div>
+
+

@@ -1,48 +1,48 @@
 <!-- Barre de  choix latérale -->
-<div id="wrapper" >
+<div id="wrapper">
 
-    <div id="sidebar-wrapper" >
-        <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav nav-pills nav-stacked" id="menu" ng-controller="navController" ng-init="nav_selected=null">
 
-            <!-- Rhétorique -->
+            <!-- Schéma narratif -->
             <li>
-                <a href=""><span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>
-                    Morale</a>
+                <a ><span class="fa-stack fa-lg pull-left"><i class="fa fa-pencil fa-stack-1x "></i></span>
+                    Schéma narratif</a>
                 <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="">Paradigmatique</a></li>
-                    <li><a href="">Sarcastique</a></li>
-                    <li><a href="">Imprécatoire</a></li>
-                    <li><a href="">Parénétique</a></li>
-                    <li><a href="">Personnel</a></li>
+                    <li ng-click="setNav('schema-donnee')"><a >Donnée</a></li>
+                    <li ng-click="setNav('schema-action')"><a >Action de choix</a></li>
+                    <li ng-click="setNav('schema-evaluation')"><a >Evaluation</a></li>
                 </ul>
             </li>
 
             <!-- Actants -->
             <li>
-                <a href=""><span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>
+                <a ><span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>
                     Actants</a>
                 <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="">Personnages principaux</a></li>
-                    <li><a href="">Intervenants</a></li>
-                    <li><a href="">Survenants</a></li>
-                    <li><a href="">Objet recherché ou objet du conflit</a></li>
+                    <li ng-click="setNav('actant-personnage')"><a >Protagonistes</a></li>
+                    <li ng-click="setNav('actant-intervenant')"><a >Intervenants</a></li>
+                    <li ng-click="setNav('actant-survenant')"><a >Survenants</a></li>
+                    <li ng-click="setNav('actant-objet')"><a >Objet du conflit</a></li>
                 </ul>
             </li>
 
-            <!-- Schéma narratif -->
+            <!-- Rhétorique -->
             <li>
-                <a href=""><span class="fa-stack fa-lg pull-left"><i class="fa fa-pencil fa-stack-1x "></i></span>
-                    Schéma naratif</a>
+                <a ><span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>
+                    Type de morale</a>
                 <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                    <li><a href="">Donnée</a></li>
-                    <li><a href="">Action de choix</a></li>
-                    <li><a href="">Evaluation</a></li>
-
+                    <li ng-click="setNav('morale-paradigmatique')"><a >Paradigmatique</a></li>
+                    <li ng-click="setNav('morale-sarcastique')"><a >Sarcastique</a></li>
+                    <li ng-click="setNav('morale-imprecatoire')"><a >Imprécatoire</a></li>
+                    <li ng-click="setNav('morale-parenetique')"><a >Parénétique</a></li>
+                    <li ng-click="setNav('morale-personnel')"><a >Personnel</a></li>
                 </ul>
             </li>
 
         </ul>
     </div>
+
 </div>
 
 <script src="javascript/sidebar.js"></script>

@@ -15,10 +15,32 @@
 
     });
 
-    app.controller('EdCriController', function ($scope) {
+
+
+    app.factory('edCriFactory', function(){
+        var factory = {
+            nav_selected : "",
+            select_nav: function(name){
+            factory.nav_selected=name;
+            },
+        };
+        return factory;
+
+    });
+
+    app.controller('navController', function($scope,edCriFactory) {
+        $scope.setNav = function (nav) {
+            edCriFactory.select_nav(nav);
+        };
+    });
+
+    app.controller('EdCriController', function ($scope,edCriFactory) {
         $scope.fable_id=1;
-        $(document).ready(function(){
+        $scope.$on('$includeContentLoaded', function(event,src) {
             $('[data-toggle="tooltip"]').tooltip();
+            if(src=='partials/fables/f1-BPL-ed-crit-lat.htm'){
+                $(".zb").zbox();
+            }
         });
     });
 
@@ -80,3 +102,22 @@
         };
 
     });
+
+
+app.directive('highlight', ['edCriFactory', function(edCriFactory){
+    return {
+        restrict : 'A',
+        link : function(scope, element, attr){
+            scope.$watch(function(){
+                return edCriFactory.nav_selected;
+            }, function(newValue, oldValue) {
+                if(attr.highlight==newValue){
+                   element.toggleClass('highlight',true);
+                }else{
+                    element.toggleClass('highlight',false);
+                }
+            });
+
+        }
+    };
+}]);
