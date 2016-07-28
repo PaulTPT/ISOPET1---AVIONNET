@@ -83,9 +83,6 @@ body {
 .glyphicon-menu-hamburger {
   color: #337ab7; }
 
-.lem {
-  color: #337ab7; }
-
 .note {
   color: #ff1300;
   font-weight: bolder;
@@ -129,11 +126,32 @@ p {
   width: 90%; }
 
 #pad {
-  margin-top: 120px; }
+  margin-top: 160px; }
 
 .highlight {
   border-radius: 15px;
   background-color: #ffdebb;
   padding: 3px; }
+
+.EdCri .lem {
+  color: #337ab7; }
+
+.EdCri .rdg {
+  display: none; }
+
+.Comp .rdg.substantive {
+  color: #ff5716; }
+
+.Comp .rdg.orthographic {
+  color: #337ab7; }
+
+h4 {
+  margin-top: 60px; }
+
+.Comp .abr {
+  display: none; }
+
+.Trans .norm {
+  display: none; }
 
 /*# sourceMappingURL=app.css.map */

@@ -114,10 +114,6 @@ body {
 }
 
 
-.lem{
-  color: #337ab7;
-}
-
 .note{
   color: #ff1300;
   font-weight: bolder;
@@ -171,7 +167,7 @@ p{
 }
 
 #pad{
-  margin-top:120px;
+  margin-top:160px;
  }
 
 .highlight{
@@ -179,4 +175,37 @@ p{
   background-color: #ffdebb;
   padding:3px;
 
+}
+
+.EdCri .lem{
+  color: #337ab7;
+}
+
+.EdCri .rdg{
+  display:none;
+}
+
+.Comp .lem{
+}
+
+.Comp .rdg.substantive{
+  color: #ff5716;
+}
+
+.Comp .rdg.orthographic{
+  color: #337ab7;
+}
+
+h4{
+ margin-top: 60px
+}
+
+
+
+.Comp .abr{
+  display:none;
+}
+
+.Trans .norm{
+  display:none;
 }

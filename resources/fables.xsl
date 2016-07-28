@@ -15,14 +15,14 @@
   
   
 <xsl:template match="tei:head">
-  <h3 class="text-center">
+  <h4 class="text-center">
     <xsl:if test="@*">
       <xsl:attribute name="class">
         <xsl:apply-templates select="@* except @part except @org except @sample" />
       </xsl:attribute>
     </xsl:if>
     <xsl:apply-templates/>
-  </h3>
+  </h4>
 </xsl:template>
 
 <xsl:template match="tei:div">
@@ -64,9 +64,7 @@
             <xsl:if test="@corresp">
               <xsl:attribute name="highlight">
               <xsl:for-each select="tokenize(@corresp,' ')">
-                <xsl:if test="matches(.,'#.*-')">
-                  <xsl:value-of select="substring(.,2)"/>
-                </xsl:if>
+                  <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
               </xsl:for-each>
               </xsl:attribute>
             </xsl:if>
@@ -78,9 +76,7 @@
         <span style="display:block">
           <xsl:attribute name="highlight">
             <xsl:for-each select="tokenize(@corresp,' ')">
-              <xsl:if test="matches(.,'#.*-')">
-                <xsl:value-of select="substring(.,2)"/>
-              </xsl:if>
+                <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
             </xsl:for-each>
           </xsl:attribute>
           <xsl:apply-templates/>
@@ -131,6 +127,13 @@
     </xsl:when>
     <xsl:otherwise>
         <span class="l">
+          <xsl:if test="@corresp">
+              <xsl:attribute name="highlight">
+                <xsl:for-each select="tokenize(@corresp,' ')">
+                    <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
+                </xsl:for-each>
+              </xsl:attribute>
+          </xsl:if>
         <xsl:apply-templates/>
         </span>
         <br />
@@ -141,18 +144,26 @@
 </xsl:template>
   
   <xsl:template match="tei:note">
-    <span data-toggle="tooltip" data-container="body" data-placement="top" class="note">
+    <span data-toggle="tooltip" data-container="body" data-placement="top" data-html="true" class="note">
       <xsl:attribute name="title">
-        <xsl:value-of select="normalize-space(.)"/>)
+        <xsl:apply-templates/>
       </xsl:attribute>
       <sup>*</sup><xsl:text> </xsl:text>
     </span>
   </xsl:template>
-  
-  
-  <xsl:template match="tei:rdg"/>
-  
-  
+
+
+  <xsl:template match="tei:rdg">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>rdg </xsl:text>
+        <xsl:value-of select="@type"/>
+      </xsl:attribute>
+      <xsl:value-of select="."/>
+    </span>
+  </xsl:template>
+
+
   <xsl:template match="tei:lem">
     <span data-toggle="tooltip" data-container="body" data-placement="top" class="lem">
       <xsl:attribute name="title">
@@ -172,9 +183,7 @@
     <span>
       <xsl:attribute name="highlight">
         <xsl:for-each select="tokenize(@ref,' ')">
-          <xsl:if test="matches(.,'#.*-')">
-            <xsl:value-of select="substring(.,2)"/>
-          </xsl:if>
+            <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
         </xsl:for-each>
       </xsl:attribute>
       <xsl:apply-templates/>
@@ -187,16 +196,43 @@
     <span>
       <xsl:attribute name="highlight">
         <xsl:for-each select="tokenize(@corresp,' ')">
-          <xsl:if test="matches(.,'#.*-')">
-            <xsl:value-of select="substring(.,2)"/>
-          </xsl:if>
+            <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
         </xsl:for-each>
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
     </xsl:if>
+    <xsl:if test="@rend='ital'">
+      <![CDATA[<i>]]> <xsl:value-of select="."/><![CDATA[</i>]]>
+    </xsl:if>
   </xsl:template>
-  
+
+  <xsl:template match="tei:rs">
+    <xsl:if test="@corresp">
+      <span>
+        <xsl:attribute name="highlight">
+          <xsl:for-each select="tokenize(@corresp,' ')">
+              <xsl:value-of select="substring(.,2)"/><xsl:text> </xsl:text>
+          </xsl:for-each>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+      </span>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="tei:w">
+    <xsl:if test="@rend='ital'">
+      <![CDATA[<i>]]> <xsl:value-of select="."/><![CDATA[</i>]]>
+    </xsl:if>
+  </xsl:template>
+
+
+
+
+  <xsl:template match="tei:ex">
+    <span class="abr">(<xsl:value-of select="."/>)</span>
+    <span class="norm"><xsl:value-of select="."/></span>
+  </xsl:template>
 
   
   <xsl:template match="*">

@@ -19,7 +19,7 @@
 
     app.factory('edCriFactory', function(){
         var factory = {
-            nav_selected : "",
+            nav_selected : null,
             select_nav: function(name){
             factory.nav_selected=name;
             },
@@ -111,7 +111,7 @@ app.directive('highlight', ['edCriFactory', function(edCriFactory){
             scope.$watch(function(){
                 return edCriFactory.nav_selected;
             }, function(newValue, oldValue) {
-                if(attr.highlight==newValue){
+                if(attr.highlight.indexOf(newValue)>=0){
                    element.toggleClass('highlight',true);
                 }else{
                     element.toggleClass('highlight',false);
