@@ -204,7 +204,7 @@
                                                   désignant une corde, et notamment "la corde pour
                                                   attacher les chiens" (DMF) </note>
                                             </app> ;</l>
-                                        <l n="4">De ce navoit esté eschars.</l>
+                                        <l n="4">De ce n'avoit esté eschars.</l>
                                         <l n="5">Au fons si en regarda l’<rs corresp="#reflet"
                                                 >ombre</rs></l>
                                         <l n="6">Et <rs corresp="#convoitise">convoitise</rs> qui
@@ -376,7 +376,7 @@
                                     <l n="7">Qui totum <app><lem>cupit</lem></app> hic totum amittere debet.</l>
                                     <l n="8"><app><lem>Inter</lem></app> scanna duo corruit anus humo.</l>
                                     <l n="9">Ambito cupidus <expan>h<ex>ab</ex>ito</expan>
-                                                prorsus<expan>q<ex>ue</ex></expan> <app><lem>carebit</lem></app>.</l>
+                                                prorsus<expan>q<ex>ue</ex></expan><app><lem> carebit</lem></app>.</l>
                                     <l n="10">Ad duo qui satagit nil sapienter agit.</l>
                                         </lg>
                                 </div>
@@ -400,17 +400,17 @@
                                     </lg>
                                     <l rend="rubrique">la moralité</l>
                                     <lg type="morale">
-                                    <l n="12">Par ce <app><lem><expan>co<ex>m</ex>pte</expan></lem></app> <app><lem>poués</lem></app> entendre</l>
+                                    <l n="12">Par ce <app><lem><expan>co<ex>m</ex>pte</expan></lem></app><app><lem> poués</lem></app> entendre</l>
                                     <l n="13">Qu'au <app><lem>certain</lem></app> se fait <expan>bo<ex>n</ex></expan> tenir.</l>
                                     <l n="14">Dou sien puet bien <app><lem>mesavenir</lem></app></l>
                                     <l n="15">A celui qui a chier l'autrui,</l>
                                     <l n="16 fol_7v"><app><lem>Aussin</lem></app> comme <app><lem>il fist</lem></app> a cestui.</l>
-                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan> <app><lem>cils
+                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan><app><lem> cils
                                             <expan>q<ex>ui</ex></expan> l'autrui</lem></app> convoite.</l>
                                     <l n="18">Ceste <app><lem>raissons</lem></app> est assés droite.</l>
                                     <l n="19">L'exemple de ce nous apelle</l>
                                     <l n="20">La vielle cheï de la celle.</l>
-                                    <l n="21">Qui sus <app><lem>deus selles</lem></app> <app><lem>veut</lem></app> seoir</l>
+                                    <l n="21">Qui sus <app><lem>deus selles</lem></app><app><lem> veut</lem></app> seoir</l>
                                     <l n="22">A terre se pot <app><lem>tost</lem></app> veoir</l>
                                     <l n="23">Qui fait <app><lem>deus</lem></app> choses tout <app><lem>ensamble</lem></app>,</l>
                                     <l n="24">Tres bien ne les fait, <app><lem>ce me samble</lem></app>.</l>
@@ -430,7 +430,7 @@
                                     <l n="3">Spem carnis plus carne <app><rdg type="substantive">caput</rdg></app>, plus fenore
                                                 <expan>signu<ex>m</ex></expan></l>
                                     <l n="4 fol_6v" facs="f1-P-6v.jpeg">Fenoris. Os aperit, sic caro
-                                                <expan>spes<ex>que</ex></expan>
+                                                <expan>spes<ex>que </ex></expan>
                                         <expan><ex>pe</ex>rit</expan>.</l>
                                     <l n="5">Non igitur debent <app><rdg type="substantive">pio</rdg></app> vanis certa relinqui.</l>
                                     <l n="6">Non sua si quis avet, mox caret <expan>ip<ex>s</ex>e</expan>
@@ -441,7 +441,7 @@
                                     <l n="7">Qui totum <app><rdg type="substantive">cipit</rdg></app> hic totum amittere debet.</l>
                                     <l n="8"><app><rdg type="substantive">Inte</rdg></app> scanna duo corruit anus humo.</l>
                                     <l n="9">Ambito cupidus habito <expan>prorsus<ex>que</ex></expan>
-                                        <app><rdg type="orthographic">quarebit</rdg></app>.</l>
+                                        <app><rdg type="orthographic"> quarebit</rdg></app>.</l>
                                     <l n="10">Ad duo qui satagit nil sapienter agit.</l>
                                     </lg>
                                 </div>
@@ -453,8 +453,8 @@
                                     <l n="1"><c rend="initiale-peinte">L</c>e chien passoit une yaue a
                                         <app><rdg type="orthographic">neu</rdg></app>,</l>
                                     <l n="2">En sa geule un <app><rdg type="orthographic">froumage mou</rdg></app>.</l>
-                                    <l n="3">Autre dient que ce yere <app><rdg type="substantive">hars</rdg></app></l>
-                                    <l n="4">De ce n'avoit esté eschars :</l>
+                                    <l n="3">Autre dient que ce yere <app><rdg type="substantive">hars</rdg></app> :</l>
+                                    <l n="4">De ce n'avoit esté eschars.</l>
                                     <l n="5">Au fons si en regarda l'ombre</l>
                                     <l n="6">Et convoitise qui <app><rdg type="orthographic">l'amcombre</rdg></app>.</l>
                                     <l n="7">Li <app><rdg type="orthographic">dit</rdg></app> que c'est autre <app><rdg type="orthographic">fromage</rdg></app>.</l>
@@ -466,17 +466,17 @@
                                     </lg>
                                     <l rend="rubrique">la moralité</l>
                                     <lg type="morale">
-                                    <l n="12">Par <app><rdg type="orthographic">se conte</rdg></app> <app><rdg type="orthographic">pouez</rdg></app> entendre</l>
+                                    <l n="12">Par <app><rdg type="orthographic">se conte</rdg></app> <app><rdg type="orthographic"> pouez</rdg></app> entendre</l>
                                     <l n="13">Qu’au <app><rdg type="orthographic">sertain</rdg></app> se fait bon tenir.</l>
                                     <l n="14">Dou sien puet bien <app><rdg type="orthographic">messavenir</rdg></app></l>
                                     <l n="15">A celui qui a chier l'autrui,</l>
-                                    <l n="16"><app><rdg type="orthographic">Ainssi</rdg></app> <expan>co<ex>m</ex>me</expan> <app><rdg type="substantive">il fuist</rdg></app> a cestui.</l>
-                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan> <app><rdg type="orthographic">cil qui l'autrui</rdg></app>
+                                    <l n="16"><app><rdg type="orthographic">Ainssi </rdg></app> <expan>co<ex>m</ex>me</expan> <app><rdg type="substantive"> il fuist</rdg></app> a cestui.</l>
+                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan> <app><rdg type="orthographic"> cil qui l'autrui</rdg></app>
                                         convoite.</l>
                                     <l n="18">Ceste <app><rdg type="orthographic">raisons</rdg></app> est assés droite.</l>
                                     <l n="19">L'exemple de ce nous appelle</l>
                                     <l n="20">La vielle cheï de la celle.</l>
-                                    <l n="21 fol_7r" facs="f1-P-7r.jpeg">Qui sus <app><rdg type="orthographic">deuz celles</rdg></app> <app><rdg type="orthographic">veult</rdg></app>
+                                    <l n="21 fol_7r" facs="f1-P-7r.jpeg">Qui sus <app><rdg type="orthographic">deuz celles</rdg></app> <app><rdg type="orthographic"> veult</rdg></app>
                                         seoir</l>
                                     <l n="22">A terre se pot <app><rdg type="substantive">tout</rdg></app> veoir.</l>
                                     <l n="23">Qui fait <app><rdg type="orthographic">deux choses</rdg></app> tout <app><rdg type="orthographic">ensemble</rdg></app></l>
@@ -509,7 +509,7 @@
                                     <l n="7">Qui totum cupit hic totum amittere debet.</l>
                                     <l n="8">Inter scanna duo corruit anus humo.</l>
                                     <l n="9">Ambito cupidus <expan>h<ex>abi</ex>to</expan>
-                                        <expan>prorsus<ex>que</ex></expan> carebit.</l>
+                                        <expan> prorsus<ex>que</ex></expan> carebit.</l>
                                     <l n="10">Ad duo qui satagit nil sapienter agit.</l>
                                     </lg>
                                 </div>
@@ -543,7 +543,7 @@
                                     <l n="18">Ceste <app><rdg type="orthographic">raisons</rdg></app> est assés droite.</l>
                                     <l n="19">L'exemple de ce nous apelle</l>
                                     <l n="20">La vielle cheï de la celle.</l>
-                                    <l n="21">Qui sus <app><rdg type="orthographic">deux celles</rdg></app> <app><rdg type="substantive">vost</rdg></app> seoir</l>
+                                    <l n="21">Qui sus <app><rdg type="orthographic">deux celles</rdg></app> <app><rdg type="substantive"> vost</rdg></app> seoir</l>
                                     <l n="22">A terre se pot tost veoir.</l>
                                     <l n="23">Qui fait <app><rdg type="orthographic">.ii. choses</rdg></app> tout ensamble</l>
                                     <l n="24">Tres bien ne les fait, ce me samble.</l>
@@ -673,9 +673,9 @@
                                 <l n="1 fol_4v" facs="f1-a-4v.jpeg"><app><rdg type="orthographic"><c rend="initiale-historiee"
                                     >U</c>ns chiens</rdg></app> passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
                                 <l n="2">En sa gueule <app><rdg type="orthographic">un fromage mou</rdg></app></l>
-                                <l n="3"><app><rdg type="substantive">Ou chair</rdg></app> <app><rdg type="substantive">si en</rdg></app> regarda <app><rdg type="substantive">l'ombre</rdg></app>,</l>
+                                <l n="3"><app><rdg type="substantive">Ou chair</rdg></app> <app><rdg type="substantive"> si en</rdg></app> regarda <app><rdg type="substantive">l'ombre</rdg></app>,</l>
                                 <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
-                                <l n="5"><app><rdg type="substantive">Lui dist que c’est</rdg></app> <app><rdg type="orthographic">autre fromage</rdg></app>.</l>
+                                <l n="5"><app><rdg type="substantive">Lui dist que c’est</rdg></app> <app><rdg type="orthographic"> autre fromage</rdg></app>.</l>
                                 <l n="6">Lors ne fist pas le chien que <app><rdg type="orthographic">saige</rdg></app> :</l>
                                 <l n="7">La gueule <app><rdg type="substantive">ouvry</rdg></app> pour l'autre <app><rdg type="orthographic">aerdre</rdg></app>.</l>
                                 <l n="8">Qui tout convoite tout doit perdre ;</l>
@@ -694,12 +694,12 @@
                                 <lg type="recit">
                                 <l n="1 fol_112r" facs="f1-b-112r.jpeg"><c rend="initiale-rubriquee">U</c>n chien passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
                                 <l n="2">En sa gueule <app><rdg type="orthographic">.i. fromage mou</rdg></app></l>
-                                <l n="3"><app><rdg type="substantive">Ou char</rdg></app> <app><rdg type="substantive">si regarde</rdg></app> <app><rdg type="substantive">l’ombre</rdg></app>,</l>
+                                <l n="3"><app><rdg type="substantive">Ou char</rdg></app> <app><rdg type="substantive"> si regarde</rdg></app> <app><rdg type="substantive"> l’ombre</rdg></app>,</l>
                                 <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
-                                <l n="5"><app><rdg type="substantive">Lui dist que c’est</rdg></app> <app><rdg type="orthographic"><expan>aut<ex>re</ex></expan> fromage</rdg></app>.</l>
-                                <l n="6">Lors ne fist pas le chien <expan>q<ex>ue</ex></expan> <app><rdg type="orthographic">sage</rdg></app> :</l>
-                                <l n="7">La gueule <app><rdg type="substantive">ovrist</rdg></app> <expan>po<ex>ur</ex></expan>
-                                    l'<expan>aut<ex>re</ex></expan> <app><rdg type="orthographic">aerdre</rdg></app>.</l>
+                                <l n="5"><app><rdg type="substantive">Lui dist que c’est </rdg></app> <app><rdg type="orthographic"><expan>aut<ex>re</ex></expan> fromage</rdg></app>.</l>
+                                <l n="6">Lors ne fist pas le chien <expan>q<ex>ue</ex></expan> <app><rdg type="orthographic"> sage</rdg></app> :</l>
+                                <l n="7">La gueule <app><rdg type="substantive">ovrist </rdg></app> <expan>po<ex>ur</ex></expan>
+                                    l'<expan>aut<ex>re</ex></expan> <app><rdg type="orthographic"> aerdre</rdg></app>.</l>
                                 <l n="8">Qui tout convoite tout doit <expan>p<ex>er</ex>dre</expan> ;</l>
                                 <l n="9">Le sien laissa pour <expan>nea<ex>n</ex>t</expan> prendre.</l>
                                 </lg>
@@ -708,7 +708,7 @@
                                 <l n="11">Que <app><rdg type="substantive"><expan>c<ex>er</ex>tain</expan></rdg></app> se fait bon tenir ;</l>
                                 <l n="12">Du sien <app><rdg type="orthographic">puest</rdg></app> bien mesavenir</l>
                                 <l n="13">A <app><rdg type="orthographic">celui</rdg></app> qui <expan>ch<ex>ie</ex>r</expan> a <app><rdg type="orthographic">l'autrui,</rdg></app></l>
-                                <l n="14"><app><rdg type="substantive">Aussi</rdg></app> <expan>co<ex>m</ex>me</expan> <app><rdg type="substantive">il meschei</rdg></app> a <app><rdg type="substantive">celui</rdg></app>.</l>
+                                <l n="14"><app><rdg type="substantive">Aussi</rdg></app> <expan> co<ex>m</ex>me</expan> <app><rdg type="substantive"> il meschei</rdg></app> a <app><rdg type="substantive">celui</rdg></app>.</l>
                                 </lg>
                             </div>
                             <!-- Transcription du manuscrit c  -->
@@ -719,9 +719,9 @@
                                 <l n="1"><app><lem><c rend="initiale-rubriquee">U</c>n chien</lem></app> passoit un eaue <app><lem>a
                                     nage</lem></app>,</l>
                                 <l n="2">En sa gueulë <app><lem>un mol <expan>fro<ex>m</ex>mage</expan></lem></app></l>
-                                <l n="3"><app><lem>En l'eaue</lem></app> <app><lem>regarda</lem></app> <app><lem>son umbre</lem></app>,</l>
+                                <l n="3"><app><lem>En l'eaue</lem></app> <app><lem> regarda</lem></app> <app><lem> son umbre</lem></app>,</l>
                                 <l n="4"><app><lem>Convoitise qui fort</lem></app> l'encombre.</l>
-                                <l n="5"><app><lem>Cuide qu'est uns</lem></app> <app><lem>autres <expan>fro<ex>m</ex>mage</expan></lem></app>.</l>
+                                <l n="5"><app><lem>Cuide qu'est uns</lem></app> <app><lem> autres <expan>fro<ex>m</ex>mage</expan></lem></app>.</l>
                                 <l n="6">Lors ne fist pas le chien que <app><lem>saiges</lem></app> :</l>
                                 <l n="7">La gueule <app><lem>euvre</lem></app> pour l'autre <app><lem>aherdre</lem></app>.</l>
                                 <l n="8">Qui tout convoite tout doit perdre ;</l>
@@ -729,13 +729,14 @@
                                 </lg>
                                 <lg type="morale">
                                 <l n="10"><c rend="initiale-rubriquee">P</c>ar <app><lem>cest</lem></app> compte <app><lem>pouez</lem></app>
-                                        <app><lem>entendre</lem></app></l>
+                                        <app><lem> entendre</lem></app></l>
                                 <l n="11">Que <app><lem>au certain</lem></app> se fait bon tenir ;</l>
                                 <l n="12">Du sien <app><lem>puet</lem></app> bien mesavenir</l>
                                 <l n="13">A <app><lem>cellui</lem></app> qui a chier <app><lem>l'autruy</lem></app>,</l>
-                                <l n="14"><app><lem>Ainsi</lem></app> <expan>co<ex>m</ex>me</expan> <app><lem>a fait</lem></app> a <app><lem>cestuy</lem></app>.</l>
+                                <l n="14"><app><lem>Ainsi</lem></app> <expan> co<ex>m</ex>me</expan> <app><lem> a fait</lem></app> a <app><lem>cestuy</lem></app>.</l>
                                 </lg>
                             </div>
+
                         </div>
                     </div>
                 </body>
