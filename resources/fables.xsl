@@ -27,7 +27,7 @@
           <small>
               <i>Folios
                   <xsl:for-each select="tokenize(../@n,' ')">
-                      <xsl:value-of select="substring(.,6)"/>
+                      <xsl:value-of select="substring(translate(.,'#', ''),6)"/>
                       <xsl:if test="not(position() = last())"> et </xsl:if>
                   </xsl:for-each>
               </i>

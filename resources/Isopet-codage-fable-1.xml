@@ -381,7 +381,7 @@
                                         </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="f1-B-7r f1-B-7v">
+                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="#f1-B-7r f1-B-7v">
                                     <head rend="rubrique" n="fol_7r">Du chien qui passoit li aue et
                                         tenoit une piece de <app><lem>char</lem></app></head>
                                     <lg type="recit">
@@ -446,7 +446,7 @@
                                     </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="f1-P-6v f1-P-7r">
+                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="#f1-P-6v f1-P-7r">
                                     <head rend="rubrique" n="fol_6v">Du chien qui passoit li aue et
                                         tenoit une piece de <app><rdg type="substantive">fourmage</rdg></app></head>
                                     <lg type="recit">
@@ -515,7 +515,7 @@
                                 </div>
                                 <!-- Transcription du texte en moyen français -->
                                 <div xml:lang="lat" type="transcription"
-                                    xml:id="f1-L-frm-transcription" n="f1-L-12r f1-L-12v">
+                                    xml:id="f1-L-frm-transcription" n="#f1-L-12r f1-L-12v">
                                     <head rend="rubrique" n="fol_12r">Du chien qui passoit li aue et
                                         tenoit une piece de char</head>
                                     <lg type="recit">
