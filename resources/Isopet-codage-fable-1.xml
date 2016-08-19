@@ -357,7 +357,7 @@
                             <!-- Transcriptions du manuscrit B  -->
                             <div xml:id="f1-B-transcription">
                                 <!-- Transcription du texte latin  -->
-                                <div xml:lang="lat" xml:id="f1-B-lat-transcription" n="fol.6v-fol.7r">
+                                <div xml:lang="lat" xml:id="f1-B-lat-transcription" n="f1-B-6v f1-B-7r">
                                     <head rend="rubrique" n="fol_6v">De cane transeunte aquam</head>
                                     <lg type="recit">
                                     <l n="1"><c rend="initiale-rubriquee">D</c>um canis ore gerit carnem,
@@ -381,7 +381,7 @@
                                         </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="fol.7r-fol.7v">
+                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="f1-B-7r f1-B-7v">
                                     <head rend="rubrique" n="fol_7r">Du chien qui passoit li aue et
                                         tenoit une piece de <app><lem>char</lem></app></head>
                                     <lg type="recit">
@@ -420,7 +420,7 @@
                             <!-- Transcriptions du manuscrit P  -->
                             <div xml:id="f1-P-transcription">
                                 <!-- Transcription du texte latin  -->
-                                <div xml:lang="lat" xml:id="f1-P-lat-transcription" n="fol.6r-fol.6v">
+                                <div xml:lang="lat" xml:id="f1-P-lat-transcription" n="f1-P-6r f1-P-6v">
                                     <head rend="rubrique" n="fol_6r" facs="f1-P-6r.jpeg">De cane
                                         transeunte aquam</head>
                                     <lg type="recit">
@@ -446,7 +446,7 @@
                                     </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="fol.6v-fol.7r">
+                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="f1-P-6v f1-P-7r">
                                     <head rend="rubrique" n="fol_6v">Du chien qui passoit li aue et
                                         tenoit une piece de <app><rdg type="substantive">fourmage</rdg></app></head>
                                     <lg type="recit">
@@ -487,7 +487,7 @@
                             <!-- Transcriptions du manuscrit L  -->
                             <div xml:id="f1-L-transcription">
                                 <!-- Transcription du texte latin -->
-                                <div xml:lang="lat" xml:id="f1-L-lat-transcription" n="fol.11v-fol.12r">
+                                <div xml:lang="lat" xml:id="f1-L-lat-transcription" n="f1-L-11v f1-L-12r">
                                     <head rend="rubrique" n="fol_11v">De cane transeunte
                                         aquam</head>
                                     <lg type="recit">
@@ -515,7 +515,7 @@
                                 </div>
                                 <!-- Transcription du texte en moyen français -->
                                 <div xml:lang="lat" type="transcription"
-                                    xml:id="f1-L-frm-transcription" n="fol.12r-fol.12v">
+                                    xml:id="f1-L-frm-transcription" n="f1-L-12r f1-L-12v">
                                     <head rend="rubrique" n="fol_12r">Du chien qui passoit li aue et
                                         tenoit une piece de char</head>
                                     <lg type="recit">
@@ -668,7 +668,7 @@
                       
                         <div xml:lang="frm" type="transcriptions" xml:id="f1-abc-transcriptions">
                             <!-- Transcription du manuscrit a  -->
-                            <div xml:id="f1-a-transcription" n="fol.4v">
+                            <div xml:id="f1-a-transcription" n="f1-a-4v">
                                 <lg type="recit">
                                 <l n="1 fol_4v" facs="f1-a-4v.jpeg"><app><rdg type="orthographic"><c rend="initiale-historiee"
                                     >U</c>ns chiens</rdg></app> passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
@@ -690,7 +690,7 @@
                                 </lg>
                             </div>
                             <!-- Transcription du manuscrit b  -->
-                            <div xml:id="f1-b-transcription" n="fol.112r">
+                            <div xml:id="f1-b-transcription" n="f1-b-112r">
                                 <lg type="recit">
                                 <l n="1 fol_112r" facs="f1-b-112r.jpeg"><c rend="initiale-rubriquee">U</c>n chien passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
                                 <l n="2">En sa gueule <app><rdg type="orthographic">.i. fromage mou</rdg></app></l>
@@ -712,7 +712,7 @@
                                 </lg>
                             </div>
                             <!-- Transcription du manuscrit c  -->
-                            <div xml:id="f1-c-transcription" n="fol.7r">
+                            <div xml:id="f1-c-transcription" n="f1-c-7r">
                                 <head rend="rubrique" n="fol_7r" facs="f1-c-7r.jpeg">D'un chien qui
                                     tient en sa gueule un <expan>fro<ex>m</ex>mage</expan>.</head>
                                 <lg type="recit">
@@ -736,7 +736,6 @@
                                 <l n="14"><app><lem>Ainsi</lem></app> <expan> co<ex>m</ex>me</expan> <app><lem> a fait</lem></app> a <app><lem>cestuy</lem></app>.</l>
                                 </lg>
                             </div>
-
                         </div>
                     </div>
                 </body>

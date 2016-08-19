@@ -10,8 +10,8 @@
  <xsl:strip-space elements="lem rdg l"/>
 
   <xsl:template match="/">
-  <xsl:apply-templates select="//*[@xml:id='#fable_part']/*" />
-</xsl:template>
+        <xsl:apply-templates select="//*[@xml:id='#fable_part']/*" />
+    </xsl:template>
   
   
 <xsl:template match="tei:head">
@@ -22,6 +22,17 @@
       </xsl:attribute>
     </xsl:if>
     <xsl:apply-templates/>
+      <xsl:if test="../@n">
+          <br/>
+          <small>
+              <i>Folios
+                  <xsl:for-each select="tokenize(../@n,' ')">
+                      <xsl:value-of select="substring(.,6)"/>
+                      <xsl:if test="not(position() = last())"> et </xsl:if>
+                  </xsl:for-each>
+              </i>
+          </small>
+      </xsl:if>
   </h4>
 </xsl:template>
 

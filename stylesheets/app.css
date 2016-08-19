@@ -113,6 +113,9 @@ body {
 .Comp .Enluminure {
   display: none; }
 
+.folio_name {
+  text-align: center; }
+
 .im_fable {
   margin-left: 10%;
   margin-right: 10%;
