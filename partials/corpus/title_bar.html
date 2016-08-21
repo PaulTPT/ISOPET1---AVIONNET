@@ -1,12 +1,12 @@
 <div class="container">
 
-    <section class="row">
+    <section class="row" ng-controller="BarController">
 
         <!-- Titre de la fable et navigation-->
         <div id="title">
 
             <div class="col-xs-1 col-xs-offset-2 gly-centerl">
-                <span style="font-size:2em;" class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                <div style="font-size:2em;" class="glyphicon glyphicon-arrow-left" aria-hidden="true" ng-click="prev_fable()"></div>
             </div>
 
             <div class="col-xs-6">
@@ -14,13 +14,13 @@
                 <h2 class="text-center">
                     <span style="font-size:1em;" class="glyphicon glyphicon-menu-hamburger marge10"
                           aria-hidden="true"></span>
-                    <span class="marge10 text-center"> Le chien qui tenait un fromage </span>
+                    <span class="marge10 text-center"> {{fable_name}} </span>
                 </h2>
 
                 <p class="text-center">
                     <i id="navigation">
-                        <a href="">BPL<span class="caret"></span></a> <span class="marge20">-></span> <a href=""
-                                                                                                         class="marge20">P<span
+                        <a href="">{{category}}<span class="caret"></span></a> <span class="marge20">-></span> <a href=""
+                                                                                                         class="marge20">{{subcategory}}<span
                             class="caret"></span></a>
                     </i>
                 </p>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="col-xs-1 gly-centerl">
-                <span style="font-size:2em;" class="glyphicon glyphicon-arrow-right marge30" aria-hidden="true"></span>
+                <span style="font-size:2em;" class="glyphicon glyphicon-arrow-right marge30" aria-hidden="true" ng-click="next_fable()"></span>
             </div>
 
             <div class="hidden-xs col-xs-1 col-xs-offset-1 gly-centerl">

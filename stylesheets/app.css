@@ -80,7 +80,7 @@ body {
 #menu_desc {
   color: #e02b3b; }
 
-.glyphicon-menu-hamburger {
+.glyphicon-menu-hamburger, .glyphicon-arrow-left, .glyphicon-arrow-right {
   color: #337ab7; }
 
 .note {

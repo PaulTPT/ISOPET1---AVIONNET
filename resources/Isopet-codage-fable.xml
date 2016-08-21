@@ -739,60 +739,688 @@
                         </div>
                     </div>
                 </body>
-                <back>
-                    <div type="index_nominum">
-                        <head>Index des personnages</head>
-                        <list>
-                            <item xml:id="chien"> Chien (Le) </item>
-                        </list>
+	</text>
+
+<!-- Seconde fable -->
+            <text n="f2" xml:id="fable0002" type="fable-simplifiee">
+                <front>
+                    <head type="titre-La-Fontaine">Fable 2</head>
+                </front>
+                <body>
+                    <!-- Edition de la première fable pour les manuscrits B,P,L -->
+                    <div n="f2-BPL" xml:id="f2-ms-BPL">
+                        <!-- Edition critique de la fable -->
+                        <div type="edition-critique" xml:id="f2-BPL-ed-crit">
+                            <!-- Edition critique du texte latin -->
+                            <div xml:id="f2-BPL-ed-crit-lat" xml:lang="lat"
+                                type="edition-critique-latin">
+                                <!-- vignette à mettre au début de l'édition critique -->
+                                <figure>
+                                    <graphic url="edition-BPL-fable1-image.jpeg"/>
+                                </figure>
+                                <!-- texte édité : titre + récit + morale -->
+                                <head type="title">De cane transeunte aquam</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                        <l n="1">Dum <name ref="#chien #actant-personnage">canis</name> ore
+                                            gerit <rs corresp="#viande">carnem</rs>, caro porrigit <rs
+                                                corresp="#reflet #actant-objet">umbram</rs>.</l>
+                                        <l n="2">Umbra coheret aquis. Has canis urget <placeName
+                                                ref="#riviere">aquas</placeName>.</l>
+                                    </lg>
+                                    <l n="3">Spem carnis plus carne <app>
+                                            <lem wit="#B #L">cupit</lem>
+                                            <rdg wit="#P" type="substantive">caput</rdg>
+                                        </app>, plus fenore signum</l>
+                                    <l n="4">Fenoris. <seg corresp="#schema-action">Os aperit</seg>,
+                                        <seg corresp="#schema-evaluation">sic caro spesque perit.</seg></l>
+                                    <l n="5">Non igitur debent <app>
+                                            <lem wit="#B #L">pro vanis</lem>
+                                            <rdg wit="#P" type="substantive">pio vanis</rdg>
+                                        </app> certa relinqui.</l>
+                                    <l n="6">Non sua si quis avet, mox caret ipse suis.</l>
+                                </lg>
+                                <l rend="rubrique">moralitas</l>
+                                <lg type="morale" corresp="#morale-paradigmatique">
+                                    <l n="7"><app>
+                                            <lem wit="#B #L">Qui totum cupit</lem>
+                                            <rdg wit="#P" type="substantive">Qui totum cipit</rdg>
+                                        </app>, hic totum amictere debet.</l>
+                                    <l n="8"><app>
+                                            <lem wit="#B #L">Inter scanna</lem>
+                                            <rdg wit="#P" type="substantive">Inte scanna</rdg>
+                                        </app><note type="note-critique" n="1" xml:lang="fre">J. Bastin
+                                            ainsi que K. McKenzie et W. Oldfather ont corrigé <w 
+                                                rend="ital" xml:lang="lat">scanna</w> en <w
+
+                                                rend="ital" xml:lang="lat">scamna</w> dans leurs
+                                            éditions. Nous conservons <w rend="ital" xml:lang="lat"
+                                                >scanna</w>, la forme <w rend="ital" xml:lang="lat"
+                                                >scannum</w> (<seg rend="ital" xml:lang="lat">pro
+                                                scamnum</seg>) étant attestée dans le
+                                                <bibl>Ducange</bibl> (t.7, col. 334c).</note> duo
+                                        corruit anus humo,</l>
+                                    <l n="9">Ambito cupidus, habito prorsusque carebit.</l>
+                                    <l n="10">Ad duo qui satagit nil sapienter agit.</l>
+                                </lg>
+                            </div>
+                            <!-- Edition critique du texte en moyen français -->
+                            <div xml:id="f2-BPL-ed-crit-frm" xml:lang="frm"
+                                type="edition-critique-moyen-francais">
+                                <head type="title">Du chien qui passoit li aue et tenoit une piece
+                                    de <app>
+                                        <lem wit="#B #L">char</lem>
+                                        <rdg wit="#L" type="substantive">fourmage</rdg>
+                                    </app></head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                        <l n="1">Le <name ref="#chien #actant-personnage">chien</name> passoit
+                                            une <placeName ref="#riviere">yaue</placeName> a no,</l>
+                                        <l n="2">En sa geule un <rs corresp="#fromage">fromaige</rs>
+                                            mo.</l>
+                                        <l n="3">Autre dient que ce yere <app>
+                                                <lem wit="#B #L"><rs corresp="#viande"
+                                                  >chars</rs></lem>
+                                                <rdg wit="#P" type="substantive">hars</rdg>
+                                                <note type="note-critique">La leçon du manuscrit P
+                                                  (<w rend="ital">hars</w>), qui peut très bien être
+                                                  une simple faute de copie, est néanmoins
+                                                  intéressante, "<w rend="ital">hars</w>" (forme
+                                                  attestée du terme "<w rend="ital">hart</w>")
+                                                  désignant une corde, et notamment "la corde pour
+                                                  attacher les chiens" (DMF) </note>
+                                            </app> ;</l>
+                                        <l n="4">De ce n'avoit esté eschars.</l>
+                                        <l n="5">Au fons si en regarda l’<rs corresp="#reflet"
+                                                >ombre</rs></l>
+                                        <l n="6">Et <rs corresp="#convoitise">convoitise</rs> qui
+                                            l'encombre.</l>
+                                    </lg>
+                                    <l n="7">Li dist que c'est <rs corresp="#actant-objet">autre
+                                            fromaige</rs>.</l>
+                                    <l n="8">Lors ne fist pas le chien que <rs corresp="#sagesse"
+                                            >saige</rs>,</l>
+                                    <l n="9" corresp="#schema-action">La gueule ouvri pour
+                                        l'autre aerdre.</l>
+                                    <l n="10">Qui tout convoite tout doit perdre :</l>
+                                    <l n="11" corresp="#schema-evaluation">Le sien laissa pour nient
+                                        prendre.</l>
+                                </lg>
+                                <l rend="rubrique">la moralite</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-parenetique">
+                                        <l n="12">Par ce compte poués entendre</l>
+                                        <l n="13">Qu'au certain se fait bon tenir.</l>
+                                        <l n="14">Dou sien puet bien mesavenir</l>
+                                        <l n="15">A celui qui a chier l'autrui,</l>
+                                        <l n="16">Aussin comme<note type="note-critique">La loc.
+                                                  <seg rend="ital">Ainsi comme</seg>, souvent
+                                                utilisée pour introduire une subordonnée temporelle,
+                                                marque ici la conformité avec l'action
+                                                passée.</note>
+                                            <app>
+                                                <lem wit="#B">il fist</lem>
+                                                <rdg wit="#P" type="substantive">il fuist</rdg>
+                                                <rdg wit="#L" type="substantive">fist</rdg>
+                                            </app> a cestui.</l>
+                                    </lg>
+                                    <lg corresp="#morale-personnel">
+                                        <l n="17">Tout pert <app>
+                                                <lem wit="#B #P">cils qui l'autrui convoite</lem>
+                                                <rdg wit="#L" type="substantive">qui trestout
+                                                  convoite</rdg>
+                                            </app> :</l>
+                                        <l n="18">Ceste raissons est assés droite.</l>
+                                        <l n="19">L'exemple de ce nous apelle</l>
+                                        <l n="20">La vielle cheï de la celle.</l>
+                                        <l n="21">Qui sus deus selles <app>
+                                                <lem wit="#B #P">veut seoir</lem>
+                                                <rdg wit="#L" type="substantive">vost seoir</rdg>
+                                            </app><note type="note-critique">La leçon du manuscrit L
+                                                  (<seg rend="ital">vost seoir</seg>) permet
+                                                d’obtenir une meilleure rime visuelle (vost seoir /
+                                                tost veoir) mais modifie le temps du
+                                            verbe.</note></l>
+                                        <l n="22">A terre se pot <app>
+                                                <lem wit="#B #L">tost veoir</lem>
+                                                <rdg wit="#P" type="substantive">tout veoir</rdg>
+                                            </app>.</l>
+                                        <l n="23">Qui fait deus choses tout ensamble</l>
+                                        <l n="24">Tres bien ne les fait, ce me samble.</l>
+                                    </lg>
+                                </lg>
+                            </div>
+                        </div>
+                        <!-- Traductions françaises du texte édité (en latin et en moyen français) -->
+                        <div type="traduction" xml:id="f2-BPL-trad">
+                            <!-- Traduction du texte latin -->
+                            <div xml:lang="fre" xml:id="f2-BPL-lat-trad">
+                                <head type="title">Le chien qui traverse une rivière</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                        <l n="1">Alors qu’un <name ref="#chien #actant-personnage"
+                                                >chien</name> tient dans sa gueule un morceau de <rs
+                                                corresp="#viande">viande</rs>,</l>
+                                        <l n="2">la viande forme une <rs corresp="#reflet #actant-objet">ombre</rs>
+                                            qui porte jusqu’aux <placeName ref="#riviere"
+                                                >eaux</placeName> que le chien traverse.</l>
+                                    </lg>
+                                    <l n="3">Mais il désire davantage l'idée de viande que la viande
+                                        elle-même, davantage la perspective de gain</l>
+                                    <l n="4">que le gain lui-même. <seg corresp="#schema-action"
+                                            >Il ouvre la gueule</seg>, et, <seg corresp="#schema-evaluation">ce faisant, tant la viande
+                                            que l’idée qu’il s’en faisait s'évanouissent.</seg></l>
+                                    <l n="5">Ainsi, ce qui est assuré ne doit être délaissé au
+                                        profit de chimères.</l>
+                                    <l n="6">Si l'on ne s'attache pas à son bien, on en sera
+                                        rapidement privé.</l>
+                                </lg>
+                                <l rend="rubrique">morale</l>
+                                <lg type="morale" corresp="#morale-paradigmatique">
+                                    <l n="7">Qui désire tout est condamné à tout perdre.</l>
+                                    <l n="8">Une vieille dame chute à terre entre deux sièges,</l>
+                                    <l n="9">Voulant les avoir les deux ensemble, une fois en main, elle en sera immédiatement privée.</l>
+                                    <l n="10">Celui qui s’agite à deux affaires n’accomplit rien
+                                        avec sagesse.</l>
+                                </lg>
+                            </div>
+                            <!-- Traduction du texte en moyen français -->
+                            <div xml:lang="fre" xml:id="f2-BPL-frm-trad">
+                                <head type="title">Le chien qui traversait la rivière en tenant un
+                                    morceau de viande</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                        <l n="1">Un <name ref="#chien #actant-personnage">chien</name>
+                                            passait une <placeName ref="#riviere"
+                                                >rivière</placeName> à la nage,</l>
+                                        <l n="2">avec, dans sa gueule, un <rs corresp="#fromage"
+                                                >fromage</rs> tendre.</l>
+                                        <l n="3">D'autres disent que c’était de la <rs
+                                                corresp="#viande">viande</rs> ;</l>
+                                        <l n="4">de ce détail, on s'en moque.</l>
+                                        <l n="5">Dans l’eau, il en vit le <rs corresp="#reflet"
+                                                >reflet</rs></l>
+                                        <l n="6">et la <rs corresp="#convoitise">convoitise</rs> qui
+                                            l’habite.</l>
+                                    </lg>
+                                    <l n="7">lui fait penser que c'est <rs corresp="#actant-objet">un autre
+                                            fromage</rs>.</l>
+                                    <l n="8">Alors, le chien n’agit <rs corresp="#sagesse">pas avec
+                                            sagesse</rs> :</l>
+                                    <l n="9" corresp="#schema-action">il ouvrit sa gueule pour
+                                        saisir l'autre.</l>
+                                    <l n="10">Qui convoite tout, perd tout :</l>
+                                    <l n="11" corresp="#schema-evaluation">il a lâché son bien pour
+                                        ne rien prendre d’autre.</l>
+                                </lg>
+                                <l rend="rubrique">morale</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-parenetique">
+                                        <l n="12">Comprenez à travers cette histoire</l>
+                                        <l n="13">qu’il est bon de s’en tenir à ce qui est
+                                            sûr.</l>
+                                        <l n="14">Il peut vite arriver malheur au bien</l>
+                                        <l n="15">de celui qui en chérit un autre,</l>
+                                        <l n="16">Comme il est advenu à celui-là.</l>
+                                    </lg>
+                                    <lg corresp="#morale-personnel">
+                                        <l n="17">Il perd tout, celui qui convoite le bien
+                                            d’autrui.</l>
+                                        <l n="18">Cette morale est plutôt simple à comprendre.</l>
+                                        <l n="19">Cette histoire exemplaire nous rappelle</l>
+                                        <l n="20">la vieille dame qui tomba de sa chaise.</l>
+                                        <l n="21">Pour avoir voulu s'asseoir sur deux chaises,</l>
+                                        <l n="22">elle se retrouva rapidement à terre.</l>
+                                        <l n="23">Celui qui fait deux choses en même
+                                            temps</l>
+                                        <l n="24">ne les fait pas très bien, il me semble.</l>
+                                    </lg>
+                                </lg>
+                            </div>
+                        </div>
+                        <!-- Suivent les transcriptions de chaque manuscrit témoin : B, P et L -->
+                        <div type="transcriptions" xml:id="f2-BPL-transcriptions">
+                            <!-- Transcriptions du manuscrit B  -->
+                            <div xml:id="f2-B-transcription">
+                                <!-- Transcription du texte latin  -->
+                                <div xml:lang="lat" xml:id="f2-B-lat-transcription" n="f2-B-6v f2-B-7r">
+                                    <head rend="rubrique" n="fol_6v">De cane transeunte aquam</head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-rubriquee">D</c>um canis ore gerit carnem,
+                                        caro porrigit <expan>umbra<ex>m</ex></expan>.</l>
+                                    <l n="2">Umbra coheret aquis. Has canis urget aquas.</l>
+                                    <l n="3 fol_7r">Spem carnis plus carne <app><lem>cupit</lem></app>, plus fenore
+                                                <expan>signu<ex>m</ex></expan></l>
+                                    <l n="4">Fenoris. Os aperit, sic caro <expan>spes<ex>que</ex></expan>
+                                        perit.</l>
+                                    <l n="5">Non igitur debent <app><lem>pro</lem></app> vanis certa relinqui.</l>
+                                    <l n="6">Non sua si quis avet mox caret <expan>ip<ex>s</ex>e</expan>
+                                        suis.</l>
+                                        </lg>
+                                    <l rend="rubrique">moralitas</l>
+                                    <lg type="morale">
+                                    <l n="7">Qui totum <app><lem>cupit</lem></app> hic totum amittere debet.</l>
+                                    <l n="8"><app><lem>Inter</lem></app> scanna duo corruit anus humo.</l>
+                                    <l n="9">Ambito cupidus <expan>h<ex>ab</ex>ito</expan>
+                                                prorsus<expan>q<ex>ue</ex></expan><app><lem> carebit</lem></app>.</l>
+                                    <l n="10">Ad duo qui satagit nil sapienter agit.</l>
+                                        </lg>
+                                </div>
+                                <!-- Transcription du texte en moyen français  -->
+                                <div xml:lang="frm" xml:id="f2-B-frm-transcription" n="#f2-B-7r f2-B-7v">
+                                    <head rend="rubrique" n="fol_7r">Du chien qui passoit li aue et
+                                        tenoit une piece de <app><lem>char</lem></app></head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
+                                        <app><lem>no</lem></app>,</l>
+                                    <l n="2">En sa geule un <app><lem>fromaige</lem></app> mo.</l>
+                                    <l n="3">Autre dient que ce yere <app><lem>chars</lem></app> :</l>
+                                    <l n="4">De ce n'avoit esté eschars.</l>
+                                    <l n="5">Au fons si en regarda l'ombre</l>
+                                    <l n="6">Et convoitise qui <app><lem>l'encombre</lem></app>.</l>
+                                    <l n="7">Li <app><lem>dist</lem></app> que c'est autre <app><lem>fromaige</lem></app>.</l>
+                                    <l n="8">Lors ne fist pas le chien que <app><lem>saige</lem></app>,</l>
+                                    <l n="9">La gueule ouvri pour l'autre <app><lem>aerdre</lem></app>.</l>
+                                    <l n="10">Qui tout convoite tout doit perdre.</l>
+                                    <l n="11">Le sien laissa pour <app><lem>nient</lem></app> prendre.</l>
+                                    </lg>
+                                    <l rend="rubrique">la moralité</l>
+                                    <lg type="morale">
+                                    <l n="12">Par ce <app><lem><expan>co<ex>m</ex>pte</expan></lem></app><app><lem> poués</lem></app> entendre</l>
+                                    <l n="13">Qu'au <app><lem>certain</lem></app> se fait <expan>bo<ex>n</ex></expan> tenir.</l>
+                                    <l n="14">Dou sien puet bien <app><lem>mesavenir</lem></app></l>
+                                    <l n="15">A celui qui a chier l'autrui,</l>
+                                    <l n="16 fol_7v"><app><lem>Aussin</lem></app> comme <app><lem>il fist</lem></app> a cestui.</l>
+                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan><app><lem> cils
+                                            <expan>q<ex>ui</ex></expan> l'autrui</lem></app> convoite.</l>
+                                    <l n="18">Ceste <app><lem>raissons</lem></app> est assés droite.</l>
+                                    <l n="19">L'exemple de ce nous apelle</l>
+                                    <l n="20">La vielle cheï de la celle.</l>
+                                    <l n="21">Qui sus <app><lem>deus selles</lem></app><app><lem> veut</lem></app> seoir</l>
+                                    <l n="22">A terre se pot <app><lem>tost</lem></app> veoir</l>
+                                    <l n="23">Qui fait <app><lem>deus</lem></app> choses tout <app><lem>ensamble</lem></app>,</l>
+                                    <l n="24">Tres bien ne les fait, <app><lem>ce me samble</lem></app>.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                            <!-- Transcriptions du manuscrit P  -->
+                            <div xml:id="f2-P-transcription">
+                                <!-- Transcription du texte latin  -->
+                                <div xml:lang="lat" xml:id="f2-P-lat-transcription" n="f2-P-6r f2-P-6v">
+                                    <head rend="rubrique" n="fol_6r" facs="f2-P-6r.jpeg">De cane
+                                        transeunte aquam</head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-rubriquee">D</c>um canis ore gerit carnem,
+                                        caro porrigit <expan>umbra<ex>m</ex></expan>.</l>
+                                    <l n="2">Umbra coheret aquis. Has canis urget aquas.</l>
+                                    <l n="3">Spem carnis plus carne <app><rdg type="substantive">caput</rdg></app>, plus fenore
+                                                <expan>signu<ex>m</ex></expan></l>
+                                    <l n="4 fol_6v" facs="f2-P-6v.jpeg">Fenoris. Os aperit, sic caro
+                                                <expan>spes<ex>que </ex></expan>
+                                        <expan><ex>pe</ex>rit</expan>.</l>
+                                    <l n="5">Non igitur debent <app><rdg type="substantive">pio</rdg></app> vanis certa relinqui.</l>
+                                    <l n="6">Non sua si quis avet, mox caret <expan>ip<ex>s</ex>e</expan>
+                                        suis.</l>
+                                    </lg>
+                                    <l rend="rubrique">moralitas</l>
+                                    <lg type="morale">
+                                    <l n="7">Qui totum <app><rdg type="substantive">cipit</rdg></app> hic totum amittere debet.</l>
+                                    <l n="8"><app><rdg type="substantive">Inte</rdg></app> scanna duo corruit anus humo.</l>
+                                    <l n="9">Ambito cupidus habito <expan>prorsus<ex>que</ex></expan>
+                                        <app><rdg type="orthographic"> quarebit</rdg></app>.</l>
+                                    <l n="10">Ad duo qui satagit nil sapienter agit.</l>
+                                    </lg>
+                                </div>
+                                <!-- Transcription du texte en moyen français  -->
+                                <div xml:lang="frm" xml:id="f2-P-frm-transcription" n="#f2-P-6v f2-P-7r">
+                                    <head rend="rubrique" n="fol_6v">Du chien qui passoit li aue et
+                                        tenoit une piece de <app><rdg type="substantive">fourmage</rdg></app></head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-peinte">L</c>e chien passoit une yaue a
+                                        <app><rdg type="orthographic">neu</rdg></app>,</l>
+                                    <l n="2">En sa geule un <app><rdg type="orthographic">froumage mou</rdg></app>.</l>
+                                    <l n="3">Autre dient que ce yere <app><rdg type="substantive">hars</rdg></app> :</l>
+                                    <l n="4">De ce n'avoit esté eschars.</l>
+                                    <l n="5">Au fons si en regarda l'ombre</l>
+                                    <l n="6">Et convoitise qui <app><rdg type="orthographic">l'amcombre</rdg></app>.</l>
+                                    <l n="7">Li <app><rdg type="orthographic">dit</rdg></app> que c'est autre <app><rdg type="orthographic">fromage</rdg></app>.</l>
+                                    <l n="8">Lors ne fist pas le chien que <app><rdg type="orthographic">sage</rdg></app>,</l>
+                                    <l n="9">La geule ouvri pour l'autre <app><rdg type="orthographic">aardre</rdg></app>.</l>
+                                    <l n="10">Qui tout convoite tout doit
+                                        <expan>p<ex>er</ex>dre</expan>,</l>
+                                    <l n="11">Le sien laissa pour <app><rdg type="orthographic">niant</rdg></app> prendre.</l>
+                                    </lg>
+                                    <l rend="rubrique">la moralité</l>
+                                    <lg type="morale">
+                                    <l n="12">Par <app><rdg type="orthographic">se conte</rdg></app> <app><rdg type="orthographic"> pouez</rdg></app> entendre</l>
+                                    <l n="13">Qu’au <app><rdg type="orthographic">sertain</rdg></app> se fait bon tenir.</l>
+                                    <l n="14">Dou sien puet bien <app><rdg type="orthographic">messavenir</rdg></app></l>
+                                    <l n="15">A celui qui a chier l'autrui,</l>
+                                    <l n="16"><app><rdg type="orthographic">Ainssi </rdg></app> <expan>co<ex>m</ex>me</expan> <app><rdg type="substantive"> il fuist</rdg></app> a cestui.</l>
+                                    <l n="17">Tout <expan>p<ex>er</ex>t</expan> <app><rdg type="orthographic"> cil qui l'autrui</rdg></app>
+                                        convoite.</l>
+                                    <l n="18">Ceste <app><rdg type="orthographic">raisons</rdg></app> est assés droite.</l>
+                                    <l n="19">L'exemple de ce nous appelle</l>
+                                    <l n="20">La vielle cheï de la celle.</l>
+                                    <l n="21 fol_7r" facs="f2-P-7r.jpeg">Qui sus <app><rdg type="orthographic">deuz celles</rdg></app> <app><rdg type="orthographic"> veult</rdg></app>
+                                        seoir</l>
+                                    <l n="22">A terre se pot <app><rdg type="substantive">tout</rdg></app> veoir.</l>
+                                    <l n="23">Qui fait <app><rdg type="orthographic">deux choses</rdg></app> tout <app><rdg type="orthographic">ensemble</rdg></app></l>
+                                    <l n="24">Tres bien ne les fait, <app><rdg type="orthographic">se me semble</rdg></app>.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                            <!-- Transcriptions du manuscrit L  -->
+                            <div xml:id="f2-L-transcription">
+                                <!-- Transcription du texte latin -->
+                                <div xml:lang="lat" xml:id="f2-L-lat-transcription" n="f2-L-11v f2-L-12r">
+                                    <head rend="rubrique" n="fol_11v">De cane transeunte
+                                        aquam</head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-rubriquee">D</c>um canis ore gerit
+                                                <expan>carne<ex>m</ex></expan>, caro porrigit
+                                                <expan>u<ex>m</ex>bra<ex>m</ex></expan>.</l>
+                                    <l n="2">Umbra coheret aquis. Has canis urget
+                                            <expan>aq<ex>ua</ex>s</expan>.</l>
+                                    <l n="3 fol_12r">Spem carnis plus carne cupit, plus fenore
+                                                <expan>signu<ex>m</ex></expan></l>
+                                    <l n="4">Fenoris. Os aperit, sic caro <expan>spes<ex>que</ex></expan>
+                                        perit.</l>
+                                    <l n="5">Non igitur debent pro vanis certa relinqui</l>
+                                    <l n="6">Non sua si quis avet, mox caret <expan>ip<ex>se</ex></expan>
+                                        suis.</l>
+                                    </lg>
+                                    <l rend="rubrique">moralitas</l>
+                                    <lg type="morale">
+                                    <l n="7">Qui totum cupit hic totum amittere debet.</l>
+                                    <l n="8">Inter scanna duo corruit anus humo.</l>
+                                    <l n="9">Ambito cupidus <expan>h<ex>abi</ex>to</expan>
+                                        <expan> prorsus<ex>que</ex></expan> carebit.</l>
+                                    <l n="10">Ad duo qui satagit nil sapienter agit.</l>
+                                    </lg>
+                                </div>
+                                <!-- Transcription du texte en moyen français -->
+                                <div xml:lang="lat" type="transcription"
+                                    xml:id="f2-L-frm-transcription" n="#f2-L-12r f2-L-12v">
+                                    <head rend="rubrique" n="fol_12r">Du chien qui passoit li aue et
+                                        tenoit une piece de char</head>
+                                    <lg type="recit">
+                                    <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
+                                        no,</l>
+                                    <l n="2">En sa geule un fromaige mo.</l>
+                                    <l n="3">Autre dient que ce yere chars :</l>
+                                    <l n="4">De ce n'avoit esté eschars.</l>
+                                    <l n="5">Au fons si en regarda l'ombre</l>
+                                    <l n="6">Et convoitise qui l'encombre.</l>
+                                    <l n="7">Li <app><rdg type="orthographic">dit</rdg></app> que c'est autre fromaige.</l>
+                                    <l n="8">Lors ne fist pas le chien que saige,</l>
+                                    <l n="9">La gueule ouvri pour l'autre aerdre.</l>
+                                    <l n="10">Qui tout convoite tout doit perdre,</l>
+                                    <l n="11">Le sien laissa pour nient prendre.</l>
+                                    </lg>
+                                    <l rend="rubrique">la moralité</l>
+                                    <lg type="morale">
+                                    <l n="12">Par ce compte poués entendre</l>
+                                    <l n="13">Qu'au certain se fait bon tenir.</l>
+                                    <l n="14">Dou sien puet bien mesavenir</l>
+                                    <l n="15">A celui qui a chier l'autrui,</l>
+                                    <l n="16 fol_12v"><app><rdg type="orthographic">Ainsi</rdg></app> comme <app><rdg type="substantive">fist</rdg></app> a cestui.</l>
+                                    <l n="17">Tout pert <app><rdg type="substantive">qui trestout</rdg></app> convoite.</l>
+                                    <l n="18">Ceste <app><rdg type="orthographic">raisons</rdg></app> est assés droite.</l>
+                                    <l n="19">L'exemple de ce nous apelle</l>
+                                    <l n="20">La vielle cheï de la celle.</l>
+                                    <l n="21">Qui sus <app><rdg type="orthographic">deux celles</rdg></app> <app><rdg type="substantive"> vost</rdg></app> seoir</l>
+                                    <l n="22">A terre se pot tost veoir.</l>
+                                    <l n="23">Qui fait <app><rdg type="orthographic">.ii. choses</rdg></app> tout ensamble</l>
+                                    <l n="24">Tres bien ne les fait, ce me samble.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div type="index_locorum">
-                        <head>Index des noms de lieux</head>
-                        <listPlace>
-                            <place xml:id="riviere">
-                                <placeName>Rivière</placeName>
-                            </place>
-                        </listPlace>
+
+                    <!-- Edition de la première fable pour les manuscrits a,b,c -->
+                    <div n="f2-abc" xml:id="f2-ms-abc">
+                        <!-- Edition critique de la fable -->
+                        <div xml:lang="frm" type="edition-critique" xml:id="f2-abc-ed-crit">
+                            <head type="title">D'un chien qui tient en sa gueule un frommage<note
+                                    type="note-critique">Titre présent seulement dans <c rend="ital"
+                                        >c</c>.</note></head>
+                            <lg type="recit">
+                                <lg corresp="#schema-donnee">
+                                    <l n="1">Un <name ref="#chien #actant-personnage">chien</name> passoit <app>
+                                            <lem wit="#a #b">une <placeName ref="#riviere"
+                                                  >eaue</placeName></lem>
+                                            <rdg wit="#c" type="lecon-rejetee">un eaue</rdg>
+                                        </app>
+                                        <app>
+                                            <lem wit="#c">a nage</lem>
+                                            <rdg wit="#a #b" type="substantive">a nou</rdg>
+                                        </app>,</l>
+                                    <l n="2">En sa gueulë un <app>
+                                            <lem wit="#c" corresp="#fromage">mol frommage</lem>
+                                            <rdg wit="#a #b" type="substantive">fromage mou</rdg>
+                                        </app>,</l>
+                                    <l n="3"><app>
+                                            <lem wit="#c">En l'eaue regarda son <rs corresp="#reflet"
+
+                                                  >umbre</rs></lem>
+                                            <rdg wit="#a" type="substantive">ou chair, si en regarda
+                                                l’ombre</rdg>
+                                            <rdg wit="#b" type="substantive">ou char, si regarde
+                                                l’ombre</rdg>
+                                        </app>.</l>
+                                    <l n="4"><app>
+                                            <lem wit="#c" corresp="#convoitise">Convoitise</lem>
+                                            <rdg wit="#a #b" type="substantive">et convoitise</rdg>
+                                        </app>
+                                        <app>
+                                            <lem wit="#c">qui fort l'encombre</lem>
+                                            <rdg wit="#a #b" type="substantive">qui l'encombre</rdg>
+                                        </app>.</l>
+                                </lg>
+                                <l n="5"><app>
+                                        <lem wit="#c">Cuide qu'est uns</lem>
+                                        <rdg wit="#a #b" type="substantive">Lui dist que c'est</rdg>
+                                    </app>
+                                    <rs corresp="#actant-objet">autres frommage</rs>,</l>
+                                <l n="6">Lors ne fist pas le chien que <rs corresp="#sagesse"
+                                        >saiges</rs> :</l>
+                                <l n="7" corresp="#schema-action">La gueule <app>
+                                        <lem wit="#c">euvre</lem>
+                                        <rdg wit="#a #b" type="substantive">ouvry</rdg>
+                                    </app> pour l'autre aherdre.</l>
+                                <l n="8">Qui tout convoite tout doit perdre :</l>
+                                <l n="9" corresp="#schema-evaluation">Le sien laissa pour <app>
+                                        <lem wit="#c #b">neant</lem>
+                                        <rdg wit="#a" type="substantive">l'autre</rdg>
+                                    </app> prendre.</l>
+                            </lg>
+                            <lg type="morale" corresp="#morale-parenetique">
+                                <l n="10">Par cest compte pouez entendre</l>
+                                <l n="11">Que <app>
+                                        <lem wit="#c">au certain</lem>
+                                        <rdg wit="#a" type="substantive">a certain</rdg>
+                                        <rdg wit="#b" type="substantive">certain</rdg>
+                                    </app> se fait bon tenir ;</l>
+                                <l n="12">Du sien puet bien mesavenir</l>
+                                <l n="13">A cellui qui <app>
+                                        <lem wit="#c">a chier l'autruy</lem>
+                                        <rdg wit="#a #b">chier a l'autrui</rdg>
+                                    </app>,</l>
+                                <l n="14"><app>
+                                        <lem wit="#c #a">Ainsi</lem>
+                                        <rdg wit="#b" type="substantive">aussi</rdg>
+                                    </app> comme <app>
+                                        <lem wit="#c">a fait</lem>
+                                        <rdg wit="#a" type="substantive">il fist</rdg>
+                                        <rdg wit="#b" type="substantive">il meschei</rdg>
+                                    </app> a <app>
+                                        <lem wit="#c #a">cestuy</lem>
+                                        <rdg wit="#b" type="substantive">celui</rdg>
+                                    </app>.</l>
+                            </lg>
+                        </div>
+                        <!-- Traduction française du texte édité -->
+                        <div xml:lang="fre" type="traduction" xml:id="f2-abc-trad">
+                            <head type="title">Le chien qui tient un fromage dans sa gueule</head>
+                            <lg type="recit">
+                                <lg corresp="#schema-donnee">
+                                    <l n="1">Un <name ref="#chien #actant-personnage">chien</name> passait
+                                        une <placeName ref="#riviere">rivière</placeName> à la
+                                        nage</l>
+                                    <l n="2">dans sa gueule, un fromage tendre,</l>
+                                    <l n="3">dans l’eau, il en vit le reflet.</l>
+                                    <l n="4">Sa convoitise encombrante</l>
+                                </lg>
+                                <l n="5">lui fait penser que c'est <rs corresp="#actant-objet">un autre
+                                        fromage</rs>,</l>
+                                <l n="6">Alors le chien n’agit <rs corresp="#sagesse">pas
+                                    avec sagesse</rs> :</l>
+                                <l n="7" corresp="#schema-action">Il ouvre sa gueule pour saisir
+                                    l'autre.</l>
+                                <l n="8">Qui convoite tout, perd tout :</l>
+                                <l n="9" corresp="#schema-evaluation">il a lâché son bien pour ne
+                                    rien prendre d'autre.</l>
+                            </lg>
+                            <lg type="morale" corresp="#morale-parenetique">
+                                <l n="10">Comprenez à travers cette histoire</l>
+                                <l n="11">Qu’il est bon de s’en tenir à ce qui est sûr.</l>
+                                <l n="12">Il peut vite arriver malheur au bien</l>
+                                <l n="13">de celui qui en chérit un autre,</l>
+                                <l n="14">comme il est advenu à celui-là.</l>
+                            </lg>
+                        </div>
+                        <!-- Suivent les transcriptions de chaque manuscrit témoin : a, b et c -->
+                      
+                        <div xml:lang="frm" type="transcriptions" xml:id="f2-abc-transcriptions">
+                            <!-- Transcription du manuscrit a  -->
+                            <div xml:id="f2-a-transcription" n="f2-a-4v">
+                                <lg type="recit">
+                                <l n="1 fol_4v" facs="f2-a-4v.jpeg"><app><rdg type="orthographic"><c rend="initiale-historiee"
+                                    >U</c>ns chiens</rdg></app> passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
+                                <l n="2">En sa gueule <app><rdg type="orthographic">un fromage mou</rdg></app></l>
+                                <l n="3"><app><rdg type="substantive">Ou chair</rdg></app> <app><rdg type="substantive"> si en</rdg></app> regarda <app><rdg type="substantive">l'ombre</rdg></app>,</l>
+                                <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
+                                <l n="5"><app><rdg type="substantive">Lui dist que c’est</rdg></app> <app><rdg type="orthographic"> autre fromage</rdg></app>.</l>
+                                <l n="6">Lors ne fist pas le chien que <app><rdg type="orthographic">saige</rdg></app> :</l>
+                                <l n="7">La gueule <app><rdg type="substantive">ouvry</rdg></app> pour l'autre <app><rdg type="orthographic">aerdre</rdg></app>.</l>
+                                <l n="8">Qui tout convoite tout doit perdre ;</l>
+                                <l n="9">Le sien <app><rdg type="orthographic">lessa</rdg></app> pour <app><rdg type="substantive">l'autre</rdg></app> prendre.</l>
+                                </lg>
+                                <lg type="morale">
+                                <l n="10">Par cest compte <app><rdg type="orthographic">poués</rdg></app> entendre</l>
+                                <l n="11">Que <app><rdg type="substantive">a certain</rdg></app> se fait bon tenir ;</l>
+                                <l n="12">Du sien puet bien mesavenir</l>
+                                <l n="13">A <app><rdg type="orthographic">celui</rdg></app> qui chier a <app><rdg type="orthographic">l'autrui</rdg></app>,</l>
+                                <l n="14"><app><rdg type="orthographic">Ainssy</rdg></app> comme <app><rdg type="substantive">il fist</rdg></app> a <app><rdg type="orthographic">cestui</rdg></app>.</l>
+                                </lg>
+                            </div>
+                            <!-- Transcription du manuscrit b  -->
+                            <div xml:id="f2-b-transcription" n="f2-b-112r">
+                                <lg type="recit">
+                                <l n="1 fol_112r" facs="f2-b-112r.jpeg"><c rend="initiale-rubriquee">U</c>n chien passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
+                                <l n="2">En sa gueule <app><rdg type="orthographic">.i. fromage mou</rdg></app></l>
+                                <l n="3"><app><rdg type="substantive">Ou char</rdg></app> <app><rdg type="substantive"> si regarde</rdg></app> <app><rdg type="substantive"> l’ombre</rdg></app>,</l>
+                                <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
+                                <l n="5"><app><rdg type="substantive">Lui dist que c’est </rdg></app> <app><rdg type="orthographic"><expan>aut<ex>re</ex></expan> fromage</rdg></app>.</l>
+                                <l n="6">Lors ne fist pas le chien <expan>q<ex>ue</ex></expan> <app><rdg type="orthographic"> sage</rdg></app> :</l>
+                                <l n="7">La gueule <app><rdg type="substantive">ovrist </rdg></app> <expan>po<ex>ur</ex></expan>
+                                    l'<expan>aut<ex>re</ex></expan> <app><rdg type="orthographic"> aerdre</rdg></app>.</l>
+                                <l n="8">Qui tout convoite tout doit <expan>p<ex>er</ex>dre</expan> ;</l>
+                                <l n="9">Le sien laissa pour <expan>nea<ex>n</ex>t</expan> prendre.</l>
+                                </lg>
+                                <lg type="morale">
+                                <l n="10">Par <app><rdg type="orthographic">ceste</rdg></app> compte pouez <app><rdg type="orthographic"><expan>encte<ex>n</ex>dre</expan></rdg></app></l>
+                                <l n="11">Que <app><rdg type="substantive"><expan>c<ex>er</ex>tain</expan></rdg></app> se fait bon tenir ;</l>
+                                <l n="12">Du sien <app><rdg type="orthographic">puest</rdg></app> bien mesavenir</l>
+                                <l n="13">A <app><rdg type="orthographic">celui</rdg></app> qui <expan>ch<ex>ie</ex>r</expan> a <app><rdg type="orthographic">l'autrui,</rdg></app></l>
+                                <l n="14"><app><rdg type="substantive">Aussi</rdg></app> <expan> co<ex>m</ex>me</expan> <app><rdg type="substantive"> il meschei</rdg></app> a <app><rdg type="substantive">celui</rdg></app>.</l>
+                                </lg>
+                            </div>
+                            <!-- Transcription du manuscrit c  -->
+                            <div xml:id="f2-c-transcription" n="f2-c-7r">
+                                <head rend="rubrique" n="fol_7r" facs="f2-c-7r.jpeg">D'un chien qui
+                                    tient en sa gueule un <expan>fro<ex>m</ex>mage</expan>.</head>
+                                <lg type="recit">
+                                <l n="1"><app><lem><c rend="initiale-rubriquee">U</c>n chien</lem></app> passoit un eaue <app><lem>a
+                                    nage</lem></app>,</l>
+                                <l n="2">En sa gueulë <app><lem>un mol <expan>fro<ex>m</ex>mage</expan></lem></app></l>
+                                <l n="3"><app><lem>En l'eaue</lem></app> <app><lem> regarda</lem></app> <app><lem> son umbre</lem></app>,</l>
+                                <l n="4"><app><lem>Convoitise qui fort</lem></app> l'encombre.</l>
+                                <l n="5"><app><lem>Cuide qu'est uns</lem></app> <app><lem> autres <expan>fro<ex>m</ex>mage</expan></lem></app>.</l>
+                                <l n="6">Lors ne fist pas le chien que <app><lem>saiges</lem></app> :</l>
+                                <l n="7">La gueule <app><lem>euvre</lem></app> pour l'autre <app><lem>aherdre</lem></app>.</l>
+                                <l n="8">Qui tout convoite tout doit perdre ;</l>
+                                <l n="9">Le sien <app><lem>laissa</lem></app> pour <app><lem>neant</lem></app> prendre.</l>
+                                </lg>
+                                <lg type="morale">
+                                <l n="10"><c rend="initiale-rubriquee">P</c>ar <app><lem>cest</lem></app> compte <app><lem>pouez</lem></app>
+                                        <app><lem> entendre</lem></app></l>
+                                <l n="11">Que <app><lem>au certain</lem></app> se fait bon tenir ;</l>
+                                <l n="12">Du sien <app><lem>puet</lem></app> bien mesavenir</l>
+                                <l n="13">A <app><lem>cellui</lem></app> qui a chier <app><lem>l'autruy</lem></app>,</l>
+                                <l n="14"><app><lem>Ainsi</lem></app> <expan> co<ex>m</ex>me</expan> <app><lem> a fait</lem></app> a <app><lem>cestuy</lem></app>.</l>
+                                </lg>
+                            </div>
+                        </div>
                     </div>
-                    <div type="index_rerum">
-                        <head>Index des mots matière</head>
-                        <list>
-                            <item xml:id="convoitise">Convoitise</item>
-                            <item xml:id="fromage">Fromage</item>
-                            <item xml:id="reflet">Reflet</item>
-                            <item xml:id="sagesse">Sagesse (manque de)</item>
-                            <item xml:id="viande">Viande</item>
-                        </list>
-                    </div>
-                    <div type="glossaire">
-                        <head>Glossaire</head>
-                      <list>
-                          <label>cuider</label>
-                          <item>Tenir pour vrai ; croire à tort.</item>
-                          <label>eschars</label>
-                          <item>Chiche, avare.</item>
-                      </list>
-                    </div>
-                    <div type="interpretations-categories-generales">
-                        <interpGrp type="schema-narratif">
-                            <interp xml:id="schema-donnee">Donnée</interp>
-                            <interp xml:id="schema-action">Action de choix</interp>
-                            <interp xml:id="schema-evaluation">Evaluation</interp>
-                        </interpGrp>
-                        <interpGrp type="actants">
-                            <interp xml:id="actant-personnage">Personnages principaux</interp>
-                            <interp xml:id="actant-intervenant">Intervenants</interp>
-                            <interp xml:id="actant-survenant">Survenants</interp>
-                            <interp xml:id="actant-objet">Objet recherché ou objet du conflit</interp>
-                        </interpGrp>
-                        <interpGrp type="types-morales">
-                            <interp xml:id="morale-paradigmatique">Paradigmatique</interp>
-                            <interp xml:id="morale-sarcastique">Sarcastique</interp>
-                            <interp xml:id="morale-imprecatoire">Imprécatoire</interp>
-                            <interp xml:id="morale-parenetique">Parénétique</interp>
-                            <interp xml:id="morale-personnel">Personnel</interp>
-                        </interpGrp>
-                    </div>
-                </back>
-            </text>
+                </body>
+	</text>
+
+        <back>
+            <div type="index_nominum">
+                <head>Index des personnages</head>
+                <list>
+                    <item xml:id="chien"> Chien (Le) </item>
+                </list>
+            </div>
+            <div type="index_locorum">
+                <head>Index des noms de lieux</head>
+                <listPlace>
+                    <place xml:id="riviere">
+                        <placeName>Rivière</placeName>
+                    </place>
+                </listPlace>
+            </div>
+            <div type="index_rerum">
+                <head>Index des mots matière</head>
+                <list>
+                    <item xml:id="convoitise">Convoitise</item>
+                    <item xml:id="fromage">Fromage</item>
+                    <item xml:id="reflet">Reflet</item>
+                    <item xml:id="sagesse">Sagesse (manque de)</item>
+                    <item xml:id="viande">Viande</item>
+                </list>
+            </div>
+            <div type="glossaire">
+                <head>Glossaire</head>
+              <list>
+                  <label>cuider</label>
+                  <item>Tenir pour vrai ; croire à tort.</item>
+                  <label>eschars</label>
+                  <item>Chiche, avare.</item>
+              </list>
+            </div>
+            <div type="interpretations-categories-generales">
+                <interpGrp type="schema-narratif">
+                    <interp xml:id="schema-donnee">Donnée</interp>
+                    <interp xml:id="schema-action">Action de choix</interp>
+                    <interp xml:id="schema-evaluation">Evaluation</interp>
+                </interpGrp>
+                <interpGrp type="actants">
+                    <interp xml:id="actant-personnage">Personnages principaux</interp>
+                    <interp xml:id="actant-intervenant">Intervenants</interp>
+                    <interp xml:id="actant-survenant">Survenants</interp>
+                    <interp xml:id="actant-objet">Objet recherché ou objet du conflit</interp>
+                </interpGrp>
+                <interpGrp type="types-morales">
+                    <interp xml:id="morale-paradigmatique">Paradigmatique</interp>
+                    <interp xml:id="morale-sarcastique">Sarcastique</interp>
+                    <interp xml:id="morale-imprecatoire">Imprécatoire</interp>
+                    <interp xml:id="morale-parenetique">Parénétique</interp>
+                    <interp xml:id="morale-personnel">Personnel</interp>
+                </interpGrp>
+            </div>
+        </back>
 </TEI>
