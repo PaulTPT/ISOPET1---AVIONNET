@@ -12,12 +12,15 @@
     <xsl:template match="/">
             <xsl:for-each select="tokenize(//*[@xml:id='#fable_part']/@n,' ')">
                 <xsl:if test="not(starts-with(.,'#'))">
-                  <h4 class="folio_name">
-                    Folio <xsl:value-of select="substring(.,6)"/>
-                  </h4>
-                    <img class="im_fable" alt="Folio">
-                    <xsl:attribute name="src">resources/<xsl:value-of select="."/>.jpeg</xsl:attribute>
-                  </img>
+                    <div class="'slide">
+                      <h4 class="folio_name">
+                        Folio <xsl:value-of select="substring(.,6)"/>
+                      </h4>
+                        <img class="im_fable" alt="Folio">
+                        <xsl:attribute name="src">resources/<xsl:value-of select="."/>.jpeg</xsl:attribute>
+                            <xsl:attribute name="data-zoom-image">resources/<xsl:value-of select="."/>.jpeg</xsl:attribute>
+                        </img>
+                    </div>
                 </xsl:if>
             </xsl:for-each>
   </xsl:template>

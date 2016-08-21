@@ -123,6 +123,13 @@ body {
   margin-bottom: 40px;
   width: 80%; }
 
+.bxslider {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%; }
+
 p {
   text-align: left;
   word-wrap: break-word;
@@ -160,6 +167,9 @@ h4 {
   display: none; }
 
 .Trans .norm {
+  display: none; }
+
+#slides {
   display: none; }
 
 /*# sourceMappingURL=app.css.map */

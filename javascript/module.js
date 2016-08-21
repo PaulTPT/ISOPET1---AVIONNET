@@ -49,6 +49,35 @@
         $scope.fable_id=1;
     });
 
+    app.controller('TransController', function ($scope) {
+        $scope.fable_id=1;
+        $scope.$on('$includeContentLoaded', function(event,src) {
+            if(src=='partials/fables/f1-P-frm-transcription.htm') {
+                $('.slick').slick({
+                    slide: 'div',
+                    dots: true
+
+            });
+            }
+            $(".slick-current .im_fable").elevateZoom({
+                scrollZoom : true,
+                zoomType	: "inner",
+                cursor: "crosshair"
+            });;
+            $('.slick').on('afterChange', function(slick, currentSlide){
+                $('#zoomed img').removeData('elevateZoom');
+                $('.zoomWrapper img.zoomed').unwrap();
+                $('.zoomContainer').remove();
+                $(".slick-current .im_fable").elevateZoom({
+                    scrollZoom : true,
+                    zoomType	: "inner",
+                    cursor: "crosshair"
+                });
+            });
+        });
+    });
+
+
 
     app.controller('HeaderController', function ($scope) {
 

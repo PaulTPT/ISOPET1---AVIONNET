@@ -1,9 +1,11 @@
 <div class="container">
-    <section id="content" class="row Trans" ng-controller="ImageController">
+    <section id="content" class="row Trans" ng-controller="TransController">
 
         <div class="col-sm-6 col-xs-12">
-            <ng-include src="'partials/fables/f1-P-lat-transcription_folios.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-P-frm-transcription_folios.htm'"></ng-include>
+            <div class="slick">
+                <ng-include src="'partials/fables/f1-P-lat-transcription_folios.htm'"></ng-include>
+                <ng-include src="'partials/fables/f1-P-frm-transcription_folios.htm'"></ng-include>
+            </div>
         </div>
         <div class="col-sm-6 col-xs-12">
             <ng-include src="'partials/fables/f1-P-lat-transcription.htm'"></ng-include>
