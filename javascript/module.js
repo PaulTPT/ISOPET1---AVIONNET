@@ -22,6 +22,20 @@ app.controller('BarController', function ($scope, FableFactory) {
         $scope.fable_name = FableFactory.getFable_title();
         $scope.fables=FableFactory.getFables();
     });
+
+    $scope.$watch(function(){
+        return FableFactory.category;
+    }, function(NewValue, OldValue){
+        $scope.category = FableFactory.category;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.subcategory;
+    }, function(NewValue, OldValue){
+        $scope.subcategory = FableFactory.subcategory;
+    });
+
+
     $scope.category = 'BPL';
     $scope.subcategory = 'P';
 
@@ -35,6 +49,13 @@ app.controller('BarController', function ($scope, FableFactory) {
     $scope.setFable = function (id) {
         FableFactory.setFable(id-1);
     };
+    $scope.setCategory = function (cat) {
+        FableFactory.setCategory(cat);
+    };
+    $scope.setSubcategory = function (subcat) {
+        FableFactory.setSubcategory(subcat);
+    };
+
 
 
 });
@@ -45,6 +66,8 @@ app.factory('FableFactory', function ($http) {
         num_fables: 2,
         fable_num: -1,
         fables: [],
+        category: "abc",
+        subcategory:"a",
         next_fable: function () {
             factory.fable_num = (factory.fable_num + 1) % factory.num_fables;
         },
@@ -70,7 +93,24 @@ app.factory('FableFactory', function ($http) {
         },
         setFable : function(id){
             factory.fable_num=id;
-        }
+        },
+        setCategory : function (cat) {
+            if(cat!=factory.category){
+                if(cat=="abc"){
+                    factory.subcategory="a";
+                }
+                if(cat=="BPL"){
+                    factory.subcategory="B";
+                }
+                factory.category=cat;
+            }
+
+
+        },
+        setSubcategory : function (subcat) {
+            factory.subcategory=subcat;
+        },
+
     };
 
     $http.get('resources/index.json').success(function (data) {
