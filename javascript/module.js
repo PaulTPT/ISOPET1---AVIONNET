@@ -19,8 +19,8 @@ app.controller('BarController', function ($scope, FableFactory) {
     $scope.$watch(function(){
         return FableFactory.fable_num;
     }, function(NewValue, OldValue){
-        fable_id = FableFactory.getFable_id();
         $scope.fable_name = FableFactory.getFable_title();
+        $scope.fables=FableFactory.getFables();
     });
     $scope.category = 'BPL';
     $scope.subcategory = 'P';
@@ -32,6 +32,10 @@ app.controller('BarController', function ($scope, FableFactory) {
     $scope.prev_fable = function () {
         FableFactory.prev_fable();
     };
+    $scope.setFable = function (id) {
+        FableFactory.setFable(id-1);
+    };
+
 
 });
 
@@ -40,14 +44,14 @@ app.factory('FableFactory', function ($http) {
     var factory = {
         num_fables: 2,
         fable_num: -1,
-        fables: null,
+        fables: [],
         next_fable: function () {
             factory.fable_num = (factory.fable_num + 1) % factory.num_fables;
         },
         prev_fable: function () {
             factory.fable_num = (((factory.fable_num - 1) % factory.num_fables) + factory.num_fables) % factory.num_fables;
         },
-        getFable_id: function () {
+        getFable_num: function () {
             if(factory.fable_num==-1){
                 return "Null"
             }else{
@@ -61,6 +65,12 @@ app.factory('FableFactory', function ($http) {
                 return factory.fables[factory.fable_num].title;
             }
         },
+        getFables : function () {
+            return factory.fables;
+        },
+        setFable : function(id){
+            factory.fable_num=id;
+        }
     };
 
     $http.get('resources/index.json').success(function (data) {

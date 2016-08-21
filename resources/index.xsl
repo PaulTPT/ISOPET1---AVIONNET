@@ -17,7 +17,7 @@
 
   <xsl:template match="tei:text">
       <xsl:text>&#x9;{"id":"</xsl:text>
-      <xsl:value-of select="@n"/>
+      <xsl:value-of select="substring(@n,2)"/>
       <xsl:text>",</xsl:text>
       <xsl:apply-templates select="descendant::tei:head[@type='titre-La-Fontaine']"/>
       <xsl:text>,&#xa;</xsl:text>
@@ -25,7 +25,7 @@
 
   <xsl:template match="tei:text[position() = last()]">
       <xsl:text>&#x9;{"id":"</xsl:text>
-      <xsl:value-of select="@n"/>
+      <xsl:value-of select="substring(@n,2)"/>
       <xsl:text>",</xsl:text>
       <xsl:apply-templates select="descendant::tei:head[@type='titre-La-Fontaine']"/>
       <xsl:text>&#xa;</xsl:text>
