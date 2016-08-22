@@ -1,9 +1,15 @@
 <div class="container">
     <section id="content" class="row" ng-controller="ImageController">
 
-        <div class="col-sm-12 col-xs-12">
-            <ng-include src="'partials/fables/f1-P-lat-transcription_folios.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-P-frm-transcription_folios.htm'"></ng-include>
+        <div class="col-sm-12 col-xs-12" ng-switch on="category">
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-lat-transcription_folios.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-frm-transcription_folios.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-transcription_folios.htm'"></ng-include>
+            </div>
         </div>
     </section>
 

@@ -1,24 +1,45 @@
 <div class="container">
-    <section id="content" class="row vertical-divider Comp" ng-controller="EdCriController">
+    <section id="content" class="row vertical-divider Comp" ng-controller="CompController">
 
-        <div class="col-sm-4 col-xs-12">
-            <h3>Manuscrit B</h3>
-            <ng-include src="'partials/fables/f1-B-lat-transcription.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-B-frm-transcription.htm'"></ng-include>
+        <div class="col-sm-4 col-xs-12" ng-switch on="category">
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                <h3>Manuscrit B</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-B-lat-transcription.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-B-frm-transcription.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+                <h3>Manuscrit a</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-a-transcription.htm'"></ng-include>
+            </div>
+
         </div>
 
-        <div class="col-sm-4 col-xs-12">
-            <h3>Manuscrit P</h3>
-            <ng-include src="'partials/fables/f1-P-lat-transcription.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-P-frm-transcription.htm'"></ng-include>
+        <div class="col-sm-4 col-xs-12" ng-switch on="category">
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                <h3>Manuscrit P</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-P-lat-transcription.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-P-frm-transcription.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+                <h3>Manuscrit b</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-b-transcription.htm'"></ng-include>
+            </div>
         </div>
 
-        <div class="col-sm-4 col-xs-12">
-            <h3>Manuscrit L</h3>
-            <ng-include src="'partials/fables/f1-L-lat-transcription.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-L-frm-transcription.htm'"></ng-include>
-        </div>
+        <div class="col-sm-4 col-xs-12" ng-switch on="category">
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                <h3>Manuscrit L</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-L-lat-transcription.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-L-frm-transcription.htm'"></ng-include>
+            </div>
 
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+                <h3>Manuscrit c</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-c-transcription.htm'"></ng-include>
+            </div>
+        </div>
 
     </section>
 </div>

@@ -1,15 +1,25 @@
 <div class="container">
     <section id="content" class="row Trans" ng-controller="TransController">
 
-        <div class="col-sm-6 col-xs-12">
-            <div class="slick">
-                <ng-include src="'partials/fables/f1-P-lat-transcription_folios.htm'"></ng-include>
-                <ng-include src="'partials/fables/f1-P-frm-transcription_folios.htm'"></ng-include>
+        <div class="col-sm-6 col-xs-12" ng-switch on="category">
+            <div class="slick" ng-switch-when="BPL" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-lat-transcription_folios.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-frm-transcription_folios.htm'"></ng-include>
+            </div>
+
+            <div class="slick" ng-switch-when="abc" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-transcription_folios.htm'"></ng-include>
             </div>
         </div>
-        <div class="col-sm-6 col-xs-12">
-            <ng-include src="'partials/fables/f1-P-lat-transcription.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-P-frm-transcription.htm'"></ng-include>
+        <div class="col-sm-6 col-xs-12" ng-switch on="category">
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+            <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-lat-transcription.htm'"></ng-include>
+            <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-frm-transcription.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + subcategory + '-transcription.htm'"></ng-include>
+            </div>
         </div>
 
 

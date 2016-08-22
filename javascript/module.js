@@ -47,7 +47,7 @@ app.controller('BarController', function ($scope, FableFactory) {
         FableFactory.prev_fable();
     };
     $scope.setFable = function (id) {
-        FableFactory.setFable(id-1);
+        FableFactory.setFable(id);
     };
     $scope.setCategory = function (cat) {
         FableFactory.setCategory(cat);
@@ -78,7 +78,7 @@ app.factory('FableFactory', function ($http) {
             if(factory.fable_num==-1){
                 return "Null"
             }else{
-                return factory.fables[factory.fable_num].id;
+                return factory.fables[factory.fable_num].id-1;
             }
         },
         getFable_title: function () {
@@ -138,22 +138,84 @@ app.controller('navController', function ($scope, edCriFactory) {
 });
 
 app.controller('EdCriController', function ($scope, FableFactory) {
-    $scope.fable_id = 1;
     $scope.$on('$includeContentLoaded', function (event, src) {
         $('[data-toggle="tooltip"]').tooltip();
-        if (src == 'partials/fables/f1-BPL-ed-crit-lat.htm') {
+        if (src == 'partials/fables/f' + $scope.fable_id +'-' +  $scope.category + '-ed-crit-lat.htm') {
             $(".zb").zbox();
         }
     });
+
+    $scope.$watch(function(){
+        return FableFactory.fable_num;
+    }, function(NewValue, OldValue){
+        $scope.fable_name = FableFactory.getFable_title();
+        $scope.fables=FableFactory.getFables();
+        $scope.fable_id = FableFactory.fable_num + 1;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.category;
+    }, function(NewValue, OldValue){
+        $scope.category = FableFactory.category;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.subcategory;
+    }, function(NewValue, OldValue){
+        $scope.subcategory = FableFactory.subcategory;
+    });
+
+
 });
 
 
-app.controller('ImageController', function ($scope) {
-    $scope.fable_id = 1;
+app.controller('ImageController', function ($scope,FableFactory) {
+    $scope.$watch(function(){
+        return FableFactory.fable_num;
+    }, function(NewValue, OldValue){
+        $scope.fable_name = FableFactory.getFable_title();
+        $scope.fables=FableFactory.getFables();
+        $scope.fable_id = FableFactory.fable_num + 1;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.category;
+    }, function(NewValue, OldValue){
+        $scope.category = FableFactory.category;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.subcategory;
+    }, function(NewValue, OldValue){
+        $scope.subcategory = FableFactory.subcategory;
+    });
+
+});
+app.controller('CompController', function ($scope,FableFactory) {
+    $scope.$watch(function(){
+        return FableFactory.fable_num;
+    }, function(NewValue, OldValue){
+        $scope.fable_name = FableFactory.getFable_title();
+        $scope.fables=FableFactory.getFables();
+        $scope.fable_id = FableFactory.fable_num + 1;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.category;
+    }, function(NewValue, OldValue){
+        $scope.category = FableFactory.category;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.subcategory;
+    }, function(NewValue, OldValue){
+        $scope.subcategory = FableFactory.subcategory;
+    });
+
 });
 
-app.controller('TransController', function ($scope) {
-    $scope.fable_id = 1;
+
+app.controller('TransController', function ($scope, FableFactory) {
     $scope.$on('$includeContentLoaded', function (event, src) {
         if (src == 'partials/fables/f1-P-frm-transcription.htm') {
             $('.slick').slick({
@@ -178,6 +240,27 @@ app.controller('TransController', function ($scope) {
             });
         });
     });
+
+    $scope.$watch(function(){
+        return FableFactory.fable_num;
+    }, function(NewValue, OldValue){
+        $scope.fable_name = FableFactory.getFable_title();
+        $scope.fables=FableFactory.getFables();
+        $scope.fable_id = FableFactory.fable_num + 1;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.category;
+    }, function(NewValue, OldValue){
+        $scope.category = FableFactory.category;
+    });
+
+    $scope.$watch(function(){
+        return FableFactory.subcategory;
+    }, function(NewValue, OldValue){
+        $scope.subcategory = FableFactory.subcategory;
+    });
+
 });
 
 

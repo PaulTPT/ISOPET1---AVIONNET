@@ -5,15 +5,31 @@
 <div class="container">
     <section id="content" class="row vertical-divider EdCri" ng-controller="EdCriController">
 
-        <div class="col-sm-6 col-xs-12">
-            <ng-include src="'partials/fables/f1-BPL-ed-crit-lat.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-BPL-ed-crit-frm.htm'"></ng-include>
+        <div class="col-sm-6 col-xs-12" ng-switch on="category">
+
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit-lat.htm'"></ng-include>
+                <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit-frm.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit.htm'"></ng-include>
+            </div>
+
         </div>
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12" ng-switch on="category">
+
+            <div ng-switch-when="BPL" ng-if="fable_id != 0">
             <div id="pad"></div>
-            <ng-include src="'partials/fables/f1-BPL-lat-trad.htm'"></ng-include>
-            <ng-include src="'partials/fables/f1-BPL-frm-trad.htm'"></ng-include>
+            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-lat-trad.htm'"></ng-include>
+            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-frm-trad.htm'"></ng-include>
+            </div>
+
+            <div ng-switch-when="abc" ng-if="fable_id != 0">
+            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-trad.htm'"></ng-include>
+            </div>
+
         </div>
 
     </section>

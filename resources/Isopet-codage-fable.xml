@@ -759,7 +759,7 @@
                                     <graphic url="edition-BPL-fable1-image.jpeg"/>
                                 </figure>
                                 <!-- texte édité : titre + récit + morale -->
-                                <head type="title">De cane transeunte aquam</head>
+                                <head type="title">Fable 2 edCri</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
                                         <l n="1">Dum <name ref="#chien #actant-personnage">canis</name> ore
