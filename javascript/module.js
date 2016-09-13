@@ -35,6 +35,10 @@ app.controller('BarController', function ($scope, FableFactory) {
         $scope.subcategory = FableFactory.subcategory;
     });
 
+    var unSlick = function() {
+        $('.slick').slick('removeSlide', null, null, true);
+        $('.slick').slick('unslick');
+    };
 
     $scope.category = 'BPL';
     $scope.subcategory = 'P';
@@ -47,14 +51,16 @@ app.controller('BarController', function ($scope, FableFactory) {
         FableFactory.prev_fable();
     };
     $scope.setFable = function (id) {
-        FableFactory.setFable(id);
+        FableFactory.setFable(id-1);
     };
     $scope.setCategory = function (cat) {
         FableFactory.setCategory(cat);
     };
     $scope.setSubcategory = function (subcat) {
         FableFactory.setSubcategory(subcat);
+        unSlick();
     };
+
 
 
 
@@ -78,7 +84,7 @@ app.factory('FableFactory', function ($http) {
             if(factory.fable_num==-1){
                 return "Null"
             }else{
-                return factory.fables[factory.fable_num].id-1;
+                return factory.fables[factory.fable_num].id;
             }
         },
         getFable_title: function () {
@@ -138,12 +144,10 @@ app.controller('navController', function ($scope, edCriFactory) {
 });
 
 app.controller('EdCriController', function ($scope, FableFactory) {
-    $scope.$on('$includeContentLoaded', function (event, src) {
+    $scope.loading = function (){
         $('[data-toggle="tooltip"]').tooltip();
-        if (src == 'partials/fables/f' + $scope.fable_id +'-' +  $scope.category + '-ed-crit-lat.htm') {
-            $(".zb").zbox();
-        }
-    });
+        $(".zb").zbox();
+    };
 
     $scope.$watch(function(){
         return FableFactory.fable_num;
@@ -164,6 +168,12 @@ app.controller('EdCriController', function ($scope, FableFactory) {
     }, function(NewValue, OldValue){
         $scope.subcategory = FableFactory.subcategory;
     });
+
+    $scope.choice = "Traduction";
+
+    $scope.setChoice = function(choice){
+        $scope.choice=choice;
+    }
 
 
 });
@@ -216,30 +226,29 @@ app.controller('CompController', function ($scope,FableFactory) {
 
 
 app.controller('TransController', function ($scope, FableFactory) {
-    $scope.$on('$includeContentLoaded', function (event, src) {
-        if (src == 'partials/fables/f1-P-frm-transcription.htm') {
+        $scope.loading = function (){
             $('.slick').slick({
                 slide: 'div',
                 dots: true
 
             });
-        }
-        $(".slick-current .im_fable").elevateZoom({
-            scrollZoom: true,
-            zoomType: "inner",
-            cursor: "crosshair"
-        });
-        $('.slick').on('afterChange', function (slick, currentSlide) {
-            $('#zoomed img').removeData('elevateZoom');
-            $('.zoomWrapper img.zoomed').unwrap();
-            $('.zoomContainer').remove();
             $(".slick-current .im_fable").elevateZoom({
                 scrollZoom: true,
                 zoomType: "inner",
                 cursor: "crosshair"
             });
-        });
-    });
+
+            $('.slick').on('afterChange', function (slick, currentSlide) {
+                $('#zoomed img').removeData('elevateZoom');
+                $('.zoomWrapper img.zoomed').unwrap();
+                $('.zoomContainer').remove();
+                $(".slick-current .im_fable").elevateZoom({
+                    scrollZoom: true,
+                    zoomType: "inner",
+                    cursor: "crosshair"
+                });
+            });
+        };
 
     $scope.$watch(function(){
         return FableFactory.fable_num;

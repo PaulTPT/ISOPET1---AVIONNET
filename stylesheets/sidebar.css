@@ -6,7 +6,7 @@
   transition: all 0.5s ease; }
 
 #sidebar-wrapper {
-  margin-top: -80px;
+  margin-top: -20px;
   z-index: 1000;
   position: fixed;
   left: 200px;
@@ -22,7 +22,7 @@
 
 @media (max-width: 767px) {
   #sidebar-wrapper {
-    margin-top: -200px !important; } }
+    margin-top: -500px !important; } }
 .open {
   height: 335px !important; }
 

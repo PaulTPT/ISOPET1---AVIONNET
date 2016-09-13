@@ -16,7 +16,7 @@ $text_color : #cdcdcd;
 
 
 #sidebar-wrapper {
-  margin-top:-80px;
+  margin-top:-20px;
   z-index: 1000;
   position: fixed;
   left: $open_width;
@@ -34,7 +34,7 @@ $text_color : #cdcdcd;
 
 @media (max-width: 767px) {
   #sidebar-wrapper {
-    margin-top: -200px !important;
+    margin-top: -500px !important;
   }
 }
 

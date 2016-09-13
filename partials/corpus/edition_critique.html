@@ -1,4 +1,3 @@
-
 <!-- Barre de  choix latérale -->
 <ng-include src="'partials/corpus/sidebar.html'"></ng-include>
 
@@ -8,26 +7,56 @@
         <div class="col-sm-6 col-xs-12" ng-switch on="category">
 
             <div ng-switch-when="BPL" ng-if="fable_id != 0">
-                <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit-lat.htm'"></ng-include>
+                <ng-include ng-if="choice == 'Traduction'" src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit-lat.htm'"></ng-include>
                 <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit-frm.htm'"></ng-include>
             </div>
 
             <div ng-switch-when="abc" ng-if="fable_id != 0">
-            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit.htm'"></ng-include>
+                <div ng-if="choice == 'Comparaison'" style=" margin-top:90px;"></div>
+                <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-ed-crit.htm'"></ng-include>
             </div>
 
         </div>
 
-        <div class="col-sm-6 col-xs-12" ng-switch on="category">
+        <div class="col-sm-6 col-xs-12" ng-switch on="choice">
 
-            <div ng-switch-when="BPL" ng-if="fable_id != 0">
-            <div id="pad"></div>
-            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-lat-trad.htm'"></ng-include>
-            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-frm-trad.htm'"></ng-include>
+        <span class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="category"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+            {{choice}}
+            <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="category">
+                <li ng-click="setChoice('Comparaison')"><a href="">Comparaison</a></li>
+                <li ng-click="setChoice('Traduction')"><a href="">Traduction</a></li>
+            </ul>
+        </span>
+
+            <div ng-switch-when="Traduction" ng-switch on="category" ng-if="fable_id != 0">
+                <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                    <div style=" margin-top:125px;"></div>
+                    <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-lat-trad.htm'"></ng-include>
+                    <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-frm-trad.htm'"
+                                onload="loading()"></ng-include>
+                </div>
+
+                <div ng-switch-when="abc" ng-if="fable_id != 0">
+                    <div style=" margin-top:-30px;"></div>
+                    <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-trad.htm'"
+                                onload="loading()"></ng-include>
+                </div>
             </div>
 
-            <div ng-switch-when="abc" ng-if="fable_id != 0">
-            <ng-include src="'partials/fables/f' + fable_id + '-' + category + '-trad.htm'"></ng-include>
+            <div ng-switch-when="Comparaison" ng-switch on="category" ng-if="fable_id != 0">
+                <div ng-switch-when="abc" ng-if="fable_id != 0">
+                    <ng-include src="'partials/fables/f' + fable_id + '-BPL-ed-crit-frm.htm'" onload="loading()"></ng-include>
+                </div>
+
+                <div ng-switch-when="BPL" ng-if="fable_id != 0">
+                    <div style=" margin-top:-35px;"></div>
+                    <ng-include src="'partials/fables/f' + fable_id + '-abc-ed-crit.htm'" onload="loading()"></ng-include>
+                </div>
             </div>
 
         </div>

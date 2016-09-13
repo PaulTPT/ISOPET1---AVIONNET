@@ -185,10 +185,6 @@ h4{
   width:90%;
 }
 
-#pad{
-  margin-top:160px;
- }
-
 .highlight{
   border-radius: 15px;
   background-color: #ffdebb;
@@ -232,3 +228,9 @@ h4{
 }
 
 
+.br_space {
+  content: "";
+  margin: 1em;
+  display: block;
+  margin-bottom: -20px;
+}

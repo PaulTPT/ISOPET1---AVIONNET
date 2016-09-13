@@ -27,25 +27,24 @@
 
 
                     {{fable_name}}
-                    <br/>
-
+                    <br class="br_space"/>
                     <span class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="category"
+                            <span class="btn btn-default dropdown-toggle"  id="category"
                                     data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="true">
                                 {{category}}
                                 <span class="caret"></span>
-                            </button>
+                            </span>
                             <ul class="dropdown-menu" aria-labelledby="category">
                                 <li ng-click="setCategory('abc')"><a href="">abc</a></li>
                                 <li ng-click="setCategory('BPL')"><a href="">BPL</a></li>
                             </ul>
                         </span>
 
-                    <span style="font-size:.8em;" class="glyphicon glyphicon-arrow-right"/>
+                    <span style="margin-left:10px; font-size:.8em;" class="glyphicon glyphicon-arrow-right"/>
 
                     <span class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="subcategory"
+                            <button style="margin-left:10px;" class="btn btn-default dropdown-toggle" type="button" id="subcategory"
                                     data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="true">
                                 {{subcategory}}
@@ -111,7 +110,7 @@
                                     href="" id="trans">TRANSCRIPTION</a></li>
                             <li class="divider-vertical"></li>
                             <li ng-click="setRequest('comp')" ng-class="request=='comp' ? 'active' : '' "><a
-                                    href="" id="comp">COMPARAISON ABC</a></li>
+                                    href="" id="comp">COMPARAISON {{category}}</a></li>
                         </ul>
 
                     </div>

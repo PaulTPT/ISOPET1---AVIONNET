@@ -669,6 +669,7 @@
                         <div xml:lang="frm" type="transcriptions" xml:id="f1-abc-transcriptions">
                             <!-- Transcription du manuscrit a  -->
                             <div xml:id="f1-a-transcription" n="f1-a-4v">
+				<head ></head>
                                 <lg type="recit">
                                 <l n="1 fol_4v" facs="f1-a-4v.jpeg"><app><rdg type="orthographic"><c rend="initiale-historiee"
                                     >U</c>ns chiens</rdg></app> passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
@@ -690,7 +691,8 @@
                                 </lg>
                             </div>
                             <!-- Transcription du manuscrit b  -->
-                            <div xml:id="f1-b-transcription" n="f1-b-112r">
+                            <div xml:id="f1-b-transcription" n="f1-b-112r">\
+                       		<head ></head>
                                 <lg type="recit">
                                 <l n="1 fol_112r" facs="f1-b-112r.jpeg"><c rend="initiale-rubriquee">U</c>n chien passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
                                 <l n="2">En sa gueule <app><rdg type="orthographic">.i. fromage mou</rdg></app></l>
