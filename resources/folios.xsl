@@ -17,7 +17,7 @@
                         Folio <xsl:value-of select="substring(.,6)"/>
                       </h4>
                         <img class="im_fable" alt="Folio">
-                        <xsl:attribute name="src">resources/<xsl:value-of select="."/>.jpeg</xsl:attribute>
+                        <xsl:attribute name="src">resources/<xsl:value-of select="."/>_800.jpeg</xsl:attribute>
                             <xsl:attribute name="data-zoom-image">resources/<xsl:value-of select="."/>.jpeg</xsl:attribute>
                         </img>
                     </div>

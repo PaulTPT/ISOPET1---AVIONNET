@@ -80,9 +80,6 @@ body {
 #menu_desc {
   color: #e02b3b; }
 
-.glyphicon-menu-hamburger, .glyphicon-arrow-left, .glyphicon-arrow-right {
-  color: #337ab7; }
-
 .note {
   color: #ff1300;
   font-weight: bolder;
@@ -133,7 +130,9 @@ body {
 p {
   text-align: left;
   word-wrap: break-word;
-  width: 90%; }
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 0px; }
 
 h4 {
   text-align: left;
@@ -174,5 +173,11 @@ h4 {
   margin: 1em;
   display: block;
   margin-bottom: -20px; }
+
+.glyphicon-menu-hamburger, .glyphicon-arrow-left, .glyphicon-arrow-right {
+  color: #337ab7; }
+
+.glyphicon-menu-hamburger:hover, .glyphicon-arrow-left:hover, .glyphicon-arrow-right:hover {
+  color: #3c6296; }
 
 /*# sourceMappingURL=app.css.map */

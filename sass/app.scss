@@ -109,9 +109,6 @@ body {
   color: $desc_c;
 }
 
-.glyphicon-menu-hamburger, .glyphicon-arrow-left, .glyphicon-arrow-right{
-  color:#337ab7;
-}
 
 
 .note{
@@ -177,6 +174,8 @@ p{
   text-align: left;
   word-wrap: break-word;
   width:90%;
+  margin-top:3px;
+  margin-bottom:0px;
 }
 
 h4{
@@ -233,4 +232,12 @@ h4{
   margin: 1em;
   display: block;
   margin-bottom: -20px;
+}
+
+.glyphicon-menu-hamburger, .glyphicon-arrow-left, .glyphicon-arrow-right{
+  color:#337ab7;
+}
+
+.glyphicon-menu-hamburger:hover, .glyphicon-arrow-left:hover, .glyphicon-arrow-right:hover{
+  color: #3c6296;
 }

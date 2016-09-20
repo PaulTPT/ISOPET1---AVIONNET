@@ -73,7 +73,7 @@ app.factory('FableFactory', function ($http) {
         fable_num: -1,
         fables: [],
         category: "abc",
-        subcategory:"a",
+        subcategory:"c",
         next_fable: function () {
             factory.fable_num = (factory.fable_num + 1) % factory.num_fables;
         },
@@ -103,7 +103,7 @@ app.factory('FableFactory', function ($http) {
         setCategory : function (cat) {
             if(cat!=factory.category){
                 if(cat=="abc"){
-                    factory.subcategory="a";
+                    factory.subcategory="c";
                 }
                 if(cat=="BPL"){
                     factory.subcategory="B";
@@ -145,8 +145,11 @@ app.controller('navController', function ($scope, edCriFactory) {
 
 app.controller('EdCriController', function ($scope, FableFactory) {
     $scope.loading = function (){
-        $('[data-toggle="tooltip"]').tooltip();
-        $(".zb").zbox();
+        //$('[data-toggle="tooltip"]').tooltip('dispose');
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+            $(".zb").zbox();
+        });
     };
 
     $scope.$watch(function(){
@@ -161,6 +164,7 @@ app.controller('EdCriController', function ($scope, FableFactory) {
         return FableFactory.category;
     }, function(NewValue, OldValue){
         $scope.category = FableFactory.category;
+
     });
 
     $scope.$watch(function(){
@@ -227,25 +231,31 @@ app.controller('CompController', function ($scope,FableFactory) {
 
 app.controller('TransController', function ($scope, FableFactory) {
         $scope.loading = function (){
-            $('.slick').slick({
-                slide: 'div',
-                dots: true
-
-            });
-            $(".slick-current .im_fable").elevateZoom({
-                scrollZoom: true,
-                zoomType: "inner",
-                cursor: "crosshair"
-            });
-
-            $('.slick').on('afterChange', function (slick, currentSlide) {
-                $('#zoomed img').removeData('elevateZoom');
+            $(document).ready(function() {
+                $('.slick').slick({
+                    slide: 'div',
+                    dots: true,
+                });
+                $('img').removeData('elevateZoom');
                 $('.zoomWrapper img.zoomed').unwrap();
                 $('.zoomContainer').remove();
-                $(".slick-current .im_fable").elevateZoom({
+                $('.zoomWindowContainer').remove();
+                $(".slick-current img").elevateZoom({
                     scrollZoom: true,
                     zoomType: "inner",
                     cursor: "crosshair"
+                });
+
+                $('.slick').on('afterChange', function (slick, currentSlide) {
+                        $('img').removeData('elevateZoom');
+                        $('.zoomWrapper img.zoomed').unwrap();
+                        $('.zoomContainer').remove();
+                        $('.zoomWindowContainer').remove();
+                        $(".slick-current img").elevateZoom({
+                            scrollZoom: true,
+                            zoomType: "inner",
+                            cursor: "crosshair"
+                        });
                 });
             });
         };
@@ -322,6 +332,10 @@ app.controller('CorpusController', function ($scope) {
 
     $scope.setRequest = function (req) {
         $scope.request = req;
+        $('img').removeData('elevateZoom');
+        $('.zoomWrapper img.zoomed').unwrap();
+        $('.zoomContainer').remove();
+        $('.zoomWindowContainer').remove();
     };
 
 });

@@ -28,6 +28,7 @@
 
                     {{fable_name}}
                     <br class="br_space"/>
+                    <span style="font-size:.6em;color:grey;">Groupe : </span>
                     <span class="dropdown">
                             <span class="btn btn-default dropdown-toggle"  id="category"
                                     data-toggle="dropdown"
@@ -41,19 +42,20 @@
                             </ul>
                         </span>
 
-                    <span style="margin-left:10px; font-size:.8em;" class="glyphicon glyphicon-arrow-right"/>
+                    <span style="margin-left:20px;font-size:.6em;color:grey;">Manuscrit : </span>
 
                     <span class="dropdown">
-                            <button style="margin-left:10px;" class="btn btn-default dropdown-toggle" type="button" id="subcategory"
+                            <button class="btn btn-default dropdown-toggle" type="button" id="subcategory"
                                     data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="true">
                                 {{subcategory}}
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="subcategory" ng-switch on="category">
+                                <li ng-switch-when="abc" ng-click="setSubcategory('c')"><a href="">c</a></li>
                                 <li ng-switch-when="abc" ng-click="setSubcategory('a')" ><a href="">a</a></li>
                                 <li ng-switch-when="abc" ng-click="setSubcategory('b')"><a href="">b</a></li>
-                                <li ng-switch-when="abc" ng-click="setSubcategory('c')"><a href="">c</a></li>
+
 
                                 <li ng-switch-when="BPL" ng-click="setSubcategory('B')"><a href="">B</a></li>
                                 <li ng-switch-when="BPL" ng-click="setSubcategory('P')"><a href="">P</a></li>

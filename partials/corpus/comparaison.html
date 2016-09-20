@@ -9,8 +9,8 @@
             </div>
 
             <div ng-switch-when="abc" ng-if="fable_id != 0">
-                <h3>Manuscrit a</h3>
-                <ng-include src="'partials/fables/f' + fable_id + '-a-transcription.htm'"></ng-include>
+                <h3>Manuscrit c</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-c-transcription.htm'"></ng-include>
             </div>
 
         </div>
@@ -23,9 +23,10 @@
             </div>
 
             <div ng-switch-when="abc" ng-if="fable_id != 0">
-                <h3>Manuscrit b</h3>
-                <ng-include src="'partials/fables/f' + fable_id + '-b-transcription.htm'"></ng-include>
+                <h3>Manuscrit a</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-a-transcription.htm'"></ng-include>
             </div>
+
         </div>
 
         <div class="col-sm-4 col-xs-12" ng-switch on="category">
@@ -36,9 +37,10 @@
             </div>
 
             <div ng-switch-when="abc" ng-if="fable_id != 0">
-                <h3>Manuscrit c</h3>
-                <ng-include src="'partials/fables/f' + fable_id + '-c-transcription.htm'"></ng-include>
+                <h3>Manuscrit b</h3>
+                <ng-include src="'partials/fables/f' + fable_id + '-b-transcription.htm'"></ng-include>
             </div>
+
         </div>
 
     </section>

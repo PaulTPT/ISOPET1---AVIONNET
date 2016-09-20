@@ -16,9 +16,9 @@ $text_color : #cdcdcd;
 
 
 #sidebar-wrapper {
-  margin-top:-20px;
   z-index: 1000;
   position: fixed;
+  top: 40%;
   left: $open_width;
   width: 0;
   height: $closed_height;
@@ -31,12 +31,6 @@ $text_color : #cdcdcd;
   transition: all 0.5s ease;
 }
 
-
-@media (max-width: 767px) {
-  #sidebar-wrapper {
-    margin-top: -500px !important;
-  }
-}
 
 
 .open{
