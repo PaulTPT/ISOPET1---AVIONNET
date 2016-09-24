@@ -19,7 +19,7 @@
       <xsl:text>&#x9;{"id":"</xsl:text>
       <xsl:value-of select="substring(@n,2)"/>
       <xsl:text>",</xsl:text>
-      <xsl:apply-templates select="descendant::tei:head[@type='titre-La-Fontaine']"/>
+      <xsl:apply-templates select="descendant::tei:head[@type='titre-generique']"/>
       <xsl:text>,&#xa;</xsl:text>
   </xsl:template>
 
@@ -27,7 +27,7 @@
       <xsl:text>&#x9;{"id":"</xsl:text>
       <xsl:value-of select="substring(@n,2)"/>
       <xsl:text>",</xsl:text>
-      <xsl:apply-templates select="descendant::tei:head[@type='titre-La-Fontaine']"/>
+      <xsl:apply-templates select="descendant::tei:head[@type='titre-generique']"/>
       <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   

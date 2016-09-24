@@ -245,6 +245,10 @@
     <span class="norm"><xsl:value-of select="."/></span>
   </xsl:template>
 
+    <xsl:template match="tei:gap">
+		<xsl:text>[ ]</xsl:text>
+  </xsl:template>
+
   
   <xsl:template match="*">
       <xsl:apply-templates/>

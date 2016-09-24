@@ -1,4 +1,6 @@
 {"fables":[
-	{"id":"1", "title":"Le chien qui lâche la proie pour l'ombre"},
-	{"id":"2", "title":"Fable 2"}
+	{"id":"1", "title":"Le Chien qui traverse une rivière"},
+	{"id":"2", "title":"La Chèvre et le Loup"},
+	{"id":"3", "title":"Le Renard et la Cigogne "},
+	{"id":"4", "title":"Le Cerf assoiffé"}
 ]}
