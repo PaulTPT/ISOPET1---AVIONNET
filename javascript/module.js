@@ -69,7 +69,7 @@ app.controller('BarController', function ($scope, FableFactory) {
 app.factory('FableFactory', function ($http) {
 
     var factory = {
-        num_fables: 2,
+        num_fables: 4,
         fable_num: -1,
         fables: [],
         category: "abc",

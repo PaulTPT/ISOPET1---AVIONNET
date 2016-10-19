@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Generating index"
 java -jar ~/Documents/Saxon/saxon9he.jar -s:Isopet-codage-fable.xml -xsl:index.xsl -o:/home/paultpt/Documents/git/site_joana/resources/index.json
-for fable_num in {1..2}
+for fable_num in {4..4}
 do
 	for fable_part in BPL-ed-crit-lat BPL-ed-crit-frm BPL-lat-trad BPL-frm-trad B-lat-transcription B-frm-transcription P-lat-transcription P-frm-transcription L-lat-transcription L-frm-transcription abc-ed-crit abc-trad abc-transcriptions a-transcription b-transcription c-transcription a-comparaison b-comparaison c-comparaison B-lat-comparaison B-frm-comparaison P-lat-comparaison P-frm-comparaison L-lat-comparaison L-frm-comparaison
 	do

@@ -221,7 +221,7 @@
                                     <l n="11" corresp="#schema-evaluation">Le sien laissa pour nient
                                         prendre.</l>
                                 </lg>
-                                <l rend="rubrique">la moralite</l>
+                                <l rend="rubrique">la moralité</l>
                                 <lg type="morale">
                                     <lg corresp="#morale-parenetique">
                                         <l n="12">Par ce compte poués entendre</l>
@@ -1031,12 +1031,16 @@
                             </figure>
                             <head type="title">De capra et lupo</head>
                             <lg type="recit">
+                                <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#chevre #actant-intervenant">Capra</name> cybum querens <name ref="#actant-personnage #chevreau">hedum</name> commendat ovili.</l>
                                 <l n="2">Hunc illi solida servat ovile sera.</l>
+                                </lg>
                                 <l n="3">Natum <app><lem wit="#B">quauta parens</lem><rdg wit="#P #L" type="substantive">canta parens</rdg></app> monitu premunit amico</l>
                                 <l n="4">Ut lateat nec sit in sua dampna vagus.</l>
+                                <lg corresp="#schema-action">
                                 <l n="5">Hic latet. Ecce <name ref="#actant-personnage #loup">lupus</name> movet hostia, voce capellam</l>
                                 <l n="6">Exprimit, <seg corresp="#actant-objet">ut pateant hostia clausa sibi</seg>.</l>
+                            </lg>
                                 <lg corresp="#schema-evaluation">
                                 <l n="7">« Sta procul, edus ait, caprisas gutture falso.</l>
                                 <l n="8">Cum bene caprises, te procul esse volo.</l>
@@ -1056,6 +1060,7 @@
                         <div xml:id="f2-BPL-ed-crit-frm" type="edition-critique-moyen-francais">
                             <head type="title">De la chievre et du loup</head>
                             <lg type="recit">
+                                <lg corresp="#schema-donnee">
                                 <l n="1">La <name ref="#actant-intervenant #chevre">chievre</name> va querre viande</l>
                                 <l n="2">Pour son <name ref="#actant-personnage #chevreau">chevrel</name> et li commande</l>
                                 <l n="3">Et amonneste que du toit</l>
@@ -1063,12 +1068,15 @@
                                 <l n="5">Car, s’il s’en part, saiche de voir,</l>
                                 <l n="6">Il y puet bien dommaige avoir</l>
                                 <l n="7">Tel dont il se tendra pour fos.</l>
+                                </lg>
                                 <l n="8">En l’ostel l’a laissié enclos.</l>
                                 <l n="9">Si comme il fu demourés sous,</l>
+                                <lg corresp="#schema-action">
                                 <l n="10">Este vous <name ref="#loup">Ysangrin li loups</name></l>
                                 <l n="11">Vient a l’uis et boute et apelle</l>
                                 <l n="12">Et change sa vois et chevrelle :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Euvre l’uis, dit il, a ta mere.</seg></l>
+                                </lg>
                                 <l n="14">-	Non feré, dit il, par saint Pere !</l>
                                 <l n="15">Assés y pourrés appeler,</l>
                                 <l n="16">Bien vous connois au chevreller,</l>
@@ -1104,12 +1112,16 @@
                         <div xml:lang="fre" xml:id="f2-BPL-lat-trad">
                             <head type="title">La chèvre et le loup</head>
                             <lg type="recit">
+                                <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#chevre #actant-intervenant">La chèvre</name>, allant chercher pâture, confie <name ref="#chevreau #actant-personnage">le chevreau</name> à l’étable.</l>
                                 <l n="2">L’étable le retient à cet endroit durant la soirée entière.</l>
+                                </lg>
                                 <l n="3">Prudente, la mère avertit son enfant et lui conseille avec bienveillance</l>
                                 <l n="4">de se tenir caché, au risque d’aller à sa perte en s’aventurant à l’extérieur.</l>
+                                <lg corresp="#schema-action">
                                 <l n="5">Il se tient caché là. Voici que <name ref="#actant-personnage #loup">le loup</name> frappe à la porte, imite la chèvre</l>
                                 <l n="6">de sa voix, <seg corresp="#actant-objet">dans l’espoir que s’ouvrent à lui les portes closes</seg>.</l>
+                                </lg>
                                 <lg corresp="#schema-evaluation">
                                 <l n="7">« Reste en arrière, dit le chevreau. Tu bêles comme une chèvre d’une voix contrefaite.</l>
                                 <l n="8">Et bien que tu bêles très bien, je veux que tu demeures à distance.</l>
@@ -1130,6 +1142,7 @@
                         <div xml:lang="fre" xml:id="f2-BPL-frm-trad">
                             <head type="title">De la chievre et du loup</head>
                             <lg type="recit">
+                                <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#actant-personnage #chevre">La chèvre</name> va chercher pâture</l>
                                 <l n="2">pour son <name ref="#actant-personnage #chevreau">chevreau</name> et lui recommande</l>
                                 <l n="3">et conseille de ne pas quitter</l>
@@ -1138,11 +1151,14 @@
                                 <l n="6">il peut lui arriver des ennuis</l>
                                 <l n="7">tels qu’il se tiendra pour fou.</l>
                                 <l n="8">Elle l’a laissé enfermé dans la demeure.</l>
+                                </lg>
                                 <l n="9">Alors qu’il y est resté seul,</l>
+                                <lg corresp="#schema-action">
                                 <l n="10">voici qu’<name ref="#loup #actant-personnage">Ysangrin le loup</name></l>
                                 <l n="11">vient à la porte et frappe et appelle,</l>
                                 <l n="12">et change sa voix, imitant le cri de la chèvre :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Ouvre la porte, dit-il, à ta mère</seg>.</l>
+                            </lg>
                                 <l n="14">– Je n’en ferai rien, au nom du saint Père !</l>
                                 <l n="15">Vous pourrez toujours appeler,</l>
                                 <l n="16">je vous reconnais bien à votre manière d’imiter le cri de la chèvre,</l>
@@ -1157,7 +1173,7 @@
                                 <l n="24">C’est ainsi que le chevreau le renvoie.</l>
                                 </lg>
                             </lg>
-                            <l rend="rubrique">La moralité</l>
+                            <l rend="rubrique">Morale</l>
                             <lg type="morale" corresp="#morale-parenetique">
                                 <l n="25">À travers cela je vous montre que l’enfant</l>
                                 <l n="26">acquiert une grande sagesse quand il voit et retient</l>
@@ -1489,7 +1505,7 @@
                                     <l n="1">La <app><rdg type="orthographic">chieuvre</rdg></app> va <app><rdg type="orthographic">quere</rdg></app> viande</l>
                                     <l n="2">Pour son <app><rdg type="orthographic">cheverl</rdg></app> et li <app><rdg type="orthographic">commende</rdg></app></l>
                                     <l n="3"><gap/> amonneste que du toit</l>
-                                    <l n="4"><gap/> <app><rdg type="orthographic"> meuve </rdg></app> <app><rdg type="substantive">d'ou</rdg></app> il estoit,</l>
+                                    <l n="4"><gap/> <app><rdg type="orthographic">meuve </rdg></app> <app><rdg type="substantive">d'ou</rdg></app> il estoit,</l>
                                     <l n="5"><gap/> s’il <app><rdg type="orthographic">s’em</rdg></app> pert, <app><rdg type="orthographic">sache</rdg></app> de voir,</l>
                                     <l n="6"><gap/> puet bien <app><rdg type="orthographic">doumage</rdg></app> avoir</l>
                                     <l n="7"><gap/> dont il se tendra pour fos.</l>
@@ -1499,7 +1515,7 @@
                                     <l n="11"><gap/> a l’uis et boute et apelle</l>
                                     <l n="12"><gap/> change sa vois et chevrelle :</l>
                                     <l n="13"><gap/> l’uis, dit il, a ta mere.</l>
-                                    <l n="14"><gap/> <app><rdg type="orthographic"> feray</rdg></app>, dit il, par saint Pere !</l>
+                                    <l n="14"><gap/> <app><rdg type="orthographic">feray</rdg></app>, dit il, par saint Pere !</l>
                                     <l n="15"><gap/> pourrés appeller,</l>
                                     <l n="16">Bien vous connois au chevreller,</l>
                                     <l n="17"><app><rdg type="orthographic">Tous</rdg></app> le <app><rdg type="orthographic">sachiez</rdg></app> vous contrefaire.</l>
@@ -1608,7 +1624,7 @@
                                 >c</c>.</note></head>
                         <lg type="recit">
                             <lg corresp="#schema-donnee">
-                            <l n="1"><name ref="#actant-intervenant #chevre">La chievre</name> <app><lem wit="#c">va querant </lem><rdg wit="#a #b" type="substantive">va querre</rdg></app> viande</l>
+                            <l n="1"><name ref="#actant-intervenant #chevre">La chievre</name> <app><lem wit="#c"> va querant </lem><rdg wit="#a #b" type="substantive">va querre</rdg></app> viande</l>
                             <l n="2">Pour son <name ref="#actant-personnage #chevreau">chevrel</name> et lui commande</l>
                             <l n="3">Et admonnoiste que <app><lem wit="#a #c">du toit</lem><rdg wit="#b" type="substantive">du tout</rdg></app></l>
                             <l n="4"><app><lem wit="#c">Ne se meuve </lem><rdg wit="#a" type="substantive">ne se must</rdg><rdg wit="#b" type="substantive">ne se muet</rdg></app> <app><lem wit="#a #c">la ou estoit</lem><rdg wit="#b" type="substantive">ou il est tout</rdg></app>,</l>
@@ -1930,6 +1946,7 @@
                                     <l n="11">Sic vulpes ieiuna redit, sic fallitur audens</l>
                                     <l n="12">Fallere. Sic telo leditur ipsa suo.</l>
                                 </lg>
+                                <l rend="rubrique">Moralitas</l>
                                 <lg type="morale">
                                     <l n="13">Que tibi non faceres, aliis fecisse negabis ;</l>
                                     <l n="14">Vulnera ne facias, que nequis ipse pati.</l>
@@ -1979,7 +1996,7 @@
                                     <l n="35">Se l'oisel dou miel ne menja,</l>
                                     <l n="36">Assés de li se revenja.</l>
                                 </lg>
-                                <l>la moralité</l>
+                                <l rend="rubrique">La moralité</l>
                                 <lg type="morale">
                                     <l n="37">Qui fait que a soi ne vaudroit,</l>
                                     <l n="38">S'il s'en repent c'est a bon droit.</l>
@@ -2011,6 +2028,7 @@
                                     <l n="11">Voilà que le renard s’en retourne affamé, et voilà qu’est dupé qui a voulu duper.</l>
                                     <l n="12">Ainsi, il est lui-même touché par son propre trait.</l>
                                 </lg>
+                                <l rend="rubrique">Morale</l>
                                 <lg type="morale">
                                     <l n="13">Ce que tu ne t’infligerais pas, tu renonceras à l’infliger aux autres ;</l>
                                     <l n="14">ne porte pas de coups que tu ne puisses toi-même endurer.</l>
@@ -2060,7 +2078,7 @@
                                     <l n="35">Si l'oiseau ne mengea pas de miel,</l>
                                     <l n="36">il se vengea bien de Renard</l>
                                 </lg>
-                                <l>Morale</l>
+                                <l rend="rubrique">Morale</l>
                                 <lg type="morale">
                                     <l n="37">Celui qui fait ce qu’il ne voudrait pour lui-même</l>
                                     <l n="38">a raison de le regretter.</l>
@@ -2118,7 +2136,7 @@
                                         <l n="35">Se l'oisel dou miel ne menja,</l>
                                         <l n="36">Assés de li se revenja.</l>
                                     </lg>
-                                    <l>la moralité</l>
+                                    <l>La moralité</l>
                                     <lg type="morale">
                                         <l n="37">Qui fait que a soi ne vaudroit,</l>
                                         <l n="38">S'il s'en repent c'est a bon droit.</l>
@@ -2624,35 +2642,1158 @@
                                 <figure>
                                     <graphic url="edition-BPL-fable4-image.jpeg"/>
                                 </figure>
+                                <head type="title">De cervo sitiente</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                    <l n="1"><placeName ref="#fontaine">Fons</placeName> nitet argento similis. <rs corresp="#actant-objet">Sitis arida</rs> <name ref="#cerf #actant-personnage"> cervum</name></l>
+                                    <l n="2"><app><lem wit="#L">Hic<note type="note-critique">McKenzie et Oldfather (1919), tout comme Julia Bastin (1930), ont corrigé leur manuscrit de base (<c rend="ital">B</c>) en introduisant l’adverbe de lieu <w rend="ital">huc</w>. Nous avons décidé de le corriger avec la leçon du ms. <c rend="ital">L</c>, puisque <w rend="ital">rapio</w>, qui peut avoir le sens de « se saisir vivement de » (<bibl>Gaffiot</bibl>, sens 3), n’implique pas forcément un adverbe de mouvement.</note> rapit</lem><rdg wit="#B #P" type="lecon-rejetee">hinc rapit</rdg></app>. Haurit aquas, se speculatur aquis.</l>
+                                    </lg>
+                                    <lg corresp="#schema-action">
+                                    <l n="3">Hunc <app><lem wit="#McKenzie et Oldfather (1919) et Bastin (1930)">beat</lem><rdg wit="#B #P #L" type="lecon-rejetee">leat</rdg></app>, hunc mulcet ramose gloria frontis.</l>
+                                    <l n="4">Hunc premit, hunc ledit tibia macra pedum.</l>
+                                    </lg>
+                                    <l n="5">Ecce <name ref="#chien #actant-intervenant">canis</name>. <app><lem wit="#B #L">Tonat</lem><rdg wit="#P" type="substantive">tanat</rdg></app> ira canum. Timet ille,</l>
+                                    <l n="6">Timenti <app><lem wit="#B #L">fit fuga</lem><rdg wit="#P" type="substantive">sic fugia</rdg></app>. Culpati cruris adorat opem.</l>
+                                    <lg corresp="#schema-evaluation">
+                                    <l n="7"><placeName ref="#bois">Silve</placeName> claustra subit, cornu retinente moratur :</l>
+                                    <l n="8">Fiunt causa gravis cornua longa <app><lem wit="#B #L">necis</lem><rdg wit="#P" type="substantive">nescis</rdg></app>.</l>
+                                    </lg>
+                                    </lg>
+                                <l rend="rubrique">Moralitas</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-personnel">
+                                    <l n="9">Spernere <app><lem wit="#B">quod prosit</lem><rdg wit="#P #L" type="substantive">quod presit</rdg></app> et amare quod obsit ineptum est.</l>
+                                    <l n="10"><app><lem wit="#B #L">Prodest</lem><rdg wit="#P" type="substantive">prodet</rdg></app> quod fugimus et quod amamus obest.</l>
+                                    </lg>
+                                    <lg corresp="#morale-parenetique">
+                                    <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                    <l n="12">Dum locus <app><lem wit="#B #L">affuerit</lem><rdg wit="#P" type="substantive">affueris</rdg></app>, utile quere tacens.</l>
+                                    <l n="13">Utilitas opibus preferri tempore debet<note type="note-critique">Ce vers rappelle la deuxième partie du distique VI de Caton (livre 1) : 
+                                        <lb/>Quae nocitura tenes, quamvis sint cara, relinque : 
+                                        <lb/>Utilitas opibus praeponi tempore debet.
+                                    </note> :</l>
+                                    <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </lg>
                             </div>
-                            <div xml:id="f4-BPL-ed-crit-frm" type="edition-critique-moyen-francais"></div>
+                            <div xml:id="f4-BPL-ed-crit-frm" type="edition-critique-moyen-francais">
+                                <head type="title">Du cerf morant de soif</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                    <l n="1"><name ref="#cerf #actant-personnage">Un grant cerf</name> las que <rs corresp="#actant-objet">soif</rs> tenoit</l>
+                                    <l n="2">Boire a <placeName ref="#fontaine">la fontaine</placeName> <app><lem wit="#B #P">venoit</lem><rdg wit="#L" type="substantive">aloit</rdg></app>.</l>
+                                    
+                                    <l n="3">S'embut assés et volentiers</l>
+                                    <l n="4">Et remira endementiers</l>
+                                    <l n="5">En l’iaue ses cornes et <app><lem wit="#B #L">teste</lem><rdg wit="#P" type="substantive">sa teste</rdg></app>.</l>
+                                    </lg>
+                                    <lg corresp="#schema-action">
+                                    <l n="6">Mout en fait grant joie et grant feste</l>
+                                    <l n="7">Et moult se loe et moult se prise.</l>
+                                    <l n="8">Mes de l'autre part trop desprise</l>
+                                    <l n="9">Ses megres jambes et ses piés.</l>
+                                    </lg>
+                                    <l n="10">De l'un se duet de l'autre est liés.</l>
+                                    <l n="11">Le cerf illuec plus ne sejourne,</l>
+                                    <l n="12">Au <placeName ref="#bois">bois</placeName> arriere s'en retourne,</l>
+                                    <l n="13">Ou il orra telles nouveles</l>
+                                    <l n="14">Qui ne li seront mie beles.</l>
+                                    <l n="15">Car ou <placeName ref="#bois">bois</placeName> avoit veneeurs,</l>
+                                    <l n="16"><name ref="#chien #actant-intervenant">Chiens</name> y avoit et <name ref="#chasseurs #actant-intervenant">coureeurs</name></l>
+                                    <l n="17">Qui ne li pleist pas a oïr.</l>
+                                    <l n="18">Qui donc veïst le cerf fouir,</l>
+                                    <l n="19">Il ne le deüst pas blasmer.</l>
+                                    <l n="20">Or doit il bien ses piés amer ;</l>   
+                                    <l n="21">Ne li vont ore pas ennuiant.</l>
+                                    <l n="22">Mes si comme il <app><lem wit="#B #L">s'en va fuiant</lem><rdg wit="#P" type="substantive">se va fuiant</rdg></app>,</l>
+                                    <l n="23">Un <placeName ref="#bois">bois</placeName> espés <app><lem wit="#B #P">s'en est venus</lem><rdg wit="#L" type="substantive">en est venus</rdg></app>,</l>
+                                    <lg corresp="#schema-evaluation">
+                                    <l n="24">Par ses cornes est retenus</l>
+                                    <l n="25">Et arrestés en tieu manière</l>
+                                    <l n="26"><app><lem wit="#B #P">Que il</lem><rdg wit="#L" type="substantive">qu'aller</rdg></app> ne puet <app><lem wit="#B #P">ne avant ne arriere</lem><rdg wit="#L" type="substantive">avant n'arriere</rdg></app>.</l>
+                                    <l n="27">Par ses cornes la mort reçoit,</l>
+                                    <l n="28">Qui <app><lem wit="#B #L">a ses piés</lem><rdg wit="#P" type="substantive">a ses</rdg></app> se courreçoit,</l>
+                                    <l n="29">Qui sauvé et gueri l'eüssent</l>
+                                    <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                </lg>
+                                <l rend="rubrique">La moralité</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-paradigmatique">
+                                    <l n="31">Nuls ne doit chose despiter</l>
+                                    <l n="32">Qui puet valoir et profiter,</l>
+                                    <l n="33">Ne chose ausi chiere tenir</l>
+                                    <l n="34">Dont dommaige li puet venir.</l>
+                                    </lg>
+                                    <lg corresp="#morale-personnel">
+                                    <l n="35">Souvent fuions ce qui <app><lem wit="#B #L">nous vaut</lem><rdg wit="#P" type="substantive">nous faut</rdg></app></l>
+                                    <l n="36">Et de nostre bien ne nous chaut.</l>
+                                    </lg>
+                                    <lg corresp="#morale-parenetique">
+                                    <l n="37">Et qui te porte utilité,</l>
+                                    <l n="38">Ne dois pas avoir en vité.</l>
+                                    <l n="39">Ne quier pas toujours ton plaisir</l>
+                                    <l n="40">Profitier <app><lem wit="#B">et estuet taisir</lem><rdg wit="#P" type="substantive">et toy taisier</rdg><rdg wit="#L" type="substantive">et estuet et taisir</rdg></app> :</l>
+                                    <l n="41">Par ce vendras tu a richesce.</l>
+                                    <l n="42">Ne te tiengne nulle paresce.</l>
+                                    <l n="43">Se tu vues tousjours deliter,</l>
+                                    <l n="44">Et toute cusantion geter,</l>
+                                    <l n="45"><app><lem wit="#B #L">Et mener</lem><rdg wit="P" type="substantive">ne mener</rdg></app> vie delitable,</l>
+                                    <l n="46">.i. grans despens et grande table,</l>
+                                    <l n="47">Et tu n’i més atemprement,</l>
+                                    <l n="48">Sois certains et croi fermenent</l>
+                                    <l n="49">Tart te sera du repentir.</l>
+                                    <l n="50">De ceci ne te vuil mentir,</l>   
+                                    <l n="51">Atrempe toi selonc ta rente,</l>
+                                    <l n="52">Que povreté ne t’agravente.</l>
+                                    <l n="53">Ne te fie pas en acroire</l>
+                                    <l n="54">Ne en pompes ne en vaine gloire.</l>
+                                    <l n="55">De l'autrui <app><lem wit="#B #L">ne t’a fai</lem><rdg wit="#P">ne te fais</rdg></app> si gobes,</l>
+                                    <l n="56">N'en viandes n'en belles robes</l>
+                                    <l n="57">Car il convient l'escot paier.</l>
+                                    <l n="58">Pour ce te dois bien esmaier</l>
+                                    <l n="59">Quant despens plus que n'as assés.</l>
+                                    <l n="60">Ces dis ne soient trespassés.</l>
+                                    </lg>
+                                </lg>
+                            </div>
                         </div>
                         <div type="traduction" xml:id="f4-BPL-trad">
-                            <div xml:lang="fre" xml:id="f4-BPL-lat-trad"></div>
-                            <div xml:lang="fre" xml:id="f4-BPL-frm-trad"></div>
+                            <div xml:lang="fre" xml:id="f4-BPL-lat-trad">
+                                <head type="title">Le cerf assoiffé</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                    <l n="1">Une <placeName ref="#fontaine">fontaine</placeName> brille, semblable à de l’argent. En ce lieu, <rs ref="#actant-objet">une soif ardente</rs></l>
+                                    <l n="2">s’empare du <name ref="#cerf #actant-personnage">cerf</name>. Il puise dans les eaux et s’y contemple.</l>
+                                    </lg>
+                                    <lg corresp="#schema-action">
+                                    <l n="3">L’aura de son front à ramure le réjouit et le charme</l>
+                                    <l n="4">alors que les os maigres de ses jambes l’humilient et l’offensent.</l>
+                                    </lg>
+                                    <l n="5">Voici que viennent des <name ref="#chien #actant-intervenant">chiens</name>. Leur furie retentit fortement. Il prend peur</l>
+                                    <l n="6">et, effrayé, fuit. Il loue alors l’œuvre de ses jambes qu’il blâmait jusque-là.</l>
+                                    <lg corresp="#schema-evaluation">
+                                    <l n="7">Il pénètre dans <placeName ref="#bois">l’enceinte forestière</placeName>, est arrêté par ses bois qui se bloquent :</l>
+                                    <l n="8">ce sont ses amples ramures qui furent la cause de sa mort violente.</l>
+                                    </lg>
+                                </lg>
+                                <l rend="rubrique">Morale</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-personnel">
+                                    <l n="9">Il est stupide de négliger ce qui nous est profitable et d’affectionner ce qui nous porte préjudice.</l>
+                                    <l n="10">Nous fuyons ce qui nous est profitable et ce que nous affectionnons nous porte préjudice.</l>
+                                    </lg>
+                                    <lg corresp="#morale-parenetique">
+                                    <l n="11">Tu vas au-devant d’ennuis si tu négliges tes intérêts.</l>
+                                    <l n="12">Tant que tu le peux, poursuis tes intérêts en silence.</l>
+                                    <l n="13">Il faut privilégier, à un moment, les intérêts aux richesses :</l>
+                                    <l n="14">si les plaisirs te charment, jouis-en avec mesure.</l>
+                                    </lg>
+                                </lg>
+                            </div>
+                            <div xml:lang="fre" xml:id="f4-BPL-frm-trad">
+                                <head>Le cerf qui mourait de soif</head>
+                                <lg type="recit">
+                                    <lg corresp="#schema-donnee">
+                                    <l n="1"><name ref="#cerf #actant-personnage">Un grand cerf</name> fatigué et pris par <rs ref="#actant-objet">la soif</rs></l>
+                                    <l n="2">vint boire à <placeName ref="#fontaine">la fontaine</placeName>.</l>
+                                    <l n="3">Il se désaltéra complètement et avec plaisir</l>
+                                    <l n="4">tout en contemplant,</l>
+                                    <l n="5">dans l'eau, ses ramures et sa tête.</l>
+                                    </lg>
+                                    <lg corresp="#schema-action">
+                                    <l n="6">Il s'en réjouit et s'en délecte,</l>
+                                    <l n="7">il se loue et s’apprécie grandement.</l>
+                                    <l n="8">Mais d'un autre côté, il n’apprécie aucunement</l>
+                                    <l n="9">ses maigres jambes et ses pieds.</l>
+                                    </lg>
+                                    <l n="10">Il se plaint des uns, est attaché aux autres.</l>
+                                    <l n="11">Le cerf ne reste pas là davantage,</l>
+                                    <l n="12">il retourne dans <placeName ref="#bois">le bois</placeName></l>
+                                    <l n="13">où il lui arrivera des aventures</l>
+                                    <l n="14">qui ne lui seront pas agréables.</l>
+                                    <l n="15">Car dans <placeName ref="#bois">le bois</placeName> se trouvaient des chasseurs,</l>
+                                    <l n="16">des <name ref="#chien #actant-intervenant">chiens</name> et des <name ref="#chasseurs #actant-intervenant">cavaliers</name></l>
+                                    <l n="17">qu'il n'eut pas plaisir à entendre.</l>
+                                    <l n="18">Celui qui aurait vu le cerf s’enfuir</l>
+                                    <l n="19">ne l’aurait pas désapprouvé.</l>
+                                    <l n="20">Il apprécie pleinement ses pieds</l>   
+                                    <l n="21">qui ne le causent alors plus de souci.</l>
+                                    <lg corresp="#schema-evaluation">
+                                    <l n="22">Mais tandis qu'il s’enfuit,</l>
+                                    <l n="23">il rencontre un <placeName ref="#bois">bois</placeName> touffu,</l>
+                                    <l n="24">est retenu par ses ramures</l>
+                                    <l n="25">et arrêté de telle façon</l>
+                                    <l n="26">qu'il ne peut avancer ni reculer.</l>
+                                    <l n="27">C’est à cause de ses ramures qu’il trouve la mort</l>
+                                    <l n="28">alors qu’il se plaignait de ses pieds</l>
+                                    <l n="29">qui l'auraient sauvé et protégé</l>
+                                    <l n="30">s'il n'avait eu ses amples ramures.</l>
+                                    </lg>
+                                </lg>
+                                <l rend="rubrique">Morale</l>
+                                <lg type="morale">
+                                    <lg corresp="#morale-paradigmatique">
+                                    <l n="31">Nul ne doit mépriser</l>
+                                    <l n="32">ce qui peut lui être utile et profitable,</l>
+                                    <l n="33">ni chérir quelque chose</l>
+                                    <l n="34">qui pourrait lui être dommageable.</l>
+                                    </lg>
+                                    <lg corresp="#morale-personnel">
+                                    <l n="35">Nous fuyons souvent ce qui nous est utile</l>
+                                    <l n="36">et ne nous préoccupons pas de notre bien.</l>
+                                    </lg>
+                                    <lg corresp="#morale-parenetique">
+                                    <l n="37">Ce qui t’apporte des bienfaits,</l>
+                                    <l n="38">tu ne dois pas le négliger.</l>
+                                    <l n="39">Ne cherche pas toujours à jouir</l>
+                                    <l n="40">de ton plaisir et sache rester silencieux :</l>
+                                    <l n="41">c’est ainsi que tu deviendras riche.</l>
+                                    <l n="42">Ne te laisse pas gagner par la paresse.</l>
+                                    <l n="43">Si tu cherches constamment à plaire,</l>
+                                    <l n="44">à éviter tout tourment</l>
+                                    <l n="45">et mener une vie de plaisirs,</l>
+                                    <l n="46">faire grandes dépenses et grands banquets,</l>
+                                    <l n="47">et si tu n’y mets aucune mesure,</l>
+                                    <l n="48">sois certain et convaincu</l>
+                                    <l n="49">qu’il sera trop tard pour te repentir.</l>
+                                    <l n="50">Je ne veux pas te cacher la vérité,</l>   
+                                    <l n="51">modère-toi selon ta richesse</l>
+                                    <l n="52">pour que la pauvreté ne t’accable pas.</l>
+                                    <l n="53">Ne t’aventure pas à donner crédit</l>
+                                    <l n="54">aux vanités du monde ni à l’orgueil.</l>
+                                    <l n="55">N’abuse pas outre mesure du bien d’autrui,</l>
+                                    <l n="56">ni en bonne nourriture ni en belles toilettes</l>
+                                    <l n="57">car il faut inévitablement payer sa part.</l>
+                                    <l n="58">Inquiète-toi de cela</l>
+                                    <l n="59">quand tu dépenses plus que tu ne possèdes.</l>
+                                    <l n="60">Veille à ne pas transgresser ces principes.</l>
+                                    </lg>
+                                </lg>
+                            </div>
                         </div>
                         <div type="transcriptions" xml:id="f4-BPL-transcriptions">
                             <div xml:id="f4-B-transcription">
-                                <div xml:lang="lat" xml:id="f4-B-lat-transcription"></div>
-                                <div xml:lang="frm" xml:id="f4-B-frm-transcription"></div>
+                                <div xml:lang="lat" xml:id="f4-B-lat-transcription" n="f4-B-65r">
+                                    <head type="title" n="f4-B-65r">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento similis. Sitis arida <expan>cervu<ex>m</ex></expan></l>
+                                        <l n="2">Hinc rapit. Haurit aquas, se speculatur aquis.</l>
+                                        <l n="3">Hunc leat, hunc mulcet ramose gloria frontis.</l>
+                                        <l n="4">Hunc premit, hunc ledit tibia macra pedum.</l>
+                                        <l n="5">Ecce canis. Tonat ira canum. Timet ille, timenti</l>
+                                        <l n="6">Fit fuga. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu retinente moratur :</l>
+                                        <l n="8">Fiunt causa gravis cornua longa necis.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9">Spernere quod prosit et amare quod obsit <expan>i<ex>n</ex>eptu<ex>m</ex></expan> est.</l>
+                                        <l n="10">Prodest quod fugimus et quod amamus obest.</l>
+                                        <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                        <l n="12">Dum locus affuerit, utile quere tacens.</l>
+                                        <l n="13">Utilitas opibus preferri tempore debet :</l>
+                                        <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-B-frm-transcription" n="f4-B-65v f4-B-66r f4-B-66v">
+                                    <head type="title">Du cerf morant de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un grant cerf las que soif tenoit</l>
+                                        <l n="2">Boire a la fontaine venoit.</l>
+                                        <l n="3">S'embut assés et volentiers</l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l’iaue ses cornes et teste.</l>
+                                        <l n="6">Mout en fait grant joie et grant feste</l>
+                                        <l n="7">Et moult se loe et mout se prise.</l>
+                                        <l n="8">Mes de l'autre part trop desprise</l>
+                                        <l n="9">Ses megres jambes et ses piés.</l>
+                                        <l n="10">De l'un se duet de l'autre est liés.</l>
+                                        <l n="11">Le cerf illuec plus ne sejourne,</l>
+                                        <l n="12">Au bois arriere s'en retourne,</l>
+                                        <l n="13">Ou il orra telles nouveles</l>
+                                        <l n="14">Qui ne li seront mie beles.</l>
+                                        <l n="15">Car ou bois avoit veneeurs,</l>
+                                        <l n="16">Chiens y avoit et coureeurs</l>
+                                        <l n="17">Qui ne li pleist pas a oïr.</l>
+                                        <l n="18">Qui donc veïst le cerf fouir,</l>
+                                        <l n="19">Il ne le deüst pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses piés amer ;</l>   
+                                        <l n="21">Ne li vont ore pas ennuiant.</l>
+                                        <l n="22">Mes si comme il s'en va fuiant,</l>
+                                        <l n="23">Un bois espés s'en est venus,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et arrestés en tieu manière</l>
+                                        <l n="26">Que il ne puet ne avant ne arriere.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui a ses piés se courreçoit,</l>
+                                        <l n="29">Qui sauvé et gueri l'eüssent</l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31">Nuls ne doit chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose ausi chiere tenir</l>
+                                        <l n="34">Dont dommaige li puet venir.</l>
+                                        <l n="35">Souvent fuions ce qui nous vaut</l>
+                                        <l n="36">Et de <expan>n<ex>ost</ex>re</expan> bien ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38">Ne dois pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas toujours ton plaisir</l>
+                                        <l n="40">Profitier et estuet taisir :</l>
+                                        <l n="41">Par ce vendras tu a richesce.</l>
+                                        <l n="42">Ne te tiengne nulle paresce.</l>
+                                        <l n="43">Se tu vues tousjours deliter,</l>
+                                        <l n="44">Et toute cusantion geter,</l>
+                                        <l n="45">Et mener vie delitable,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47">Et tu n’i més atemprement,</l>
+                                        <l n="48">Sois certains et croi fermenent</l>
+                                        <l n="49">Tart te sera du repentir.</l>
+                                        <l n="50">De ceci ne te vuil mentir,</l>   
+                                        <l n="51">Atrempe toi selonc ta rente,</l>
+                                        <l n="52">Que povreté ne t’agravente.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54">Ne en pompes ne en vaine gloire.</l>
+                                        <l n="55">De l'autrui ne t’a fai si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois bien esmaier</l>
+                                        <l n="59">Quant despens plus que n'as assés.</l>
+                                        <l n="60">Ces dis ne soient trespassés.</l>
+                                    </lg>
+                                </div>
                             </div>
                             <div xml:id="f4-P-transcription">
-                                <div xml:lang="lat" xml:id="f4-P-lat-transcription"></div>
-                                <div xml:lang="frm" xml:id="f4-P-frm-transcription"></div>
+                                <div xml:lang="lat" xml:id="f4-P-lat-transcription" n="f4-P-55v f4-P-56r">
+                                    <head type="title">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento similis. Sitis arida <gap/></l>
+                                        <l n="2">Hinc rapit. Haurit aquas, se speculatur <gap/></l>
+                                        <l n="3">Hunc leat, hunc mulcet ramose gloria <gap/></l>
+                                        <l n="4">Hunc premit, hunc ledit tibia macra <gap/></l>
+                                        <l n="5">Ecce canis. Tanat ira canum. Timet ille, <gap/></l>
+                                        <l n="6">Sic fugia. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu retinente <gap/></l>
+                                        <l n="8">Fiunt causa gravis cornua longua necis.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9">Spernere quod presit et amare quod obsit <gap/></l>
+                                        <l n="10">Prodet quod fugimus <expan><ex>et</ex> </expan> <expan>q<ex>uo</ex>d</expan> amamus obest.</l>
+                                        <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                        <l n="12">Dum locus affueris, utile quere tacens.</l>
+                                        <l n="13">Utilitas opibus preferri tempore debet :</l>
+                                        <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-P-frm-transcription" n="f4-P-56v f4-P-57r">
+                                    <head type="title">Du serf morant de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un grant serf las que soif tenoit</l>
+                                        <l n="2">Boire a la fontainne venoit.</l>
+                                        <l n="3">S'embut assés et voulentiers</l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l'iaue ses cornes <expan><ex>et</ex></expan> sa teste.</l>
+                                        <l n="6"><gap/> <expan>g<ex>ra</ex>nt</expan> joie <expan><ex>et</ex></expan> grant feste</l>
+                                        <l n="7"><gap/> loe <expan><ex>et</ex></expan> moult se prise.</l>
+                                        <l n="8"><gap/> part trop desprise</l>
+                                        <l n="9"><gap/> jampes et ses piés.</l>
+                                        <l n="10"><gap/> et de l'autre est liés.</l>
+                                        <l n="11"><gap/> plus ne sejourne,</l>
+                                        <l n="12"><gap/> s'en retourne,</l>
+                                        <l n="13"><gap/> telles novelles</l>
+                                        <l n="14"><gap/> li seront mie belles.</l>
+                                        <l n="15"><gap/> ou bois avoit veneurs,</l>
+                                        <l n="16"><gap/> y avoit et coureeurs</l>
+                                        <l n="17"><gap/> ne li plaist pas a oïr.</l>
+                                        <l n="18">Qui dont veist le serf fouir,</l>
+                                        <l n="19">Il ne le deust pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses piés amer ;</l>   
+                                        <l n="21"><gap/> li vont pas ore ennuiant.</l>
+                                        <l n="22"><gap/> si <expan>co<ex>m</ex>me</expan> il se va fuiant,</l>
+                                        <l n="23">Un bois espés s'en est venus,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et aresté en tel maniere</l>
+                                        <l n="26">Que il ne puet ne avant n’arriere.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui a ses se courouçoit,</l>
+                                        <l n="29">Qui sauvé <expan><ex>et</ex></expan> gueri l'eüssent</l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31">Nulz de doit chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose ausi chier tenir</l>
+                                        <l n="34">Dont doumage il puet venir.</l>
+                                        <l n="35">Souvent fuions se qui nous faut</l>
+                                        <l n="36">Et de <expan>n<ex>ost</ex>re</expan> bien ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38">Ne doi pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas touxjours ton plaisir</l>
+                                        <l n="40">Profitier et toy taisier :</l>
+                                        <l n="41"><expan><ex>Par</ex></expan>ce vendras tu a richesse.</l>
+                                        <l n="42">Ne te tiengne nulle peresse.</l>
+                                        <l n="43">Se tu veulz touxjours deliter,</l>
+                                        <l n="44">Et toute cusantion geter,</l>
+                                        <l n="45">Ne mener vie delitable,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47">Et tu n'i mais atemprement,</l>
+                                        <l n="48">Soies certains et croi ferment</l>
+                                        <l n="49">Tart te sera du repentir.</l>
+                                        <l n="50">De ceci ne te vueil mentir,</l>   
+                                        <l n="51">Atrempe toy selon ta rente,</l>
+                                        <l n="52">Que pouvreté ne t'agravante.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54">Ne em pompes n’en vaine gloire.</l>
+                                        <l n="55">De l’autri ne te fais si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois bien esmaier</l>
+                                        <l n="59">Quant des pans plus que n'as assés.</l>
+                                        <l n="60">Ces dis no soient trespassés.</l>
+                                    </lg>
+                                </div>
                             </div>
                             <div xml:id="f4-L-transcription">
-                                <div xml:lang="lat" xml:id="f4-L-lat-transcription"></div>
-                                <div xml:lang="frm" xml:id="f4-L-frm-transcription"></div>
+                                <div xml:lang="lat" xml:id="f4-L-lat-transcription" n="f4-L-71r">
+                                    <head type="title">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento <expan>si<ex>mi</ex>lis</expan>. Sitis arida <expan>c<ex>er</ex>vu<ex>m</ex></expan></l>
+                                        <l n="2">Hic rapit. Haurit <expan>aq<ex>ua</ex>s</expan>, se <expan>spec<ex>u</ex>lat<ex>ur</ex></expan> <expan> aq<ex>ui</ex>s</expan>.</l>
+                                        <l n="3"><expan>Hu<ex>n</ex>c</expan> leat, <expan>hu<ex>n</ex>c</expan> mulcet ramose gloria frontis.</l>
+                                        <l n="4"><expan>Hu<ex>n</ex>c</expan> <expan> p<ex>re</ex>mit</expan>, <expan>hu<ex>n</ex>c</expan> ledit tibia <expan>mac<ex>ra</ex></expan> pedum.</l>
+                                        <l n="5">Ecce canis. Tonat ira <expan>canu<ex>m</ex></expan>. Timet ille,</l>
+                                        <l n="6"><expan>Tim<ex>en</ex>ti</expan> fit fuga. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu <expan>retine<ex>n</ex>te</expan> <expan> morat<ex>ur</ex></expan> :</l>
+                                        <l n="8"><expan>Fiu<ex>n</ex>t</expan> <expan> c<ex>aus</ex>a</expan> <expan> g<ex>ra</ex>vis</expan> cornua <expan>lo<ex>n</ex>ga</expan> necis.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9"><expan>Sp<ex>er</ex>n<ex>er</ex>e</expan> <expan> q<ex>uo</ex>d</expan> <expan>p<ex>re</ex>sit</expan> et amare <expan>q<ex>uo</ex>d</expan> obsit <expan>ineptu<ex>m</ex></expan> est.</l>
+                                        <l n="10">Prodest <expan>q<ex>uo</ex>d</expan> <expan> fugim<ex>us</ex></expan> et <expan>q<ex>uo</ex>d</expan> <expan> amam<ex>us</ex></expan> obest.</l>
+                                        <l n="11">Dampna <expan>t<ex>ib</ex>i</expan> <expan> q<ex>ue</ex>ris</expan> si <expan>sprev<ex>er</ex>is</expan> utilitatem.</l>
+                                        <l n="12"><expan>Du<ex>m</ex></expan> <expan> loc<ex>us</ex></expan> <expan> affu<ex>er</ex>it</expan>, utile quere tacens.</l>
+                                        <l n="13">Utilitas <expan>opib<ex>us</ex></expan> preferri <expan>te<ex>m</ex>pore</expan> debet :</l>
+                                        <l n="14">Si te <expan>delecta<ex>n</ex>t</expan> dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-L-frm-transcription" n="f4-L-71v f4-L-72r f4-L-72v">
+                                    <head type="title">Dou serf <expan>mora<ex>n</ex>t</expan> de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un <expan>g<ex>ra</ex>nt</expan> serf las <expan>q<ex>ue</ex></expan> soif tenoit</l>
+                                        <l n="2">Boivre a la <expan>fontai<ex>n</ex>ne</expan> aloit.</l>
+                                        <l n="3">S'ambut assez et voulentiers</l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l'iaue ses cornes et teste.</l>
+                                        <l n="6">Moult <expan>e<ex>n</ex></expan> fait <expan>g<ex>ra</ex>nt</expan> joie <expan><ex>et</ex></expan> <expan> g<ex>ra</ex>nt</expan> feste</l>
+                                        <l n="7">Et moult se loe <expan><ex>et</ex></expan> moult se prise.</l>
+                                        <l n="8">Mes de l'autre part trop desprise</l>
+                                        <l n="9">Ses megres jambes et ses piez.</l>
+                                        <l n="10">De l'un se duest de l'autre est liez.</l>
+                                        <l n="11">Le cerf illuec plus ne sejourne,</l>
+                                        <l n="12">Au bois ariere s'en retourne,</l>
+                                        <l n="13">Ou il orra telles nouvelles</l>
+                                        <l n="14">Qui ne li seront mie belles.</l>
+                                        <l n="15">Car ou bois avoit veneeurs,</l>
+                                        <l n="16">Chiens y avoit et courreeurs</l>
+                                        <l n="17">Qui ne li plest pas a oÿr.</l>
+                                        <l n="18">Qui dont veïst le cerf fouir,</l>
+                                        <l n="19">Il ne le deüst pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses piez amer ;</l>   
+                                        <l n="21">Ne li vont pas ore annuiant.</l>
+                                        <l n="22">Mes si comme il s'en va fuiant,</l>
+                                        <l n="23">Un bois espés en est venus,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et arestez en tel maniere</l>
+                                        <l n="26">Qu'aler ne puet avant n'arriere.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui a ses piez se courreçoit,</l>
+                                        <l n="29">Qui sauvé et gueri l'eüssent </l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31">Nunlz ne doit chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose aussi chiere tenir</l>
+                                        <l n="34">Dont domages li puet venir.</l>
+                                        <l n="35">Souvent fuions ce qui <expan>n<ex>ous</ex></expan> vaust</l>
+                                        <l n="36">Et de <expan>n<ex>os</ex>tre</expan> <expan> b<ex>ie</ex>n</expan> ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38">Ne dois pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas tousjours <expan>to<ex>n</ex></expan> plaisir</l>
+                                        <l n="40">Profitier <expan><ex>et</ex></expan> estuet et taisir :</l>
+                                        <l n="41">Par ce vendras tu a richesce.</l>
+                                        <l n="42">Ne te tiengne nulle peresce.</l>
+                                        <l n="43">Se tu vues tousjours deliter,</l>
+                                        <l n="44">Et toute <expan>cusant<ex>i</ex>on</expan> geter,</l>
+                                        <l n="45">Et mener vie delictable,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47"><expan><ex>Et</ex></expan> tu n'i mes atremprement,</l>
+                                        <l n="48">Sois certains et croi fermement</l>
+                                        <l n="49">Tart te sera dou repentir.</l>
+                                        <l n="50">De ceci te ne vueil mentir,</l>   
+                                        <l n="51">Atrempe toi selon ta rente,</l>
+                                        <l n="52"><expan>Q<ex>ue</ex></expan> pouretez ne t'acravante.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54">Ne <expan>e<ex>n</ex></expan> ponpes ne en vainne gloire.</l>
+                                        <l n="55">De l'autrui ne t'a fai si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois <expan>b<ex>ie</ex>n</expan> esmaier</l>
+                                        <l n="59"><expan>Q<ex>ua</ex>nt</expan> <expan> despe<ex>n</ex>s</expan> plus <expan>q<ex>ue</ex></expan> n'as assez.</l>
+                                        <l n="60">Ces dis ne soient trespassez.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                        </div>
+                        <div type="comparaisons" xml:id="f4-BPL-comparaisons">
+                            <div xml:id="f4-B-comparaison">
+                                <div xml:lang="lat" xml:id="f4-B-lat-comparaison" n="f4-B-65r">
+                                    <head type="title" n="f4-B-65r">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento similis. Sitis arida cervum</l>
+                                        <l n="2">Hinc rapit. Haurit aquas, se speculatur aquis.</l>
+                                        <l n="3">Hunc leat, hunc mulcet ramose gloria frontis.</l>
+                                        <l n="4">Hunc premit, hunc ledit tibia macra pedum.</l>
+                                        <l n="5">Ecce canis. Tonat ira canum. Timet ille, timenti</l>
+                                        <l n="6">Fit fuga. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu retinente moratur :</l>
+                                        <l n="8">Fiunt causa gravis cornua longa necis.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9">Spernere quod prosit et amare quod obsit ineptum est.</l>
+                                        <l n="10">Prodest quod fugimus et quod amamus obest.</l>
+                                        <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                        <l n="12">Dum locus affuerit, utile quere tacens.</l>
+                                        <l n="13">Utilitas opibus preferri tempore debet :</l>
+                                        <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-B-frm-comparaison" n="f4-B-65v f4-B-66r f4-B-66v">
+                                    <head type="title">Du cerf morant de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un grant cerf las que soif tenoit</l>
+                                        <l n="2">Boire a la fontaine venoit.</l>
+                                        <l n="3">S'embut assés et volentiers</l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l’iaue ses cornes et teste.</l>
+                                        <l n="6">Mout en fait grant joie et grant feste</l>
+                                        <l n="7">Et moult se loe et moult se prise.</l>
+                                        <l n="8">Mes de l'autre part trop desprise</l>
+                                        <l n="9">Ses megres jambes et ses piés.</l>
+                                        <l n="10">De l'un se duet de l'autre est liés.</l>
+                                        <l n="11">Le cerf illuec plus ne sejourne,</l>
+                                        <l n="12">Au bois arriere s'en retourne,</l>
+                                        <l n="13">Ou il orra telles nouveles</l>
+                                        <l n="14">Qui ne li seront mie beles.</l>
+                                        <l n="15">Car ou bois avoit veneeurs,</l>
+                                        <l n="16">Chiens y avoit et coureeurs</l>
+                                        <l n="17">Qui ne li pleist pas a oïr.</l>
+                                        <l n="18">Qui donc veïst le cerf fouir,</l>
+                                        <l n="19">Il ne le deüst pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses piés amer ;</l>   
+                                        <l n="21">Ne li vont ore pas ennuiant.</l>
+                                        <l n="22">Mes si comme il s'en va fuiant,</l>
+                                        <l n="23">Un bois espés s'en est venus,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et arrestés en tieu manière</l>
+                                        <l n="26">Que il ne puet ne avant ne arriere.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui a ses piés se courreçoit,</l>
+                                        <l n="29">Qui sauvé et gueri l'eüssent</l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31">Nuls ne doit chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose ausi chiere tenir</l>
+                                        <l n="34">Dont dommaige li puet venir.</l>
+                                        <l n="35">Souvent fuions ce qui nous vaut</l>
+                                        <l n="36">Et de nostre bien ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38">Ne dois pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas toujours ton plaisir</l>
+                                        <l n="40">Profitier et estuet taisir :</l>
+                                        <l n="41">Par ce vendras tu a richesce.</l>
+                                        <l n="42">Ne te tiengne nulle paresce.</l>
+                                        <l n="43">Se tu vues tousjours deliter,</l>
+                                        <l n="44">Et toute cusantion geter,</l>
+                                        <l n="45">Et mener vie delitable,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47">Et tu n’i més atemprement,</l>
+                                        <l n="48">Sois certains et croi fermenent</l>
+                                        <l n="49">Tart te sera du repentir.</l>
+                                        <l n="50">De ceci ne te vuil mentir,</l>   
+                                        <l n="51">Atrempe toi selonc ta rente,</l>
+                                        <l n="52">Que povreté ne t’agravente.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54">Ne en pompes ne en vaine gloire.</l>
+                                        <l n="55">De l'autrui ne t’a fai si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois bien esmaier</l>
+                                        <l n="59">Quant despens plus que n'as assés.</l>
+                                        <l n="60">Ces dis ne soient trespassés.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                            <div xml:id="f4-P-comparaison">
+                                <div xml:lang="lat" xml:id="f4-P-lat-comparaison" n="f4-P-55v f4-P-56r">
+                                    <head type="title">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento similis. Sitis arida <gap/></l>
+                                        <l n="2">Hinc rapit. Haurit aquas, se speculatur <gap/></l>
+                                        <l n="3">Hunc leat, hunc mulcet ramose gloria <gap/></l>
+                                        <l n="4">Hunc premit, hunc ledit tibia macra <gap/></l>
+                                        <l n="5">Ecce canis. <app><rdg type="substantive">Tanat</rdg></app> ira canum. Timet ille, <gap/></l>
+                                        <l n="6"><app><rdg type="substantive">Sic fugia</rdg></app>. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu retinente <gap/></l>
+                                        <l n="8">Fiunt causa gravis cornua longua <app><rdg type="substantive">nescis</rdg></app>.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9">Spernere <app><rdg type="substantive">quod presit</rdg></app> et amare quod obsit <gap/></l>
+                                        <l n="10"><app><rdg type="substantive">Prodet</rdg></app> quod fugimus et quod amamus obest.</l>
+                                        <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                        <l n="12">Dum locus <app><rdg type="substantive">affueris</rdg></app>, utile quere tacens.</l>
+                                        <l n="13">Utilitas opibus preferri tempore debet :</l>
+                                        <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-P-frm-comparaison" n="f4-P-56v f4-P-57r">
+                                    <head type="title">Du serf morant de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un grant serf las que soif tenoit</l>
+                                        <l n="2">Boire a la <app><rdg type="orthographic">fontainne</rdg></app> venoit.</l>
+                                        <l n="3">S'embut assés et <app><rdg type="orthographic"></rdg></app>voulentiers</l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l'iaue ses cornes et <app><rdg type="substantive">sa teste</rdg></app>.</l>
+                                        <l n="6"><gap/> grant joie et grant feste</l>
+                                        <l n="7"><gap/> loe et <app><rdg type="orthographic">moult</rdg></app> se prise.</l>
+                                        <l n="8"><gap/> part trop desprise</l>
+                                        <l n="9"><gap/> <app><rdg type="orthographic">jampes</rdg></app> et ses piés.</l>
+                                        <l n="10"><gap/> et de l'autre est liés.</l>
+                                        <l n="11"><gap/> plus ne sejourne,</l>
+                                        <l n="12"><gap/> s'en retourne,</l>
+                                        <l n="13"><gap/> telles <app><rdg type="orthographic">novelles</rdg></app></l>
+                                        <l n="14"><gap/> li seront mie <app><rdg type="orthographic">belles</rdg></app>.</l>
+                                        <l n="15"><gap/> ou bois avoit <app><rdg type="orthographic">veneurs</rdg></app>,</l>
+                                        <l n="16"><gap/> y avoit et coureeurs</l>
+                                        <l n="17"><gap/> ne li <app><rdg type="orthographic">plaist</rdg></app> pas a oïr.</l>
+                                        <l n="18">Qui dont veist <app><rdg type="orthographic">le serf</rdg></app> fouir,</l>
+                                        <l n="19">Il ne le deüst pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses piés amer ;</l>   
+                                        <l n="21"><gap/> li vont pas ore ennuiant.</l>
+                                        <l n="22"><gap/> si comme il <app><rdg type="substantive">se va fuiant</rdg></app>,</l>
+                                        <l n="23">Un bois espés s'en est venus,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et <app><rdg type="orthographic">aresté</rdg></app> en <app><rdg type="orthographic">tel</rdg></app> maniere</l>
+                                        <l n="26">Que il ne puet <app><rdg type="orthographic">ne avant n’arriere</rdg></app>.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui <app><rdg type="substantive">a ses</rdg></app> <app><rdg type="orthographic">se courouçoit</rdg></app>,</l>
+                                        <l n="29">Qui sauvé et gueri l'eüssent</l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31"><app><rdg type="orthographic">Nulz</rdg></app> <app><rdg type="substantive">de doit</rdg></app> chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose ausi <app><rdg type="orthographic">chier</rdg></app> tenir</l>
+                                        <l n="34">Dont <app><rdg type="orthographic">doumage il</rdg></app> puet venir.</l>
+                                        <l n="35">Souvent fuions <app><rdg type="orthographic">se</rdg></app> qui <app><rdg type="substantive">nous faut</rdg></app></l>
+                                        <l n="36">Et de nostre bien ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38"><app><rdg type="orthographic">Ne doi</rdg></app> pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas <app><rdg type="orthographic">touxjours</rdg></app> ton plaisir</l>
+                                        <l n="40">Profitier <app><rdg type="substantive">et toy taisier</rdg></app> :</l>
+                                        <l n="41">Parce vendras tu <app><rdg type="orthographic">a richesse</rdg></app>.</l>
+                                        <l n="42">Ne te tiengne nulle <app><rdg type="orthographic">peresse</rdg></app>.</l>
+                                        <l n="43">Se tu <app><rdg type="orthographic">veulz touxjours</rdg></app> deliter,</l>
+                                        <l n="44">Et toute cusantion geter,</l>
+                                        <l n="45"><app><rdg type="substantive">Ne mener</rdg></app> vie delitable,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47">Et tu <app><rdg type="orthographic">n'i mais</rdg></app> atemprement,</l>
+                                        <l n="48"><app><rdg type="orthographic">Soies certains</rdg></app> et croi <app><rdg type="orthographic">ferment</rdg></app></l>
+                                        <l n="49">Tart te sera du repentir.</l>
+                                        <l n="50">De ceci ne <app><rdg type="orthographic">te vueil</rdg></app> mentir,</l>   
+                                        <l n="51">Atrempe toy <app><rdg type="orthographic">selon</rdg></app> ta rente,</l>
+                                        <l n="52">Que <app><rdg type="orthographic">pouvreté</rdg></app> ne <app><rdg type="orthographic">t'agravante</rdg></app>.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54"><app><rdg type="orthographic">Ne em</rdg></app> pompes <app><rdg type="orthographic">n’en</rdg></app> vaine gloire.</l>
+                                        <l n="55">De <app><rdg type="orthographic">l’autri</rdg></app> ne <app><rdg type="substantive">te fais</rdg></app> si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois bien esmaier</l>
+                                        <l n="59">Quant <app><rdg type="orthographic">despans</rdg></app> plus que n'as assés.</l>
+                                        <l n="60">Ces dis <app><rdg type="orthographic">no soient</rdg></app> trespassés.</l>
+                                    </lg>
+                                </div>
+                            </div>
+                            <div xml:id="f4-L-comparaison">
+                                <div xml:lang="lat" xml:id="f4-L-lat-comparaison" n="f4-L-71r">
+                                    <head type="title">De cervo sitiente</head>
+                                    <lg type="recit">
+                                        <l n="1">Fons nitet argento similis. Sitis arida cervum</l>
+                                        <l n="2"><app><rdg type="substantive">Hic</rdg></app> rapit. Haurit aquas, se speculatur aquis.</l>
+                                        <l n="3">Hunc beat, hunc mulcet ramose gloria frontis.</l>
+                                        <l n="4">Hunc premit, hunc ledit tibia macra pedum.</l>
+                                        <l n="5">Ecce canis. Tonat ira canum. Timet ille,</l>
+                                        <l n="6">Timenti fit fuga. Culpati cruris adorat opem.</l>
+                                        <l n="7">Silve claustra subit, cornu retinente moratur :</l>
+                                        <l n="8">Fiunt causa gravis cornua longa necis.</l>
+                                    </lg>
+                                    <l rend="rubrique">Moralitas</l>
+                                    <lg type="morale">
+                                        <l n="9">Spernere <app><rdg type="substantive">quod presit</rdg></app> et amare quod obsit ineptum est.</l>
+                                        <l n="10">Prodest quod fugimus et quod amamus obest.</l>
+                                        <l n="11">Dampna tibi queris si spreveris utilitatem.</l>
+                                        <l n="12">Dum locus affuerit, utile quere tacens.</l>
+                                        <l n="13">Utilitas opibus preferri tempore debet :</l>
+                                        <l n="14">Si te delectant dulcia, pone modum.</l>
+                                    </lg>
+                                </div>
+                                <div xml:lang="frm" xml:id="f4-L-frm-comparaison" n="f4-L-71v f4-L-72r f4-L-72v">
+                                    <head><app><rdg type="orthographic">Dou serf</rdg></app> morant de soif</head>
+                                    <lg type="recit">
+                                        <l n="1">Un grant <app><rdg type="orthographic">serf</rdg></app> las que soif tenoit</l>
+                                        <l n="2"><app><rdg type="orthographic">Boivre</rdg></app> a la <app><rdg type="orthographic">fontainne</rdg></app> <app><rdg type="substantive"> aloit</rdg></app>.</l>
+                                        <l n="3"><app><rdg type="orthographic">S'ambut assez</rdg></app> et <app><rdg type="orthographic">voulentiers</rdg></app></l>
+                                        <l n="4">Et remira endementiers</l>
+                                        <l n="5">En l'iaue ses cornes et teste.</l>
+                                        <l n="6"><app><rdg type="orthographic">Moult</rdg></app> en fait grant joie et grant feste</l>
+                                        <l n="7">Et <app><rdg type="orthographic">Moult</rdg></app> se loe et <app><rdg type="orthographic">Moult</rdg></app> se prise.</l>
+                                        <l n="8">Mes de l'autre part trop desprise</l>
+                                        <l n="9">Ses megres jambes et ses <app><rdg type="orthographic">piez</rdg></app>.</l>
+                                        <l n="10">De l'un se duest de l'autre est liez.</l>
+                                        <l n="11">Le cerf illuec plus ne sejourne,</l>
+                                        <l n="12">Au bois <app><rdg type="orthographic">ariere</rdg></app> s'en retourne,</l>
+                                        <l n="13">Ou il orra telles <app><rdg type="orthographic">nouvelles</rdg></app></l>
+                                        <l n="14">Qui ne li seront mie <app><rdg type="orthographic">belles</rdg></app>.</l>
+                                        <l n="15">Car ou bois avoit veneeurs,</l>
+                                        <l n="16">Chiens y avoit et <app><rdg type="orthographic">courreeurs</rdg></app></l>
+                                        <l n="17">Qui ne <app><rdg type="orthographic">li plest</rdg></app> pas <app><rdg type="orthographic">a oÿr</rdg></app>.</l>
+                                        <l n="18">Qui donc veïst le cerf fouir,</l>
+                                        <l n="19">Il ne le deüst pas blasmer.</l>
+                                        <l n="20">Or doit il bien ses <app><rdg type="orthographic">piez</rdg></app> amer ;</l>   
+                                        <l n="21">Ne li vont pas ore <app><rdg type="orthographic">annuiant</rdg></app>.</l>
+                                        <l n="22">Mes si comme il s'en va fuiant,</l>
+                                        <l n="23">Un bois espés <app><rdg type="substantive">en est venus</rdg></app>,</l>
+                                        <l n="24">Par ses cornes est retenus</l>
+                                        <l n="25">Et <app><rdg type="orthographic">arestez</rdg></app> en <app><rdg type="orthographic">tel</rdg></app> maniere</l>
+                                        <l n="26"><app><rdg type="substantive">Qu'aler</rdg></app> ne puet <app><rdg type="substantive">avant n'arriere</rdg></app>.</l>
+                                        <l n="27">Par ses cornes la mort reçoit,</l>
+                                        <l n="28">Qui <app><rdg type="orthographic">a ses piez</rdg></app> se courreçoit,</l>
+                                        <l n="29">Qui sauvé et gueri l'eüssent </l>
+                                        <l n="30">Se ses longues cornes ne fussent.</l>
+                                    </lg>
+                                    <l rend="rubrique">La moralité</l>
+                                    <lg type="morale">
+                                        <l n="31"><app><rdg type="orthographic">Nunlz</rdg></app> ne doit chose despiter</l>
+                                        <l n="32">Qui puet valoir et profiter,</l>
+                                        <l n="33">Ne chose <app><rdg type="orthographic">aussi</rdg></app> chiere tenir</l>
+                                        <l n="34">Dont <app><rdg type="orthographic">domages</rdg></app> li puet venir.</l>
+                                        <l n="35">Souvent fuions ce qui nous <app><rdg type="orthographic">vaust</rdg></app></l>
+                                        <l n="36">Et de nostre bien ne nous chaut.</l>
+                                        <l n="37">Et qui te porte utilité,</l>
+                                        <l n="38">Ne dois pas avoir en vité.</l>
+                                        <l n="39">Ne quier pas <app><rdg type="orthographic">tousjours</rdg></app> ton plaisir</l>
+                                        <l n="40">Profitier et estuet <app><rdg type="substantive">et taisir</rdg></app> :</l>
+                                        <l n="41">Par ce vendras tu a richesce.</l>
+                                        <l n="42">Ne te tiengne nulle <app><rdg type="orthographic">peresce</rdg></app>.</l>
+                                        <l n="43">Se tu vues tousjours deliter,</l>
+                                        <l n="44">Et toute cusantion geter,</l>
+                                        <l n="45">Et mener vie <app><rdg type="orthographic">delictable</rdg></app>,</l>
+                                        <l n="46">.i. grans despens et grande table,</l>
+                                        <l n="47">Et tu n'i mes <app><rdg type="orthographic">atremprement</rdg></app>,</l>
+                                        <l n="48">Sois certains et croi fermement</l>
+                                        <l n="49">Tart te sera <app><rdg type="orthographic">dou repentir</rdg></app>.</l>
+                                        <l n="50">De ceci <app><rdg type="orthographic">te ne vueil</rdg></app> mentir,</l>   
+                                        <l n="51">Atrempe toi <app><rdg type="orthographic">selon</rdg></app> ta rente,</l>
+                                        <l n="52">Que <app><rdg type="orthographic">pouretez</rdg></app> ne <app><rdg type="orthographic">t'acravante</rdg></app>.</l>
+                                        <l n="53">Ne te fie pas en acroire</l>
+                                        <l n="54">Ne en <app><rdg type="orthographic">ponpes</rdg></app> ne en <app><rdg type="orthographic">vainne</rdg></app> gloire.</l>
+                                        <l n="55">De l'autrui ne t'a fai si gobes,</l>
+                                        <l n="56">N'en viandes n'en belles robes</l>
+                                        <l n="57">Car il convient l'escot paier.</l>
+                                        <l n="58">Pour ce te dois bien esmaier</l>
+                                        <l n="59">Quant despens plus que n'as <app><rdg type="orthographic">assez</rdg></app>.</l>
+                                        <l n="60">Ces dis ne soient <app><rdg type="orthographic">trespassez</rdg></app>.</l>
+                                    </lg>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div n="f4-abc" xml:id="f4-ms-abc">
-                        <div xml:lang="frm" type="edition-critique" xml:id="f4-abc-ed-crit"></div>
-                        <div xml:lang="fre" type="traduction" xml:id="f4-abc-trad"></div>
+                        <div xml:lang="frm" type="edition-critique" xml:id="f4-abc-ed-crit">
+                            <head type="title">D’un cerf qui est en l’eaue</head>
+                            <lg type="recit">
+                                <lg corresp="#schema-donnee">
+                                <l n="1"><app><lem wit="#c"><name ref="#cerf #actant-personnage">Un serf</name> qui <rs corresp="#actant-objet">tres grant soif</rs> avoit</lem><rdg wit="#a" type="substantive">un cerf lais qui grant seit tenoit</rdg><rdg wit="#b" type="substantive">un cerf qui grant soit tenoit</rdg></app></l>
+                                <l n="2">Boire a <placeName ref="#fontaine">la fontaine</placeName> venoit.</l>
+                                <l n="3"><app><lem wit="#c #a">S’enbut assez</lem><rdg wit="#b" type="substantive">s'en vint assés</rdg></app> et voulentiers</l>
+                                <l n="4"><app><lem wit="#a #b">Et remira</lem><rdg wit="#c" type="lecon-rejetee">se remira</rdg></app> en demantiers</l>
+                                <l n="5">En l'eaue ses cornes <app><lem wit="#c">et teste</lem><rdg wit="#a #b">et sa teste</rdg></app>.</l>
+                                </lg>
+                                <lg corresp="#schema-action">
+                                <l n="6"><app><lem wit="#c">Si en fait tres grant joye et feste</lem><rdg wit="#a" type="substantive">dont il faisoit joie et feste </rdg><rdg wit="#b" type="substantive">moult en fait grant joie et grant feste</rdg></app>,</l>
+                                <l n="7">Et moult se loe, et moult se prise ;<note type="note-critique">vers omis dans <c rend="ital">b</c>.</note></l>
+                                <l n="8">Mais de l'autre part trop desprise</l>
+                                <l n="9">Ses maigres jambes et ses piez.</l>
+                                </lg>
+                                <l n="10">De l'un se deult, de l'autre est liez.</l>
+                                <l n="11">Le serf illec <app><lem wit="#c #b">plus ne sejourne</lem><rdg wit="#a" type="substantive">point ne sejourne</rdg></app> ;</l>
+                                <l n="12">Au <placeName ref="#bois">bois</placeName> arriere s'en retourne,</l>
+                                <l n="13"><app><lem wit="#c">Ou il oÿ</lem><rdg wit="#a" type="substantive">ou il oïra</rdg><rdg wit="#b" type="substantive">qu'il aura</rdg></app> <app><lem wit="#c #b">telles nouvelles</lem><rdg wit="#a" type="substantive">autres nouvelles</rdg></app></l>
+                                <l n="14">Qui ne lui <app><lem wit="#c">furent</lem><rdg wit="#a #b" type="substantive">seront</rdg></app> mie belles,</l>
+                                <l n="15">Car ou <placeName ref="#bois">bois</placeName> <app><lem wit="#c"> estoient <name ref="#chasseurs #actant-intervenant">veneurs</name></lem><rdg wit="#b" type="substantive">avoit veneurs</rdg></app><note type="note-critique">vers omis dans <c rend="ital">a</c></note>.</l>
+                                <l n="16"><name ref="#chien #actant-intervenant">Les chiens</name> oÿ et <name corresp="#chasseurs #actant-intervenant">les coureurs</name><note type="note-critique">vers omis dans <c rend="ital">a</c></note></l>
+                                <l n="17">Qui pas ne lui plaist a ouïr.</l>
+                                <l n="18"><app><lem wit="#c">Qui veïst lors le serf fouir</lem><rdg wit="#a" type="substantive">qui doncques le vit fouïr</rdg><rdg wit="#b" type="substantive">qui donc veïst le cerf fouir</rdg></app>,</l>
+                                <l n="19"><app><lem wit="#c">Il ne l'en deüst pas</lem><rdg wit="#a" type="substantive">jamais ne le deüst</rdg><rdg wit="#b" type="substantive">il ne le deeübt point</rdg></app> blasmer.</l>
+                                <l n="20">Or doit il bien <app><lem wit="#c #b">ses piez</lem><rdg wit="#a" type="substantive">ses jambes</rdg></app> amer</l>
+                                <l n="21">Ne lui <app><lem wit="#c">vont pas lors</lem><rdg wit="#a" type="substantive">vont pas or ennuyant</rdg><rdg wit="#b" type="substantive">vont pas ennuyant</rdg></app> ennuyant.</l>
+                                <lg corresp="#schema-evaluation">
+                                <l n="22">Mais si comme l’en aloit fuyant</l>
+                                <l n="23">En un <placeName ref="#bois">bois</placeName> espés <app><lem wit="#c #a">est venu</lem><rdg wit="#b" type="substantive">et menu</rdg></app> ;</l>
+                                <l n="24"><app><lem wit="#c #b">Ou ses cornes l'ont retenu</lem><rdg wit="#a">la fu de ses cornes tenu</rdg></app></l>
+                                <l n="25">Et arresté en tel maniere</l>
+                                <l n="26">Qu'il <app><lem wit="#c #b">ne puet avant ne arriere</lem><rdg wit="#a" type="substantive">ne puet aller n’avant n’arriere</rdg></app>.</l>
+                                <l n="27"><app><lem wit="#c #b">Par ses cornes</lem><rdg wit="#a" type="substantive">pour ses cornes</rdg></app> la mort reçoit,</l>
+                                <l n="28">Et a <app><lem wit="#c #b">ses piez</lem><rdg wit="#a" type="substantive">ses jambes</rdg></app> se courrouçoit,</l>
+                                <l n="29">Qui sauvé et guery l'eüssent</l>
+                                <l n="30"><app><lem wit="#c #b">Se ses longues</lem><rdg wit="#a" type="substantive">se les longues</rdg></app> cornes ne feussent.</l>
+                                </lg>
+                            </lg>
+                            <lg type="morale">
+                                <lg corresp="#morale-paradigmatique">
+                                <l n="31">Nul ne doit chose despiter</l>
+                                <l n="32">Qui puet valoir et prouffiter,</l>
+                                <l n="33">Ne chose chiere aussi tenir</l>
+                                <l n="34">Dont dommaige <app><lem wit="#c #a">lui puet venir</lem><rdg wit="#b" type="substantive">puet avenir</rdg></app>.</l>
+                                </lg>
+                                <lg corresp="#morale-personnel">
+                                <l n="35">Souvent fuyons ce qui nous vault,</l>
+                                <l n="36">Et de notre bien ne nous chault.</l>
+                                </lg>
+                            </lg>
+                        </div>
+                        <div xml:lang="fre" type="traduction" xml:id="f4-abc-trad">
+                            <head type="title">Un cerf qui va dans l’eau</head>
+                            <lg type="recit">
+                                <lg corresp="#schema-donnee">
+                                <l n="1"><name ref="#cerf #actant-personnage">Un cerf</name> qui avait <rs corresp="#actant-objet">grande soif</rs></l>
+                                <l n="2">vint boire à <placeName ref="#fontaine">la fontaine</placeName>.</l>
+                                <l n="3">Il se désaltéra complètement et avec plaisir</l>
+                                <l n="4">tout en contemplant,</l>
+                                <l n="5">dans l'eau, ses ramures et sa tête.</l>
+                                </lg>
+                                <lg corresp="#schema-action">
+                                <l n="6">Il s'en réjouit et s'en délecte,</l>
+                                <l n="7">il se loue et s’apprécie grandement ;</l>
+                                <l n="8">mais d'un autre côté, il n’apprécie aucunement</l>
+                                <l n="9">ses maigres jambes et ses pieds.</l>
+                                </lg>
+                                <l n="10">Il se plaint de l’un, est attaché à l’autre.</l>
+                                <l n="11">Le cerf ne reste pas là davantage ; </l>
+                                <l n="12">il retourne dans <placeName ref="#bois">le bois</placeName></l>
+                                <l n="13">où il lui arriva des aventures</l>
+                                <l n="14">qui ne lui furent pas agréables,</l>
+                                <l n="15">car dans <placeName ref="#bois">le bois</placeName> se trouvaient <name ref="#chasseurs #actant-intervenant">des chasseurs</name>.</l>
+                                <l n="16">Il entendit <name ref="#chien #actant-intervenant">les chiens</name> et <name ref="#chasseurs #actant-intervenant">les cavaliers</name></l>
+                                <l n="17">qu'il n'a pas plaisir à entendre.</l>
+                                <l n="18">Celui qui aurait vu le cerf s’enfuir</l>
+                                <l n="19">ne l’aurait pas désapprouvé.</l>
+                                <l n="20">Il apprécie pleinement ses pieds</l>
+                                <l n="21">qui ne lui causent alors plus de souci. </l>
+                                    <lg corresp="#schema-evaluation">
+                                <l n="22">Mais tandis qu'il s’enfuit,</l>
+                                <l n="23">il arrive dans <placeName ref="#bois">un bois</placeName> touffu,</l>
+                                <l n="24">est retenu par ses ramures</l>
+                                <l n="25">et arrêté de telle façon</l>
+                                <l n="26">qu'il ne peut avancer ni reculer.</l>
+                                <l n="27">C’est à cause de ses ramures qu’il trouve la mort,</l>
+                                <l n="28">alors qu’il se plaignait de ses pieds</l>
+                                <l n="29">qui l'auraient sauvé et protégé</l>
+                                <l n="30">s'il n'avait eu ses amples ramures.</l>
+                                    </lg>
+                            </lg>
+                            <lg type="morale" corresp="#morale-paradigmatique">
+                                <lg>
+                                <l n="31">Nul ne doit mépriser</l>
+                                <l n="32">ce qui peut lui être utile et profitable,</l>
+                                <l n="33">ni chérir quelque chose</l>
+                                <l n="34">qui pourrait lui être dommageable.</l>
+                                </lg>
+                                <lg corresp="#morale-personnel">
+                                <l n="35">Nous fuyons souvent ce qui nous est utile</l>
+                                <l n="36">et ne nous préoccupons pas de notre bien.</l>
+                                </lg>
+                            </lg>
+                        </div>
                         <div xml:lang="frm" type="transcriptions" xml:id="f4-abc-transcriptions">
-                            <div xml:id="f4-a-transcription"></div>
-                            <div xml:id="f4-b-transcription"></div>
-                            <div xml:id="f4-c-transcription"></div>
+                            <div xml:id="f4-a-transcription" n="f4-a-23r f4-a-23v">
+                                <head n="f4-a-23r f4-a-23v"></head>
+                                <lg type="recit">
+                                    <l n="1">Uns cerf lais qui <expan>g<ex>ra</ex>nt</expan> soit tenoit,</l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3">S'embut assés mout <expan>voulent<ex>ier</ex>s</expan></l>
+                                    <l n="4">Et remira endementiers</l>
+                                    <l n="5">Ses cornes en l'eaue et sa teste,</l>
+                                    <l n="6">Dont il faisoit joie et feste.</l>
+                                    <l n="7">Et mout se loe, et mout se prise,</l>
+                                    <l n="8">Mais de l'autre part trop se desprise</l>
+                                    <l n="9">Ses maigres jambes et ses piés.</l>
+                                    <l n="10">De l'un se doubt, de l'autre est liez.</l>
+                                    <l n="11">Ly cerfs illec point ne sejourne ;</l>
+                                    <l n="12">Au boys arriere s'en retourne,</l>
+                                    <l n="13">Qu'il aura autres nouvelles</l>
+                                    <l n="14">Qui ne lui seront mie beles ;</l>
+                                    <l n="15">Que ne li plaist pas a oïr.</l>
+                                    <l n="16">Qui doncques le vit fouïr,</l>
+                                    <l n="17">Jamais ne le deüst blasmer.</l>
+                                    <l n="18">Or doit <expan>b<ex>ie</ex>n</expan> ses jambes amer,</l>
+                                    <l n="19">Ne li vont pas or onnuyant,</l>
+                                    <l n="20">Car au boys s'en va fuyant.</l>
+                                    <l n="21">En un boys espés et venus ;</l>
+                                    <l n="22">La fu de ses cornes tenus</l>
+                                    <l n="23">Et arrestés en tel menniere</l>
+                                    <l n="24">Ne puet aller n'avant n'arriere.</l>
+                                    <l n="25">Pour ses cornes la mort reçoit,</l>
+                                    <l n="26">Qui a ses jambes se courreçoit,</l>
+                                    <l n="27">Qui saulvé et gueri l'eüssent</l>
+                                    <l n="28">Se les longues cornes ne fussent.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="29">Nuls ne doit chose despiter</l>
+                                    <l n="30">Qui puet valoir et <expan>p<ex>ro</ex>uffiter</expan>,</l>
+                                    <l n="31">Ne chose aussi chiere tenir</l>
+                                    <l n="32">Dont <expan>do<ex>m</ex>mage</expan> li puet venir.</l>
+                                    <l n="33">Souvent fuions ce qui nous vault,</l>
+                                    <l n="34">Et de <expan>n<ex>ot</ex>re</expan> bien ne nous chaut.</l>
+                                </lg>
+                            </div>
+                            <div xml:id="f4-b-transcription" n="f4-b-122r">
+                                <head n="f4-b-122r"></head>
+                                <lg type="recit">
+                                    <l n="1">Un cerf <expan>q<ex>ui</ex></expan> <expan>g<ex>ra</ex>nt</expan> soif tenoit</l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3">S'en vint assés <expan><ex>et</ex></expan> <expan>voulent<ex>ier</ex>s</expan>,</l>
+                                    <l n="4">Et remira en <expan>dem<ex>en</ex>tiers</expan></l>
+                                    <l n="5">En l'eau ses cornes <expan><ex>et</ex></expan> sa teste ;</l>
+                                    <l n="6">Moult en fait <expan>g<ex>ra</ex>nt</expan> joie <expan><ex>et</ex></expan> <expan>g<ex>ra</ex>nt</expan> feste.</l>
+                                    <l n="7">Mais de <expan>l'aut<ex>re</ex></expan> part <expan>t<ex>ro</ex>p</expan> desprise</l>
+                                    <l n="8">Ses <expan>maig<ex>re</ex>s</expan> <expan>ja<ex>m</ex>bes</expan> et ses piez.</l>
+                                    <l n="9">De l'un se deubt <expan><ex>et</ex></expan> de <expan>l'aut<ex>re</ex></expan> est liez.</l>
+                                    <l n="10">Le cerf illeuc <expan>pl<ex>us</ex></expan> ne <expan>sejo<ex>ur</ex>ne</expan>,</l>
+                                    <l n="11">Au boys arriere s'en <expan>reto<ex>ur</ex>ne</expan>,</l>
+                                    <l n="12">Ou il oïra telles nouvelles</l>
+                                    <l n="13">Qui ne lui <expan>s<ex>er</ex>ont</expan> mie belles</l>
+                                    <l n="14">Car ou bois avoit veneurs.</l>
+                                    <l n="15">Les chiens oÿt <expan><ex>et</ex></expan> les corneurs</l>
+                                    <l n="16">Qui ne lui plaist pas a ouïr.</l>
+                                    <l n="17">Qui donc veïst le cerf courir,</l>
+                                    <l n="18">Il ne le deübt point blasmer.</l>
+                                    <l n="19">Or doit il bien ses piez amer,</l>
+                                    <l n="20">Ne lui vont pas ennuyant.</l>
+                                    <l n="21">Mais si <expan>co<ex>m</ex>me</expan> il s'en va fuiant</l>
+                                    <l n="22">En un boys espés <expan><ex>et</ex></expan> menu ;</l>
+                                    <l n="23">Ou ses cornes l'ont retenu</l>
+                                    <l n="24">Et arresté en telle maniere</l>
+                                    <l n="25">Qu’il ne puet avant ne arriere.</l>
+                                    <l n="26">Par ses cornes la mort reçoipt,</l>
+                                    <l n="27">Qui a ses piez se courroczoit,</l>
+                                    <l n="28">Qui salvé <expan><ex>et</ex></expan> gueri l'eüssent</l>
+                                    <l n="29">Si ses cornes longues ne fussent.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="30">Nulz ne doibt chose despiter</l>
+                                    <l n="31">Qui puet valoir <expan><ex>et</ex></expan> prouffiter,</l>
+                                    <l n="32">Ne chose aussi <expan>ch<ex>ie</ex>re</expan> tenir</l>
+                                    <l n="33">Dont domaige puet avenir.</l>
+                                    <l n="34"><expan>Souve<ex>n</ex>t</expan> fuions ce qui <expan>no<ex>us</ex></expan> vault,</l>
+                                    <l n="35">Et de <expan>n<ex>ot</ex>re</expan> bien ne <expan>no<ex>us</ex></expan> chault.</l>
+                                </lg>
+                            </div>
+                            <div xml:id="f4-c-transcription" n="f4-c-30v f4-c-31r f4-c-31v">
+                                <head n="f4-c-30v f4-c-31r f4-c-31v">D’un cerf qui est en l’eaue</head>
+                                <lg type="recit">
+                                    <l n="1">Un serf qui tres grant soif avoit</l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3">S’enbut assez et voulentiers</l>
+                                    <l n="4">Et remira en demantiers</l>
+                                    <l n="5">En l'eaue ses cornes et teste.</l>
+                                    <l n="6">Si en fait tres grant joye et feste,</l>
+                                    <l n="7">Et moult se loe, et moult se prise ;</l>
+                                    <l n="8">Mais de l'autre part trop desprise</l>
+                                    <l n="9">Ses maigres jambes et ses piez.</l>
+                                    <l n="10">De l'un se deult, de l'autre est liez.</l>
+                                    <l n="11">Le serf illec plus ne sejourne ;</l>
+                                    <l n="12">Au bois arriere s'en retourne,</l>
+                                    <l n="13">Ou il oÿ telles nouvelles</l>
+                                    <l n="14">Qui ne lui furent mie belles,</l>
+                                    <l n="15">Car ou bois estoient veneurs.</l>
+                                    <l n="16">Les chiens oÿ et les coureurs</l>
+                                    <l n="17">Qui pas ne lui plaist a ouïr.</l>
+                                    <l n="18">Qui veïst lors le serf fouir,</l>
+                                    <l n="19">Il ne l'en deüst pas blasmer.</l>
+                                    <l n="20">Or doit il bien ses piez amer</l>
+                                    <l n="21">Ne lui vont pas lors ennuyant.</l>
+                                    <l n="22">Mais si <expan>co<ex>m</ex>me</expan> l’en aloit fuyant</l>
+                                    <l n="23">En un bois espés est venu ;</l>
+                                    <l n="24">Ou ses cornes l'ont retenu</l>
+                                    <l n="25">Et arresté en tel maniere</l>
+                                    <l n="26">Qu'il ne puet avant ne arriere.</l>
+                                    <l n="27">Par ses cornes la mort reçoit,</l>
+                                    <l n="28">Et a ses piez se courrouçoit,</l>
+                                    <l n="29">Qui sauvé et guery l'eüssent</l>
+                                    <l n="30">Se ses longues cornes ne feussent.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="31">Nul ne doit chose despiter</l>
+                                    <l n="32">Qui puet valoir et prouffiter,</l>
+                                    <l n="33">Ne chose chiere aussi tenir</l>
+                                    <l n="34">Dont <expan>do<ex>m</ex>maige</expan> lui puet venir.</l>
+                                    <l n="35">Souvent fuyons ce qui nous vault,</l>
+                                    <l n="36">Et de <expan>n<ex>ot</ex>re</expan> bien ne nous chault.</l>
+                                </lg>
+                            </div>
+                        </div>
+                        <div xml:lang="frm" type="comparaisons" xml:id="f4-abc-comparaisons">
+                            <div xml:id="f4-a-comparaison" n="f4-a-23r f4-a-23v">
+                                <head n="f4-a-23r f4-a-23v"></head>
+                                <lg type="recit">
+                                    <l n="1"><app><rdg type="substantive">Uns cerf lais qui grant soit tenoit</rdg></app>,</l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3"><app><rdg type="orthographic">S'embut assés</rdg></app> <app><rdg type="substantive">mout</rdg></app> voulentiers</l>
+                                    <l n="4"><app><rdg type="substantive">Et remira</rdg></app> <app><rdg type="orthographic">endementiers</rdg></app></l>
+                                    <l n="5">Ses cornes en l'eaue <app><rdg type="substantive">et sa teste</rdg></app>,</l>
+                                    <l n="6"><app><rdg type="substantive">Dont il faisoit joie et feste</rdg></app>.</l>
+                                    <l n="7">Et <app><rdg type="orthographic">mout</rdg></app> se loe, et <app><rdg type="orthographic">mout</rdg></app> se prise,</l>
+                                    <l n="8">Mais de l'autre part trop <app><rdg type="substantive">se desprise</rdg></app></l>
+                                    <l n="9">Ses maigres jambes et ses <app><rdg type="orthographic">piés</rdg></app>.</l>
+                                    <l n="10">De l'un <app><rdg type="substantive">se doubt</rdg></app>, de l'autre est liez.</l>
+                                    <l n="11"><app><rdg type="orthographic">Ly cerfs</rdg></app> illec <app><rdg type="substantive">point</rdg></app> ne sejourne ;</l>
+                                    <l n="12"><app><rdg type="orthographic">Au boys</rdg></app> arriere s'en retourne,</l>
+                                    <l n="13"><app><rdg type="substantive">Qu'il aura</rdg></app> autres nouvelles</l>
+                                    <l n="14">Qui ne lui <app><rdg type="substantive">seront</rdg></app> mie <app><rdg type="orthographic">beles</rdg></app> ;</l>
+                                    <l></l>
+                                    <l></l>
+                                    <l n="15">Que ne <app><rdg type="orthographic">li</rdg></app> plaist pas a <app><rdg type="orthographic">oïr</rdg></app>.</l>
+                                    <l n="16"><app><rdg type="substantive">Qui doncques le vit fouïr</rdg></app>,</l>
+                                    <l n="17"><app><rdg type="substantive">Jamais ne le deüst</rdg></app> blasmer.</l>
+                                    <l n="18">Or <app><rdg type="substantive">doit bien</rdg></app> ses <app><rdg type="substantive">jambes</rdg></app> amer,</l>
+                                    <l n="19">Ne <app><rdg type="orthographic">li</rdg></app> vont pas <app><rdg type="substantive">or</rdg></app> <app><rdg type="orthographic">onnuyant</rdg></app>,</l>
+                                    <l n="20"><app><rdg type="substantive">Car au boys s'en va</rdg></app> fuyant.</l>
+                                    <l n="21">En un <app><rdg type="orthographic">boys</rdg></app> espés <app><rdg type="orthographic">et venus</rdg></app> ;</l>
+                                    <l n="22"><app><rdg type="substantive">La fu de ses cornes tenus</rdg></app></l>
+                                    <l n="23">Et <app><rdg type="orthographic">arrestés</rdg></app> en tel <app><rdg type="orthographic">menniere</rdg></app></l>
+                                    <l n="24"><app><rdg type="substantive">Ne puet aller n'</rdg></app>avant <app><rdg type="orthographic">n'arriere</rdg></app>.</l>
+                                    <l n="25"><app><rdg type="substantive">Pour</rdg></app> ses cornes la mort reçoit,</l>
+                                    <l n="26">Qui a <app><rdg type="substantive">ses jambes</rdg></app> se <app><rdg type="orthographic">courreçoit</rdg></app>,</l>
+                                    <l n="27"><app><rdg type="orthographic">Qui saulvé et gueri</rdg></app> l'eüssent</l>
+                                    <l n="28"><app><rdg type="substantive">Se les longues</rdg></app> cornes ne fussent.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="29"><app><rdg type="orthographic">Nuls</rdg></app> ne doit chose despiter</l>
+                                    <l n="30">Qui puet valoir et prouffiter,</l>
+                                    <l n="31">Ne chose aussi chiere tenir</l>
+                                    <l n="32">Dont <app><rdg type="orthographic">dommage</rdg></app> <app><rdg type="orthographic">li</rdg></app> puet venir.</l>
+                                    <l n="33">Souvent <app><rdg type="orthographic">fuions</rdg></app> ce qui nous vault,</l>
+                                    <l n="34">Et de <app><rdg type="orthographic">nostre</rdg></app> bien ne nous <app><rdg type="orthographic">chaut</rdg></app>.</l>
+                                </lg>
+                            </div>
+                            <div xml:id="f4-b-comparaison" n="f4-b-122r">
+                                <head n="f4-b-122r"></head>
+                                <lg type="recit">
+                                    <l n="1"><app><rdg type="orthographic">Un cerf</rdg></app> <app><rdg type="substantive">qui grant soif tenoit</rdg></app></l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3"><app><rdg type="substantive">S'en vint assés</rdg></app> et voulentiers,</l>
+                                    <l n="4"><app><rdg type="substantive">Et remira</rdg></app> <app><rdg type="orthographic">en dementiers</rdg></app></l>
+                                    <l n="5"><app><rdg type="orthographic">En l'eau</rdg></app> ses cornes <app><rdg type="substantive">et sa teste</rdg></app> ;</l>
+                                    <l n="6"><app><rdg type="substantive">Moult en fait</rdg></app> <app><rdg type="substantive">grant joie et grant feste</rdg></app>.</l>
+                                    <l></l>
+                                    <l n="7">Mais de l'autre part trop desprise</l>
+                                    <l n="8">Ses maigres jambes et ses piez.</l>
+                                    <l n="9">De l'un <app><rdg type="substantive">se deubt et</rdg></app> de l'autre est liez.</l>
+                                    <l n="10"><app><rdg type="orthographic">Le cerf</rdg></app> <app><rdg type="orthographic">illeuc</rdg></app> plus ne sejourne,</l>
+                                    <l n="11"><app><rdg type="orthographic">Au boys</rdg></app> arriere s'en retourne,</l>
+                                    <l n="12">Ou <app><rdg type="substantive">il oïra</rdg></app> telles nouvelles</l>
+                                    <l n="13">Qui ne lui <app><rdg type="substantive">seront</rdg></app> mie belles</l>
+                                    <l n="14">Car ou bois <app><rdg type="substantive">avoit veneurs</rdg></app>.</l>
+                                    <l n="15">Les chiens <app><rdg type="orthographic">oÿt</rdg></app> et <app><rdg type="substantive">les corneurs</rdg></app></l>
+                                    <l n="16">Qui ne lui plaist pas a ouïr.</l>
+                                    <l n="17"><app><rdg type="substantive">Qui donc veïst</rdg></app> <app><rdg type="orthographic">le cerf</rdg></app> <app><rdg type="substantive">courir</rdg></app>,</l>
+                                    <l n="18"><app><rdg type="substantive">Il ne le deübt point</rdg></app> blasmer.</l>
+                                    <l n="19">Or doit il bien ses piez amer,</l>
+                                    <l n="20">Ne lui vont <app><rdg type="substantive">pas ennuyant</rdg></app>.</l>
+                                    <l n="21">Mais si comme <app><rdg type="substantive">il s'en va</rdg></app> <app><rdg type="orthographic">fuiant</rdg></app></l>
+                                    <l n="22">En <app><rdg type="orthographic">un boys</rdg></app> espés <app><rdg type="substantive">et menu</rdg></app> ;</l>
+                                    <l n="23">Ou ses cornes l'ont retenu</l>
+                                    <l n="24">Et arresté <app><rdg type="substantive">en telle</rdg></app> maniere</l>
+                                    <l n="25">Qu’il ne puet avant ne arriere.</l>
+                                    <l n="26">Par ses cornes la mort <app><rdg type="orthographic">recoipt</rdg></app>,</l>
+                                    <l n="27">Qui a ses piez <app><rdg type="orthographic">se courroczoit</rdg></app>,</l>
+                                    <l n="28"><app><rdg type="orthographic">Qui salvé et gueri</rdg></app> l'eüssent</l>
+                                    <l n="29"><app><rdg type="orthographic">Si</rdg></app> ses cornes longues <app><rdg type="orthographic">ne fussent</rdg></app>.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="30"><app><rdg type="orthographic">Nulz ne doibt</rdg></app> chose despiter</l>
+                                    <l n="31">Qui puet valoir et prouffiter,</l>
+                                    <l n="32">Ne chose aussi <app><rdg type="orthographic">chere</rdg></app> tenir</l>
+                                    <l n="33">Dont <app><rdg type="orthographic">domaige</rdg></app> <app><rdg type="substantive">puet avenir</rdg></app>.</l>
+                                    <l n="34">Souvent <app><rdg type="orthographic">fuions</rdg></app> ce qui nous vault,</l>
+                                    <l n="35">Et de notre bien ne nous chault.</l>
+                                </lg>
+                            </div>
+                            <div xml:id="f4-c-comparaison" n="f4-c-30v f4-c-31r f4-c-31v">
+                                <head n="f4-c-30v f4-c-31r f4-c-31v">D’un cerf qui est en l’eaue</head>
+                                <lg type="recit">
+                                    <l n="1">Un serf qui tres grant soif avoit</l>
+                                    <l n="2">Boire a la fontaine venoit.</l>
+                                    <l n="3">S’enbut assez et voulentiers</l>
+                                    <l n="4">Et remira en demantiers</l>
+                                    <l n="5">En l'eaue ses cornes et teste.</l>
+                                    <l n="6">Si en fait tres grant joye et feste,</l>
+                                    <l n="7">Et moult se loe, et moult se prise ;</l>
+                                    <l n="8">Mais de l'autre part trop desprise</l>
+                                    <l n="9">Ses maigres jambes et ses piez.</l>
+                                    <l n="10">De l'un se deult, de l'autre est liez.</l>
+                                    <l n="11">Le serf illec plus ne sejourne ;</l>
+                                    <l n="12">Au bois arriere s'en retourne,</l>
+                                    <l n="13">Ou il oÿ telles nouvelles</l>
+                                    <l n="14">Qui ne lui furent mie belles,</l>
+                                    <l n="15">Car ou bois estoient veneurs.</l>
+                                    <l n="16">Les chiens oÿ et les coureurs</l>
+                                    <l n="17">Qui pas ne lui plaist a ouïr.</l>
+                                    <l n="18">Qui veïst lors le serf fouir,</l>
+                                    <l n="19">Il ne l'en deüst pas blasmer.</l>
+                                    <l n="20">Or doit il bien ses piez amer</l>
+                                    <l n="21">Ne lui vont pas lors ennuyant.</l>
+                                    <l n="22">Mais si comme l’en aloit fuyant</l>
+                                    <l n="23">En un bois espés est venu ;</l>
+                                    <l n="24">Ou ses cornes l'ont retenu</l>
+                                    <l n="25">Et arresté en tel maniere</l>
+                                    <l n="26">Qu'il ne puet avant ne arriere.</l>
+                                    <l n="27">Par ses cornes la mort reçoit,</l>
+                                    <l n="28">Et a ses piez se courrouçoit,</l>
+                                    <l n="29">Qui sauvé et guery l'eüssent</l>
+                                    <l n="30">Se ses longues cornes ne feussent.</l>
+                                </lg>
+                                <lg type="morale">
+                                    <l n="31">Nul ne doit chose despiter</l>
+                                    <l n="32">Qui puet valoir et prouffiter,</l>
+                                    <l n="33">Ne chose chiere aussi tenir</l>
+                                    <l n="34">Dont dommaige lui puet venir.</l>
+                                    <l n="35">Souvent fuyons ce qui nous vault,</l>
+                                    <l n="36">Et de notre bien ne nous chault.</l>
+                                </lg>
+                            </div>
                         </div>
                     </div>
                 </body>
@@ -2661,6 +3802,12 @@
          <back>
                     <div type="index_nominum">
                         <head>Index des personnages</head>
+                        <list>
+                            <item xml:id="cerf"> Cerf (Le)</item>
+                        </list>
+                        <list>
+                            <item xml:id="chasseurs"> Chasseurs (Les)</item>
+                        </list>
                         <list>
                             <item xml:id="chien"> Chien (Le) </item>
                         </list>
@@ -2677,6 +3824,12 @@
                     <div type="index_locorum">
                         <head>Index des noms de lieux</head>
                         <listPlace>
+                            <place xml:id="bois">
+                                <placeName>Bois</placeName>
+                            </place>
+                            <place xml:id="fontaine">
+                                <placeName>Fontaine</placeName>
+                            </place>
                             <place xml:id="riviere">
                                 <placeName>Rivière</placeName>
                             </place>
@@ -2722,6 +3875,5 @@
                         </interpGrp>
                     </div>
                 </back>
-           
     
 </TEI>
