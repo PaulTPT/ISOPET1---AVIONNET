@@ -36,6 +36,10 @@ app.controller('BarController', function ($scope, FableFactory) {
     });
 
     var unSlick = function() {
+        $('img').removeData('elevateZoom');
+        $('.zoomWrapper img.zoomed').unwrap();
+        $('.zoomContainer').remove();
+        $('.zoomWindowContainer').remove();
         $('.slick').slick('removeSlide', null, null, true);
         $('.slick').slick('unslick');
     };
@@ -45,16 +49,20 @@ app.controller('BarController', function ($scope, FableFactory) {
 
     $scope.next_fable = function () {
         FableFactory.next_fable();
+        unSlick();
     };
 
     $scope.prev_fable = function () {
         FableFactory.prev_fable();
+        unSlick();
     };
     $scope.setFable = function (id) {
         FableFactory.setFable(id-1);
+        unSlick();
     };
     $scope.setCategory = function (cat) {
         FableFactory.setCategory(cat);
+        unSlick();
     };
     $scope.setSubcategory = function (subcat) {
         FableFactory.setSubcategory(subcat);
