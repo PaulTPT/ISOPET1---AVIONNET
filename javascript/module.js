@@ -144,12 +144,14 @@ app.controller('navController', function ($scope, edCriFactory) {
 });
 
 app.controller('EdCriController', function ($scope, FableFactory) {
+
     $scope.loading = function (){
         //$('[data-toggle="tooltip"]').tooltip('dispose');
-        $(document).ready(function(){
+        setInterval(function(){
             $('[data-toggle="tooltip"]').tooltip();
             $(".zb").zbox();
-        });
+        },
+        100);
     };
 
     $scope.$watch(function(){

@@ -183,6 +183,9 @@
           <xsl:for-each select="tokenize(@wit,' ')">
             <xsl:value-of select="substring(.,2,3)"/><xsl:text> </xsl:text>
           </xsl:for-each>
+            <xsl:choose>
+              <xsl:when test="position() != last()"><xsl:text> ; </xsl:text></xsl:when>
+            </xsl:choose>
         </xsl:for-each> 
       </xsl:attribute>
       <xsl:apply-templates/>
