@@ -11,6 +11,10 @@ app.config(function ($routeProvider) {
         .when('/corpus/', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
         .when('/outils/', {templateUrl: 'partials/outils/outils.html'})
         .when('/bibliographie/', {templateUrl: 'partials/bibliographie/bibliographie.html'})
+        .when('/mlegales/', {templateUrl: 'partials/footer/mentions-legales.html'})
+        .when('/credits/', {templateUrl: 'partials/footer/credits.html'})
+        .when('/contacts/', {templateUrl: 'partials/footer/contacts.html'})
+
         .otherwise({redirectTo: '/projet'});
 
 });

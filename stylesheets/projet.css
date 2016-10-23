@@ -1,0 +1,27 @@
+.p_space{
+    margin-bottom:10px;
+}
+
+
+#legende {
+    float:left;
+    margin-top:70px;
+}
+
+#img2 {
+    float:right;
+}
+
+#img3 {
+    float:left;
+    margin-top:110px;
+}
+
+.title_pr{
+    color:#B22222;
+    font-size:180%;
+}
+.title_pr2{
+    font-size:120%;
+    font-weight:bold;
+}
