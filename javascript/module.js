@@ -10,6 +10,7 @@ app.config(function ($routeProvider) {
         .when('/projet/', {templateUrl: 'partials/projet/projet.html'})
         .when('/corpus/', {templateUrl: 'partials/corpus/contenu.html', controller: 'CorpusController'})
         .when('/outils/', {templateUrl: 'partials/outils/outils.html'})
+        .when('/documentation/', {templateUrl: 'partials/documentation/documentation.html'})
         .when('/bibliographie/', {templateUrl: 'partials/bibliographie/bibliographie.html'})
         .when('/mlegales/', {templateUrl: 'partials/footer/mentions-legales.html'})
         .when('/credits/', {templateUrl: 'partials/footer/credits.html'})

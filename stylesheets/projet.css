@@ -5,16 +5,17 @@
 
 #legende {
     float:left;
-    margin-top:70px;
+    margin-top:60px;
 }
 
 #img2 {
     float:right;
+    margin-top:20px;
 }
 
 #img3 {
     float:left;
-    margin-top:110px;
+    margin-top:60px;
 }
 
 .title_pr{
