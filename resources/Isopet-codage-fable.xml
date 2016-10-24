@@ -317,7 +317,7 @@
                                         <l n="5">Dans l’eau, il en vit le <rs corresp="#reflet"
                                                 >reflet</rs></l>
                                         <l n="6">et la <rs corresp="#convoitise">convoitise</rs> qui
-                                            l’habite.</l>
+                                            l’habite</l>
                                     </lg>
                                     <l n="7">lui fait penser que c'est <rs corresp="#actant-objet">un autre
                                             fromage</rs>.</l>
@@ -799,7 +799,7 @@
                                         <lem wit="#c">Cuide qu'est uns </lem>
                                         <rdg wit="#a #b" type="substantive">Lui dist que c'est</rdg>
                                     </app>
-                                    <rs corresp="#actant-objet">autres frommage</rs>,</l>
+                                    <rs corresp="#actant-objet">autres frommage</rs>.</l>
                                 <l n="6">Lors ne fist pas le chien que <rs corresp="#sagesse"
                                         >saiges</rs> :</l>
                                 <l n="7" corresp="#schema-action">La gueule <app>
@@ -844,16 +844,16 @@
                                 <lg corresp="#schema-donnee">
                                     <l n="1">Un <name ref="#chien #actant-personnage">chien</name> passait
                                         une <placeName ref="#riviere">rivière</placeName> à la
-                                        nage</l>
+                                        nage,</l>
                                     <l n="2">dans sa gueule, un fromage tendre,</l>
                                     <l n="3">dans l’eau, il en vit le reflet.</l>
                                     <l n="4">Sa convoitise encombrante</l>
                                 </lg>
                                 <l n="5">lui fait croire que c'est <rs corresp="#actant-objet">un autre
-                                        fromage</rs>,</l>
+                                        fromage</rs>.</l>
                                 <l n="6">Alors le chien n’agit <rs corresp="#sagesse">pas
                                     avec sagesse</rs> :</l>
-                                <l n="7" corresp="#schema-action">Il ouvre sa gueule pour saisir
+                                <l n="7" corresp="#schema-action">il ouvre sa gueule pour saisir
                                     l'autre.</l>
                                 <l n="8">Qui convoite tout, perd tout :</l>
                                 <l n="9" corresp="#schema-evaluation">il a lâché son bien pour ne
@@ -1074,7 +1074,7 @@
                                 <l n="9">Si comme il fu demourés sous,</l>
                                 <lg corresp="#schema-action">
                                 <l n="10">Este vous <name ref="#loup">Ysangrin li loups</name></l>
-                                <l n="11">Vient a l’uis et boute et apelle</l>
+                                <l n="11">Vient a l’uis et boute et apelle,</l>
                                 <l n="12">Et change sa vois et chevrelle :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Euvre l’uis, dit il, a ta mere.</seg></l>
                                 </lg>
@@ -1155,12 +1155,12 @@
                                 </lg>
                                 <l n="9">Alors qu’il y est resté seul,</l>
                                 <lg corresp="#schema-action">
-                                <l n="10">voici qu’<name ref="#loup #actant-personnage">Ysangrin le loup</name></l>
+                                <l n="10">voici qu’<name ref="#loup #actant-personnage">Ysengrin le loup</name></l>
                                 <l n="11">vient à la porte et frappe et appelle,</l>
                                 <l n="12">et change sa voix, imitant le cri de la chèvre :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Ouvre la porte, dit-il, à ta mère</seg>.</l>
                             </lg>
-                                <l n="14">– Je n’en ferai rien, au nom de saint Pierre !</l>
+                                <l n="14">– Je n’en ferai rien, dit-il, au nom de saint Pierre !</l>
                                 <l n="15">Vous pourrez toujours appeler,</l>
                                 <l n="16">je vous reconnais bien à votre manière d’imiter le cri de la chèvre,</l>
                                 <l n="17">quoique vous sachiez pleinement le contrefaire.</l>
@@ -1694,7 +1694,7 @@
                             <l n="21">que vous êtes en réalité un loup</l>
                             <l n="22">et que vous cherchez à me tromper.</l>
                             <lg corresp="#schema-evaluation">
-                            <l n="23">Allez chercher ailleurs une proie.</l>
+                             <l n="23">Allez chercher ailleurs une proie. »</l>
                             <l n="24">C’est ainsi que le chevreau le renvoie.</l></lg>
                         </lg>
                         <lg type="morale" corresp="#morale-parenetique">
@@ -1765,7 +1765,6 @@
                                 <l n="21">Que vous estez un leu de voir</l>
                                 <l n="22">Qui me voulez cy decepvoir.</l>
                                 <l n="23">Ailleurs <expan>vo<ex>us</ex></expan> estuet <expan>p<ex>re</ex>nd<ex>re</ex></expan> proye. »</l>
-
                                 <l n="24">Ainsi le chevreau le leu <expan>e<ex>n</ex>voye</expan>.</l>
                             </lg>
                             <lg type="morale">
@@ -1972,7 +1971,7 @@
                                 <head><app><lem wit="#B #P">De Renart</lem><rdg wit="#L" type="substantive">du Renart</rdg></app> et de la cingoingne</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#renard">Renart</name> <app><lem wit="#B #L"> qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
+                                    <l n="1"><name ref="#renard">Renart,</name> <app><lem wit="#B #L"> qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
                                     <l n="2"><rs corresp="#actant-objet">Semont a mengier</rs> avec li</l>
                                     <l n="3"><name ref="#cigogne">La cingongne</name> sa bonne amie.</l>
                                     </lg>
@@ -1985,7 +1984,7 @@
                                     <l n="9">Plain pot de miel que il avoit</l>
                                     <l n="10">Qu'a mangier donner li devoit.</l>
                                     <l n="11">Cil boit le miel et leche et suche,</l>
-                                    <l n="12">Et prie celle qu'el manjuce.</l>
+                                    <l n="12">Et prie celle qu'el manjuce,</l>
                                     <l n="13">Mes el non puet riens a soi traire</l>
                                     <l n="14">Car el n'a pas bec a ce faire.</l>
                                     </lg>
@@ -1996,7 +1995,7 @@
                                     <l n="19">La melleur qu'apareillier pot,</l>
                                     <lg corresp="#schema-evaluation">
                                     <l n="20">Puis si la mist dedens un pot</l>
-                                    <l n="21"><app><lem wit="#B #L">Qui ert</lem><rdg wit="#P" type="substantive">qui a</rdg></app> le col lonc et estroit,</l>
+                                    <l n="21"><app><lem wit="#B #L">Qui ert</lem><rdg wit="#P" type="substantive">qui a</rdg></app> le col lonc et estroit ;</l>
                                     <l n="22">Comme ampoule de voirre estoit.</l>
                                     <l n="23">Renart n’i pout le col bouter,</l>
                                     <l n="24">Ne de la vïande gouter,</l>
@@ -2011,7 +2010,7 @@
                                     <l n="33">Bien recoit le conchiement</l>
                                     <l n="34">Que il trouva premierement :</l>
                                     <l n="35">Se l'oisel dou miel ne menja,</l>
-                                    <l n="36">Assés de li se revenja.</l>
+                                    <l n="36">Asses de li se revenja.</l>
                                     </lg>
                                 </lg>
                                 <l rend="rubrique">la moralité</l>
@@ -2025,7 +2024,7 @@
                                     <l n="41">Si comme seras aggreable,</l>
                                     <l n="42">Je te seré sans nulle fable :</l>
                                     <l n="43">Au tricheeur qui sa foi ment</l>
-                                    <l n="44"><app><lem wit="#B #P">Faire doit</lem><rdg wit="#L" type="substantive">faire le doit</rdg></app> l'en samblablement,</l>
+                                    <l n="44"><app><lem wit="#B #P">Faire doit</lem><rdg wit="#L" type="substantive">faire le doit</rdg></app> l'en samblablement.</l>
                                     </lg>
                                     <lg corresp="#morale-paradigmatique">
                                     <l n="45">Sus celi qui fait tricherie</l>
@@ -2087,8 +2086,8 @@
                                     <l n="9">un pot rempli de miel qu’il allait</l>
                                     <l n="10">lui donner à manger.</l>
                                     <l n="11">Il boit, lèche et suce le miel</l>
-                                    <l n="12">et la prie de manger.</l>
-                                    <l n="13">Mais elle ne peut rien amener à elle,</l>
+                                    <l n="12">et la prie de manger,</l>
+                                    <l n="13">mais elle ne peut rien amener à elle,</l>
                                     <l n="14">son bec n’étant pas fait pour cela.</l>
                                     </lg>
                                     <l n="15">Alors elle réfléchit à <rs corresp="#actant-objet">la manière</rs></l>
@@ -2098,11 +2097,11 @@
                                     <l n="19">la meilleure qu'elle put préparer,</l>
                                     <lg corresp="#schema-evaluation">
                                     <l n="20">puis l'a mise dans un récipient</l>
-                                    <l n="21">au col long et étroit,</l>
+                                    <l n="21">au col long et étroit, </l>
                                     <l n="22">en verre comme une ampoule.</l>
                                     <l n="23">Renard n'y put plonger son groin</l>
-                                    <l n="24">ni goûter la viande.</l>
-                                    <l n="25">Mais la cigogne l'apprécie fort,</l>
+                                    <l n="24">ni goûter la viande,</l>
+                                    <l n="25">mais la cigogne l'apprécie fort ;</l>
                                     <l n="26">elle y plonge le bec jusqu'au fond.</l>
                                     <l n="27">Renard aurait préféré</l>
                                     <l n="28">avoir un bec au lieu d'un groin.</l>
@@ -2643,7 +2642,7 @@
                                 <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#actant-personnage">Regnart</name>, <app><lem wit="#c">qui onc bien n'abelli</lem><rdg wit="#a" type="substantive">qui oncques n'abelli</rdg><rdg wit="#b" type="substantive">qui onc n'enbelli</rdg></app>,</l>
                                 <l n="2">Semont <rs corresp="#actant-objet"><app><lem wit="#c">a<note type="note-critique">La construction prépositionnelle en <c rend="ital">a</c> du verbe  « semondre », que l’on retrouve dans les manuscrits <c rend="ital">b</c> et <c rend="ital">c</c>, est caractéristique d’un état de langue ancien. Ce type de construction prédominait en ancien français. L’emploi de la préposition <w rend="ital">de</w>, que l’on retrouve dans le manuscrit <c rend="ital">a</c>, se développe au XIV<c rend="sup">e</c> siècle et se généralise au siècle suivant (Marchello-Nizia, 1979). </note> mengier</lem><rdg wit="#a" type="substantive">de mengier</rdg><rdg wit="#b" type="substantive">a disner</rdg></app> avec lui</rs></l>
-                                <l n="3"><name ref="#actant-personnage">La segongne</name>, sa bonne amie.</l>
+                                <l n="3"><name ref="#actant-personnage">La segongne</name> sa bonne amie.</l>
                                 </lg>
                                 <l n="4"><app><lem wit="#c">Elle ne le reffuse</lem><rdg wit="#a" type="substantive">et elle ne lui refusa</rdg><rdg wit="#b" type="substantive">celle ne lui refusa</rdg></app> mie</l>
                                 <l n="5"><app><lem wit="#c">Car<note type="note-critique">Nous avons indiqué les variantes des manuscrits <c rend="ital">a</c> et <c rend="ital">b</c> bien qu’elles soient toutes à valeur causale. La commutation entre <w rend="ital">car</w> et <w rend="ital">que</w> est fréquente : on la retrouve par exemple au vers 7.</note> tres bien cuide</lem><rdg wit="#a" type="substantive">qui cuide bien</rdg><rdg wit="#b" type="substantive">qu'elle cuida bien</rdg></app> estre peüe</l>
@@ -2654,7 +2653,7 @@
                                 <l n="9">Plain pot de miel que il avoit</l>
                                 <l n="10">Qu'a mengier donner <app><lem wit="#c #a">lui devoit</lem><rdg wit="#b" type="substantive">li vouloit</rdg></app>.</l>
                                 <l n="11"><app><lem wit="#c">S'il boit</lem><rdg wit="#a #b">si boit</rdg></app> <app><lem wit="#c #b"> le miel et lesche et suce</lem><rdg wit="#a" type="substantive">le miel, leiche et suce</rdg></app></l>
-                                <l n="12">Et prie celle <app><lem wit="#c">que mengusse</lem><rdg wit="#a #b">qu'elle menguce</rdg></app>,</l>
+                                <l n="12">Et prie celle <app><lem wit="#c">que mengusse</lem><rdg wit="#a #b">qu'elle menguce</rdg></app>.</l>
                                 <l n="13"><app><lem wit="#c">Mais n'en puet a soy riens retraire</lem><rdg wit="#a" type="substantive">mes elle ne puet riens a soy treire</rdg><rdg wit="#b" type="substantive">mes elle ne pouoit riens faire</rdg></app></l>
                                 <l n="14"><app><lem wit="#c">Car elle n'a bec</lem><rdg wit="#a" type="substantive">qu'elle n'a pas bec</rdg><rdg wit="#b" type="substantive">car pas n'avoit bec</rdg></app> a ce faire.</l>
                                 </lg>
@@ -2662,13 +2661,13 @@
                                 <l n="16"><rs corresp="#actant-objet"><app><lem wit="#c">Elle pourra tromper Regnart</lem><rdg wit="#a #b" type="substantive">elle conchiera Regnart</rdg></app>.</rs></l>
                                 <l n="17"><seg corresp="#schema-donnee">Regnart semont</seg><note type="note-critique">L’utilisation de la conjonction « et » (ms. <c rend="ital">c</c>) à la place du « si » (ms. <c rend="ital">a</c> et <c rend="ital">b</c>) est caractéristique d’une langue du XV<c rend="sup">e</c> siècle. </note> <seg corresp="#schema-action"><app><lem wit="#c"> et appareille</lem><rdg wit="#a #b" type="substantive">si appareille</rdg></app></seg></l>
                                 <l n="18"><app><lem wit="#c">Tres bonne vïande</lem><rdg wit="#a #b" type="substantive">trop bonne vïande</rdg></app> a merveille,</l>
-                                <l n="19">La meilleur <app><lem wit="#c #b">qu'apareillier pot</lem><rdg wit="#a" type="substantive">que elle pot</rdg></app>.</l>
+                                <l n="19">La meilleur <app><lem wit="#c #b">qu'apareillier pot</lem><rdg wit="#a" type="substantive">que elle pot</rdg></app>,</l>
                                 <lg corresp="#schema-evaluation">
                                 <l n="20"><app><lem wit="#c">Puis l'a mise</lem><rdg wit="#a" type="substantive">puis si l’a mis</rdg><rdg wit="#b" type="substantive">puis si la mist</rdg></app> dedens un pot</l>
-                                <l n="21">Qui ot le col lonc et estroit,</l>
+                                <l n="21">Qui ot le col lonc et estroit ;</l>
                                 <l n="22"><app><lem wit="#c">Comme orinal</lem><rdg wit="#a #b" type="substantive">comme ampolle</rdg></app> de voirre estoit.</l>
                                 <l n="23">Regnart n'y pot <app><lem wit="#c">son groing</lem><rdg wit="#a #b" type="substantive">le groing</rdg></app> bouter</l>
-                                <l n="24">Ne de la vïande <app><lem wit="#c #a">taster</lem><rdg wit="#b" type="substantive">gouster</rdg></app><note type="note-critique">Vers manquant dans le manuscrit <c rend="ital">a</c>. La leçon du manuscrit <c rend="ital">c</c> (taster) masque en partie le jeu de rime que l’on retrouve dans le manuscrit <c rend="ital">b</c>, ainsi que dans les manuscrits <seg rend="ital">B,P,L</seg> (bouter / gouster / gouste / boute).</note>.</l>
+                                <l n="24">Ne de la vïande <app><lem wit="#c #a">taster</lem><rdg wit="#b" type="substantive">gouster</rdg></app><note type="note-critique">Vers manquant dans le manuscrit <c rend="ital">a</c>. La leçon du manuscrit <c rend="ital">c</c> (taster) masque en partie le jeu de rime que l’on retrouve dans le manuscrit <c rend="ital">b</c>, ainsi que dans les manuscrits <seg rend="ital">B,P,L</seg> (bouter / gouster / gouste / boute).</note>,</l>
                                 <l n="25">Mais la segongne bien en goute,</l>
                                 <l n="26"><app><lem wit="#c">Jusques au fons son bec y boute</lem><rdg wit="#a" type="substantive">qui jusques au fons le bec y bouste</rdg><rdg wit="#b" type="substantive">que jucques au fons le bec boute</rdg></app><note type="note-critique">Le manuscrit <c rend="ital">c</c> présente la bonne leçon : construction par parataxe plus ancienne, correcte pour la mesure.</note>.</l>
                                 <l n="27">Regnart voulsist a ce besoing</l>
@@ -2702,8 +2701,8 @@
                                 <l n="7">car elle ne vit là aucune ruse.</l>
                                 <lg corresp="#schema-action">
                                 <l n="8">Renard disposa sur la table</l>
-                                <l n="9">un pot rempli de miel qu’il allait</l>
-                                <l n="10">lui donner à manger.</l>
+                                <l n="9">un pot rempli de miel qu’il avait</l>
+                                <l n="10">et qu'il devait lui donner à manger.</l>
                                 <l n="11">Il boit, lèche et suce le miel</l>
                                 <l n="12">et la prie de manger.</l>
                                 <l n="13">Mais elle ne peut rien amener à elle,</l>
@@ -2719,8 +2718,8 @@
                                 <l n="21">au col long et étroit,</l>
                                 <l n="22">en verre comme un urinal.</l>
                                 <l n="23">Renard n'y put plonger son groin</l>
-                                <l n="24">ni goûter la viande.</l>
-                                <l n="25">Mais la cigogne l'apprécie fort,</l>
+                                <l n="24">ni goûter la viande,</l>
+                                <l n="25">mais la cigogne l'apprécie fort ;</l>
                                 <l n="26">elle y plonge le bec jusqu'au fond.</l>
                                 <l n="27">Renard aurait préféré avoir</l>
                                 <l n="28">bec au lieu d'un groin.</l>
@@ -3111,7 +3110,6 @@
                                     <lg corresp="#morale-personnel">
                                     <l n="35">Souvent fuions ce qui <app><lem wit="#B #L">nous vaut</lem><rdg wit="#P" type="substantive">nous faut</rdg></app></l>
                                     <l n="36">Et de nostre bien ne nous chaut.</l>
-
                                     </lg>
                                     <lg corresp="#morale-parenetique">
                                     <l n="37">Et qui te porte utilité,</l>
