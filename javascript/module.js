@@ -15,7 +15,6 @@ app.config(function ($routeProvider) {
         .when('/mlegales/', {templateUrl: 'partials/footer/mentions-legales.html'})
         .when('/credits/', {templateUrl: 'partials/footer/credits.html'})
         .when('/contacts/', {templateUrl: 'partials/footer/contacts.html'})
-
         .otherwise({redirectTo: '/projet'});
 
 });
@@ -158,13 +157,19 @@ app.controller('navController', function ($scope, edCriFactory) {
 
 app.controller('EdCriController', function ($scope, FableFactory) {
 
+
+
     $scope.loading = function (){
-        //$('[data-toggle="tooltip"]').tooltip('dispose');
-        setInterval(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-            $(".zb").zbox();
-        },
-        100);
+
+        setTimeout(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="tooltipsw"]').tooltip();
+                jQuery(".zb").zbox();
+            },
+            100);
+
+
+
     };
 
     $scope.$watch(function(){
@@ -191,6 +196,7 @@ app.controller('EdCriController', function ($scope, FableFactory) {
     $scope.choice = "Traduction";
 
     $scope.setChoice = function(choice){
+        $('[data-toggle="tooltipsw"]').tooltip('hide');
         $scope.choice=choice;
     }
 

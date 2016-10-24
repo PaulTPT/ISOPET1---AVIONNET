@@ -116,7 +116,8 @@
             </langUsage>
         </profileDesc>
     </teiHeader>
-            <!-- Première fable -->
+           
+    
         <group>
             <text n="f1" xml:id="fable0001" type="fable-simplifiee">
                 <front>
@@ -294,7 +295,7 @@
                                 <lg type="morale" corresp="#morale-paradigmatique">
                                     <l n="7">Qui désire tout est condamné à tout perdre.</l>
                                     <l n="8">Une vieille dame chute à terre entre deux sièges,</l>
-                                    <l n="9">Voulant les avoir les deux ensemble, une fois en main, elle en sera immédiatement privée.</l>
+                                    <l n="9">Voulant les avoir les deux ensemble, une fois obtenus, elle en sera immédiatement privée.</l>
                                     <l n="10">Celui qui s’agite à deux affaires n’accomplit rien
                                         avec sagesse.</l>
                                 </lg>
@@ -312,7 +313,7 @@
                                                 >fromage</rs> tendre.</l>
                                         <l n="3">D'autres disent que c’était de la <rs
                                                 corresp="#viande">viande</rs> ;</l>
-                                        <l n="4">de ce détail, on s'en moque.</l>
+                                        <l n="4">il ne s'était pas contenté de peu.</l>
                                         <l n="5">Dans l’eau, il en vit le <rs corresp="#reflet"
                                                 >reflet</rs></l>
                                         <l n="6">et la <rs corresp="#convoitise">convoitise</rs> qui
@@ -382,8 +383,8 @@
                                         </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="f1-B-7r f1-B-7v">
-                                    <head rend="rubrique" n="fol_7r">Du chien qui passoit li aue et
+                                <div xml:lang="frm" xml:id="f1-B-frm-transcription" n="f1-B-7v">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de <app><lem>char</lem></app></head>
                                     <lg type="recit">
                                     <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
@@ -447,8 +448,8 @@
                                     </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="f1-P-6v f1-P-7r">
-                                    <head rend="rubrique" n="fol_6v">Du chien qui passoit li aue et
+                                <div xml:lang="frm" xml:id="f1-P-frm-transcription" n="f1-P-7r">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de <app><rdg type="substantive">fourmage</rdg></app></head>
                                     <lg type="recit">
                                     <l n="1"><c rend="initiale-peinte">L</c>e chien passoit une yaue a
@@ -516,8 +517,8 @@
                                 </div>
                                 <!-- Transcription du texte en moyen français -->
                                 <div xml:lang="lat" type="transcription"
-                                    xml:id="f1-L-frm-transcription" n="f1-L-12r f1-L-12v">
-                                    <head rend="rubrique" n="fol_12r">Du chien qui passoit li aue et
+                                    xml:id="f1-L-frm-transcription" n="f1-L-12v">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de char</head>
                                     <lg type="recit">
                                     <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
@@ -582,8 +583,8 @@
                                     </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-B-frm-comparaison" n="f1-B-7r f1-B-7v">
-                                    <head rend="rubrique" n="fol_7r">Du chien qui passoit li aue et
+                                <div xml:lang="frm" xml:id="f1-B-frm-comparaison" n="f1-B-7v">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de <app><lem>char</lem></app></head>
                                     <lg type="recit">
                                         <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
@@ -647,8 +648,8 @@
                                     </lg>
                                 </div>
                                 <!-- Transcription du texte en moyen français  -->
-                                <div xml:lang="frm" xml:id="f1-P-frm-comparaison" n="f1-P-6v f1-P-7r">
-                                    <head rend="rubrique" n="fol_6v">Du chien qui passoit li aue et
+                                <div xml:lang="frm" xml:id="f1-P-frm-comparaison" n="f1-P-7r">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de <app><rdg type="substantive">fourmage</rdg></app></head>
                                     <lg type="recit">
                                         <l n="1"><c rend="initiale-peinte">L</c>e chien passoit une yaue a
@@ -716,8 +717,8 @@
                                 </div>
                                 <!-- Transcription du texte en moyen français -->
                                 <div xml:lang="lat" type="comparaison"
-                                    xml:id="f1-L-frm-comparaison" n="f1-L-12r f1-L-12v">
-                                    <head rend="rubrique" n="fol_12r">Du chien qui passoit li aue et
+                                    xml:id="f1-L-frm-comparaison" n="f1-L-12v">
+                                    <head rend="rubrique">Du chien qui passoit li aue et
                                         tenoit une piece de char</head>
                                     <lg type="recit">
                                         <l n="1"><c rend="initiale-rubriquee">L</c>e chien passoit une yaue a
@@ -792,7 +793,7 @@
                                         <app>
                                             <lem wit="#c">qui fort l'encombre</lem>
                                             <rdg wit="#a #b" type="substantive">qui l'encombre</rdg>
-                                        </app>.</l>
+                                        </app></l>
                                 </lg>
                                 <l n="5"><app>
                                         <lem wit="#c">Cuide qu'est uns </lem>
@@ -848,7 +849,7 @@
                                     <l n="3">dans l’eau, il en vit le reflet.</l>
                                     <l n="4">Sa convoitise encombrante</l>
                                 </lg>
-                                <l n="5">lui fait penser que c'est <rs corresp="#actant-objet">un autre
+                                <l n="5">lui fait croire que c'est <rs corresp="#actant-objet">un autre
                                         fromage</rs>,</l>
                                 <l n="6">Alors le chien n’agit <rs corresp="#sagesse">pas
                                     avec sagesse</rs> :</l>
@@ -949,7 +950,7 @@
                                 <lg type="recit">
                                     <l n="1 fol_4v" facs="f1-a-4v.jpeg"><app><rdg type="orthographic"><c rend="initiale-historiee"
                                         >U</c>ns chiens</rdg></app> passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
-                                    <l n="2">En sa gueule <app><rdg type="orthographic">un fromage mou</rdg></app></l>
+                                    <l n="2">En sa gueule <app><rdg type="substantive">un fromage mou</rdg></app></l>
                                     <l n="3"><app><rdg type="substantive">Ou chair</rdg></app> <app><rdg type="substantive"> si en</rdg></app> regarda <app><rdg type="substantive">l'ombre</rdg></app>,</l>
                                     <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
                                     <l n="5"><app><rdg type="substantive">Lui dist que c’est</rdg></app> <app><rdg type="orthographic"> autre fromage</rdg></app>.</l>
@@ -971,7 +972,7 @@
                                 <head type="title" n="f1-b-112r"></head>
                                 <lg type="recit">
                                     <l n="1 fol_112r" facs="f1-b-112r.jpeg"><c rend="initiale-rubriquee">U</c>n chien passoit une eaue <app><rdg type="substantive">a nou</rdg></app>,</l>
-                                    <l n="2">En sa gueule <app><rdg type="orthographic">.i. fromage mou</rdg></app></l>
+                                    <l n="2">En sa gueule <app><rdg type="substantive">.i. fromage mou</rdg></app></l>
                                     <l n="3"><app><rdg type="substantive">Ou char</rdg></app> <app><rdg type="substantive"> si regarde</rdg></app> <app><rdg type="substantive"> l’ombre</rdg></app>,</l>
                                     <l n="4"><app><rdg type="substantive">Et convoitise qui</rdg></app> l'encombre.</l>
                                     <l n="5"><app><rdg type="substantive">Lui dist que c’est </rdg></app> <app><rdg type="orthographic"><expan>aut<ex>re</ex></expan> fromage</rdg></app>.</l>
@@ -1159,7 +1160,7 @@
                                 <l n="12">et change sa voix, imitant le cri de la chèvre :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Ouvre la porte, dit-il, à ta mère</seg>.</l>
                             </lg>
-                                <l n="14">– Je n’en ferai rien, au nom du saint Père !</l>
+                                <l n="14">– Je n’en ferai rien, au nom de saint Pierre !</l>
                                 <l n="15">Vous pourrez toujours appeler,</l>
                                 <l n="16">je vous reconnais bien à votre manière d’imiter le cri de la chèvre,</l>
                                 <l n="17">quoique vous sachiez pleinement le contrefaire.</l>
@@ -1176,8 +1177,8 @@
                             <l rend="rubrique">morale</l>
                             <lg type="morale" corresp="#morale-parenetique">
                                 <l n="25">À travers cela je vous montre que l’enfant</l>
-                                <l n="26">acquiert une grande sagesse quand il voit et retient</l>
-                                <l n="27">les enseignements de son père ;</l>
+                                <l n="26">tire un grand profit du fait d'écouter et de retenir</l>
+                                <l n="27">la bonne doctrine de son père ;</l>
                                 <l n="28">et qui n’en fait rien le paie cher.</l>
                                 <l n="29">Ne transgresse pas les enseignements</l>
                                 <l n="30">des adultes et ne néglige pas</l>
@@ -1216,7 +1217,7 @@
                                     <l n="16">Sanam doctrinam tempora multa dabunt.</l>
                                 </lg>
                             </div>
-                            <div xml:lang="frm" xml:id="f2-B-frm-transcription" n="f2-B-39v f2-B-40r">
+                            <div xml:lang="frm" xml:id="f2-B-frm-transcription" n="f2-B-40r">
                                 <head type="title">De la chievre et du loup</head>
                                 <lg type="recit">
                                     <l n="1">La chievre va querre viande</l>
@@ -1286,7 +1287,7 @@
                                     <l n="16">Sanam doctrinam tempora multa dabunt.</l>
                                 </lg>
                             </div>
-                            <div xml:lang="frm" xml:id="f2-P-frm-transcription" n="f2-P-34v f2-P-35r">
+                            <div xml:lang="frm" xml:id="f2-P-frm-transcription" n="f2-P-35r">
                                 <head type="title">De la chievre et du loup</head>
                                 <lg type="recit">
                                     <l n="1">La chieuvre va quere viande</l>
@@ -1429,7 +1430,7 @@
                                     <l n="16">Sanam doctrinam tempora multa dabunt.</l>
                                 </lg>
                             </div>
-                            <div xml:lang="frm" xml:id="f2-B-frm-comparaison" n="f2-B-39v f2-B-40r">
+                            <div xml:lang="frm" xml:id="f2-B-frm-comparaison" n="f2-B-40r">
                                 <head type="title">De la chievre et du loup</head>
                                 <lg type="recit">
                                     <l n="1">La chievre va querre viande</l>
@@ -1499,7 +1500,7 @@
                                     <l n="16">Sanam doctrinam tempora multa dabunt.</l>
                                 </lg>
                             </div>
-                            <div xml:lang="frm" xml:id="f2-P-frm-comparaison" n="f2-P-34v f2-P-35r">
+                            <div xml:lang="frm" xml:id="f2-P-frm-comparaison" n="f2-P-35r">
                                 <head type="title">De la chievre et du loup</head>
                                 <lg type="recit">
                                     <l n="1">La <app><rdg type="orthographic">chieuvre</rdg></app> va <app><rdg type="orthographic">quere</rdg></app> viande</l>
@@ -1683,7 +1684,7 @@
                             <l n="12">change sa voix et imite la chèvre :</l>
                             <l n="13">« Ouvre, dit-il, la porte à ta mère.</l>
                             </lg>
-                            <l n="14"> –  Je n’en ferai rien, par le respect que je dois au saint Père !</l>
+                            <l n="14"> –  Je n’en ferai rien, par le respect que je dois à saint Pierre !</l>
                             <l n="15">Vous pouvez toujours appeler,</l>
                             <l n="16">je vous reconnais parfaitement à votre manière d’imiter le cri de la chèvre,</l>
                             <l n="17">quoique vous sachiez pleinement le contrefaire.</l>
@@ -1698,8 +1699,8 @@
                         </lg>
                         <lg type="morale" corresp="#morale-parenetique">
                             <l n="25">À travers cela je vous montre que l’enfant</l>
-                            <l n="26">acquiert une grande sagesse quand il voit et retient</l>
-                            <l n="27">les enseignements de sa mère ;</l>
+                            <l n="26">tire un grand profit du fait d'écouter et de retenir</l>
+                            <l n="27">la bonne doctrine de sa mère ;</l>
                             <l n="28">et qui n’en fait rien le paie cher.</l>
                         </lg>
                     </div>
@@ -1764,6 +1765,7 @@
                                 <l n="21">Que vous estez un leu de voir</l>
                                 <l n="22">Qui me voulez cy decepvoir.</l>
                                 <l n="23">Ailleurs <expan>vo<ex>us</ex></expan> estuet <expan>p<ex>re</ex>nd<ex>re</ex></expan> proye. »</l>
+
                                 <l n="24">Ainsi le chevreau le leu <expan>e<ex>n</ex>voye</expan>.</l>
                             </lg>
                             <lg type="morale">
@@ -1831,15 +1833,15 @@
                                 <l n="15">Bien vous congnois au <app><rdg type="substantive">challemeller</rdg></app>,</l>
                                 <l n="16"><app><rdg type="substantive">Tant</rdg></app> la <app><rdg type="orthographic">sachiés</rdg></app> vous contrefaire.</l>
                                 <l n="17"><app><rdg type="substantive">N’ains je mie</rdg></app> vostre repaire,</l>
-                                <l n="18">Et si voy bien par <app><rdg type="substantive">un </rdg></app> <app><rdg type="orthographic">pertuis</rdg></app>,</l>
+                                <l n="18">Et si voy bien par <app><rdg type="substantive">un pertuis</rdg></app>,</l>
                                 <l n="19"><app><rdg type="substantive">Que j'ay cy trouvé</rdg></app> en cest <app><rdg type="orthographic">huys</rdg></app>,</l>
                                 <l n="20">Que vous estes un lou de voir</l>
-                                <l n="21"><app><rdg type="substantive">Qui</rdg></app> me <app><rdg type="orthographic">voulés</rdg></app> cy decevoir.</l>
+                                <l n="21"><app><rdg type="substantive">Qui</rdg></app> <app><rdg type="orthographic"> me voulés</rdg></app> cy decevoir.</l>
                                 <l n="22">Ailleurs vous estuet <app><rdg type="orthographic">querre proie</rdg></app>. »</l>
                                 <l n="23">Ainsi <app><rdg type="orthographic">li chevreaux</rdg></app> l’en envoye.</l>
                             </lg>
                             <lg type="morale">
-                                <l n="24"><app><rdg type="substantive">Par ce</rdg></app> vous <app><rdg type="orthographic">di </rdg></app> <app><rdg type="substantive">que l'enfant vient</rdg></app></l>
+                                <l n="24"><app><rdg type="substantive">Par ce</rdg></app> <app><rdg type="orthographic"> vous di </rdg></app> <app><rdg type="substantive">que l'enfant vient</rdg></app></l>
                                 <l n="25"><app><rdg type="substantive">A grant preu</rdg></app> <app><rdg type="substantive">quant ot et entent</rdg></app></l>
                                 <l n="26">La bonne doctrine <app><rdg type="substantive">du pere</rdg></app> ;</l>
                                 <l n="27"><app><rdg type="substantive">Et qui ne la fait</rdg></app>, il le compere.</l>
@@ -1851,7 +1853,7 @@
                                 <l n="1">La chievre <app><rdg type="substantive">va querre</rdg></app> viande</l>
                                 <l n="2">Pour son <app><rdg type="orthographic">chevreau</rdg></app> et lui <app><rdg type="orthographic">commende</rdg></app></l>
                                 <l n="3">Et <app><rdg type="orthographic">amonneste</rdg></app> que <app><rdg type="substantive">du tout</rdg></app></l>
-                                <l n="4">Ne se <app><rdg type="substantive">muet </rdg></app> <app><rdg type="substantive">ou il est tout</rdg></app>,</l>
+                                <l n="4"><app><rdg type="substantive">Ne se muet </rdg></app> <app><rdg type="substantive">ou il est tout</rdg></app>,</l>
                                 <l n="5">Car, s'il s'en part, sache de voir,</l>
                                 <l n="6"><app><rdg type="substantive">Il y puet bien </rdg></app> <app><rdg type="orthographic">domage</rdg></app> avoir</l>
                                 <l n="7">Tel dont il se tendra pour <app><rdg type="orthographic">foulz</rdg></app>.</l>
@@ -1862,22 +1864,22 @@
                                 <l n="12"><app><rdg type="substantive">Vint a l'uis et boute et appelle :</rdg></app></l>
                                 <l n="13">« <app><rdg type="orthographic">Oeuvre l'uis</rdg></app>, dit il, a ta mere !</l> 
                                 <l n="14">- Non feray, <app><rdg type="substantive">dist il, par saint Pere</rdg></app> !</l>
-                                <l n="15">Assez y <app><rdg type="orthographic">pouer appeler</rdg></app>,</l>
+                                <l n="15">Assez <app><rdg type="orthographic">y pouer appeler</rdg></app>,</l>
                                 <l n="16">Bien vous congnois au chevreler,</l>
                                 <l n="17">Tout le sachiez vous contrefaire.</l>
                                 <l n="18"><app><rdg type="substantive">N’aim je mie </rdg></app> <app><rdg type="orthographic">voustre</rdg></app> repaire,</l>
-                                <l n="19">Et si voy bien par <app><rdg type="orthographic">un pertuis</rdg></app>,</l>
+                                <l n="19">Et si voy bien par <app><rdg type="substantive">un pertuis</rdg></app>,</l>
                                 <l n="20"><app><rdg type="substantive">Que j'ay cy trouvé</rdg></app> en cest <app><rdg type="orthographic">huys</rdg></app>,</l>
-                                <l n="21">Que vous <app><rdg type="orthographic">estez</rdg></app> <app><rdg type="orthographic">un leu</rdg></app> de voir</l>
+                                <l n="21">Que vous <app><rdg type="orthographic">estez</rdg></app> <app><rdg type="orthographic"> un leu</rdg></app> de voir</l>
                                 <l n="22"><app><rdg type="substantive">Qui</rdg></app> me voulez cy <app><rdg type="orthographic">decepvoir</rdg></app>.</l>
                                 <l n="23">Ailleurs vous estuet <app><rdg type="substantive">prendre proye</rdg></app>. »</l>
                                 <l n="24">Ainsi le chevreau <app><rdg type="substantive">le leu envoye</rdg></app>.</l>
                             </lg>
                             <lg type="morale">
-                                <l n="25"><app><rdg type="substantive">Par ce</rdg></app> vous dy qu'a <app><rdg type="orthographic">l'enfent</rdg></app> vient</l>
+                                <l n="25"><app><rdg type="substantive">Par ce</rdg></app> vous dy <app><rdg type="orthographic">qu'a l'enfent vient</rdg></app></l>
                                 <l n="26">Grant preu quant il ot et retient</l>
-                                <l n="27">La bonne doctrine <app><rdg type="orthographic">son pere</rdg></app> ;</l>
-                                <l n="28"><app><rdg type="orthographic">Et qui non fait</rdg></app>, il le compere.</l>
+                                <l n="27">La bonne doctrine <app><rdg type="substantive">son pere</rdg></app> ;</l>
+                                <l n="28"><app><rdg type="substantive">Et qui non fait</rdg></app>, il le compere.</l>
                             </lg>
                         </div>
                         <div xml:id="f2-c-comparaison" n="f2-c-18v f2-c-19r">
@@ -1933,7 +1935,7 @@
                                 </figure>
                                 <head type="title">De vulpe et ciconia</head>
                                 <lg type="recit">
-                                    <l n="1" corresp="#schema-donnee"><name ref="#renard">Vulpe</name> <app><lem>vocante</lem><rdg wit="#B #P #L" ></rdg></app> venit speratque <name ref="#cigogne">ciconia</name> <rs corresp="#actant-objet">cenam</rs>.</l>
+                                    <l n="1" corresp="#schema-donnee"><name ref="#renard">Vulpe</name> <app><lem> vocante</lem><rdg wit="#B #P #L" ></rdg></app> venit speratque <name ref="#cigogne">ciconia</name> <rs corresp="#actant-objet">cenam</rs>.</l>
                                     <lg corresp="#schema-action">
                                     <l n="2">Fallit eam liquidus vulpe <app><lem>vorante</lem><rdg wit="#B #P #L" type="lecon-rejetee">vocante</rdg></app> cibus.</l>
                                     <l n="3">Dum bibit illa cibum, solum bibit illa dolorem.</l></lg>
@@ -1970,7 +1972,7 @@
                                 <head><app><lem wit="#B #P">De Renart</lem><rdg wit="#L" type="substantive">du Renart</rdg></app> et de la cingoingne</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#renard">Renart</name> <app><lem wit="#B #L">qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
+                                    <l n="1"><name ref="#renard">Renart</name> <app><lem wit="#B #L"> qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
                                     <l n="2"><rs corresp="#actant-objet">Semont a mengier</rs> avec li</l>
                                     <l n="3"><name ref="#cigogne">La cingongne</name> sa bonne amie.</l>
                                     </lg>
@@ -2017,7 +2019,7 @@
                                     <lg corresp="#morale-paradigmatique">
                                     <l n="37">Qui fait que a soi ne <app><lem wit="#B">vaudroit</lem><rdg wit="#P #L" type="substantive">voudroit</rdg></app>,</l>
                                     <l n="38">S'il s'en repent c'est a bon droit.</l>
-                                    <l n="39">L'en treuve endroit qui bien le quiert</l>
+                                    <l n="39">L'en treuve en droit qui bien le quiert :</l>
                                     <l n="40">L'une bonté l'autre requier<note type="note-critique">Cette formule correspond à un proverbe : <seg rend="ital">Bonté autre requiert</seg> (Morawski, 298)</note>.</l></lg>
                                     <lg corresp="#morale-personnel">
                                     <l n="41">Si comme seras aggreable,</l>
@@ -2072,7 +2074,7 @@
                                 <head>Le renard et la cigogne</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#actant-personnage">Renard</name>, qui n'a jamais été plaisant,</l>
+                                    <l n="1"><name ref="#actant-personnage">Renard</name>, à qui jamais le bien n'a agréé,</l>
                                     <l n="2"><rs corresp="#actant-objet">invite à manger</rs> chez lui</l>
                                     <l n="3">son amie <name ref="#actant-personnage">la cigogne</name>.</l>
                                     </lg>
@@ -2097,7 +2099,7 @@
                                     <lg corresp="#schema-evaluation">
                                     <l n="20">puis l'a mise dans un récipient</l>
                                     <l n="21">au col long et étroit,</l>
-                                    <l n="22">il était en verre, comme une ampoule.</l>
+                                    <l n="22">en verre comme une ampoule.</l>
                                     <l n="23">Renard n'y put plonger son groin</l>
                                     <l n="24">ni goûter la viande.</l>
                                     <l n="25">Mais la cigogne l'apprécie fort,</l>
@@ -2119,12 +2121,12 @@
                                     <lg corresp="#morale-paradigmatique">
                                     <l n="37">Celui qui fait ce qu’il ne voudrait pour lui-même</l>
                                     <l n="38">a raison de le regretter.</l>
-                                    <l n="39">Il est dans le droit chemin celui qui recherche le bien.</l>
-                                    <l n="40">Un acte de bonté en engendre un autre.</l>
+                                    <l n="39">On trouve en droit si on cherche le bien :</l>
+                                    <l n="40">une bonté en appelle une autre.</l>
                                     </lg>
                                     <lg corresp="#morale-personnel">
-                                    <l n="41">De même tu apprécieras</l>
-                                    <l n="42">que je te dise sans histoire :</l>
+                                    <l n="41">Autant tu me seras agréable,</l>
+                                    <l n="42">autant je le serai pour toi sans mentir :</l>
                                     <l n="43">au tricheur qui ne respecte pas sa parole,</l>
                                     <l n="44">il arrive la même chose en retour.</l>
                                     </lg>
@@ -2663,8 +2665,8 @@
                                 <l n="19">La meilleur <app><lem wit="#c #b">qu'apareillier pot</lem><rdg wit="#a" type="substantive">que elle pot</rdg></app>.</l>
                                 <lg corresp="#schema-evaluation">
                                 <l n="20"><app><lem wit="#c">Puis l'a mise</lem><rdg wit="#a" type="substantive">puis si l’a mis</rdg><rdg wit="#b" type="substantive">puis si la mist</rdg></app> dedens un pot</l>
-                                <l n="21">Qui ot le col lonc et estroit</l>
-                                <l n="22"><app><lem wit="#c">Comme orinal</lem><rdg wit="#a #b" type="substantive">comme ampolle</rdg></app> ; de voirre estoit.</l>
+                                <l n="21">Qui ot le col lonc et estroit,</l>
+                                <l n="22"><app><lem wit="#c">Comme orinal</lem><rdg wit="#a #b" type="substantive">comme ampolle</rdg></app> de voirre estoit.</l>
                                 <l n="23">Regnart n'y pot <app><lem wit="#c">son groing</lem><rdg wit="#a #b" type="substantive">le groing</rdg></app> bouter</l>
                                 <l n="24">Ne de la vïande <app><lem wit="#c #a">taster</lem><rdg wit="#b" type="substantive">gouster</rdg></app><note type="note-critique">Vers manquant dans le manuscrit <c rend="ital">a</c>. La leçon du manuscrit <c rend="ital">c</c> (taster) masque en partie le jeu de rime que l’on retrouve dans le manuscrit <c rend="ital">b</c>, ainsi que dans les manuscrits <seg rend="ital">B,P,L</seg> (bouter / gouster / gouste / boute).</note>.</l>
                                 <l n="25">Mais la segongne bien en goute,</l>
@@ -2672,7 +2674,7 @@
                                 <l n="27">Regnart voulsist a ce besoing</l>
                                 <l n="28">Qu’i eüst bec en lieu de groing.</l>
                                 <l n="29">La vïande qui bon <app><lem wit="#c">fleuroit</lem><rdg wit="#a #b" type="substantive">flairoit</rdg></app></l>
-                                <l n="30">Et qui <app><lem wit="#c #a">par le voire</lem><rdg wit="#b" type="substantive">l'empoule</rdg></app> <app><lem wit="#c #b">paroit</lem><rdg wit="#a" type="substantive">pairoit</rdg></app><note type="note-critique">La leçon du manuscrit <c rend="ital">a</c> est manifestement une erreur de copie : pairoit est l’imparfait du  verbe <w rend="ital">pairer</w> qui signifie « comparer ; s’unir ». </note></l>
+                                <l n="30">Et qui <app><lem wit="#c #a">par le voire</lem><rdg wit="#b" type="substantive">l'empoule</rdg></app> <app><lem wit="#c #b"> paroit</lem><rdg wit="#a" type="substantive">pairoit</rdg></app><note type="note-critique">La leçon du manuscrit <c rend="ital">a</c> est manifestement une erreur de copie : pairoit est l’imparfait du  verbe <w rend="ital">pairer</w> qui signifie « comparer ; s’unir ». </note></l>
                                 <l n="31">Fait a Regnart sa fain doubler</l>
                                 <l n="32"><app><lem wit="#c">Et de lescherie trembler</lem><rdg wit="#a" type="substantive">et de la chiere mout troubler </rdg><rdg wit="#b" type="substantive">et de lecherie troubler</rdg></app><note type="note-critique">Le manuscrit <c rend="ital">c</c> présente une leçon astucieuse qui nous semble être la bonne (trembler de gourmandise). Avec le terme « chiere », nous nous attendrions à l’expression « troubler la chiere ». La leçon du manuscrit <c rend="ital">a</c> présente donc une construction incorrecte. Celle du manuscrit <c rend="ital">b</c> n’a, pour sa part, pas de sens.</note>.</l>
                                 <l n="33">Bien reçoit le conchiement</l>
@@ -2690,7 +2692,7 @@
                             <head type="title">Le renard et la cigogne</head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
-                                <l n="1"><name ref="#actant-personnage">Renard</name>, qui n'a jamais été plaisant,</l>
+                                <l n="1"><name ref="#actant-personnage">Renard</name>, à qui jamais le bien n'a agréé,</l>
                                 <l n="2"><rs corresp="#actant-objet">invite à manger chez lui</rs></l>
                                 <l n="3">son amie <name ref="#actant-personnage">la cigogne</name>.</l>
                                 </lg>
@@ -2714,8 +2716,8 @@
                                 <l n="19">la meilleure qu'elle put préparer.</l>
                                 <lg corresp="#schema-evaluation">
                                 <l n="20">Elle l'a ensuite mise dans un récipient</l>
-                                <l n="21">au col long et étroit</l>
-                                <l n="22">comme un urinal ; il était en verre.</l>
+                                <l n="21">au col long et étroit,</l>
+                                <l n="22">en verre comme un urinal.</l>
                                 <l n="23">Renard n'y put plonger son groin</l>
                                 <l n="24">ni goûter la viande.</l>
                                 <l n="25">Mais la cigogne l'apprécie fort,</l>
@@ -3109,6 +3111,7 @@
                                     <lg corresp="#morale-personnel">
                                     <l n="35">Souvent fuions ce qui <app><lem wit="#B #L">nous vaut</lem><rdg wit="#P" type="substantive">nous faut</rdg></app></l>
                                     <l n="36">Et de nostre bien ne nous chaut.</l>
+
                                     </lg>
                                     <lg corresp="#morale-parenetique">
                                     <l n="37">Et qui te porte utilité,</l>
@@ -3129,7 +3132,7 @@
                                     <l n="52">Que povreté ne t’agravente.</l>
                                     <l n="53">Ne te fie pas en acroire</l>
                                     <l n="54">Ne en pompes ne en vaine gloire.</l>
-                                    <l n="55">De l'autrui <app><lem wit="#B #L">ne t’a fai</lem><rdg wit="#P">ne te fais</rdg></app> si gobes,</l>
+                                    <l n="55">De l'autrui ne te fais si gobes,</l>
                                     <l n="56">N'en viandes n'en belles robes</l>
                                     <l n="57">Car il convient l'escot paier.</l>
                                     <l n="58">Pour ce te dois bien esmaier</l>
@@ -3188,7 +3191,7 @@
                                     <l n="8">Mais d'un autre côté, il n’apprécie aucunement</l>
                                     <l n="9">ses maigres jambes et ses pieds.</l>
                                     </lg>
-                                    <l n="10">Il se plaint des uns, est attaché aux autres.</l>
+                                    <l n="10">Il se désole de l'un, se réjouit de l'autre.</l>
                                     <l n="11">Le cerf ne reste pas là davantage,</l>
                                     <l n="12">il retourne dans <placeName ref="#bois">le bois</placeName></l>
                                     <l n="13">où il lui arrivera des aventures</l>
@@ -3198,8 +3201,8 @@
                                     <l n="17">qu'il n'eut pas plaisir à entendre.</l>
                                     <l n="18">Celui qui aurait vu le cerf s’enfuir</l>
                                     <l n="19">ne l’aurait pas désapprouvé.</l>
-                                    <l n="20">Il apprécie pleinement ses pieds</l>   
-                                    <l n="21">qui ne le causent alors plus de souci.</l>
+                                    <l n="20">A présent, il doit bien apprécier ses pieds</l>   
+                                    <l n="21">qui ne le causent plus de souci.</l>
                                     <lg corresp="#schema-evaluation">
                                     <l n="22">Mais tandis qu'il s’enfuit,</l>
                                     <l n="23">il rencontre un <placeName ref="#bois">bois</placeName> touffu,</l>
@@ -3243,7 +3246,7 @@
                                     <l n="52">pour que la pauvreté ne t’accable pas.</l>
                                     <l n="53">Ne t’aventure pas à donner crédit</l>
                                     <l n="54">aux vanités du monde ni à l’orgueil.</l>
-                                    <l n="55">N’abuse pas outre mesure du bien d’autrui,</l>
+                                    <l n="55">Ne t'enorgueillis pas du bien d'autrui,</l>
                                     <l n="56">ni en bonne nourriture ni en belles toilettes</l>
                                     <l n="57">car il faut inévitablement payer sa part.</l>
                                     <l n="58">Inquiète-toi de cela</l>
@@ -3299,7 +3302,6 @@
                                         <l n="17">Qui ne li pleist pas a oïr.</l>
                                         <l n="18">Qui donc veïst le cerf fouir,</l>
                                         <l n="19">Il ne le deüst pas blasmer.</l>
-
                                         <l n="20">Or doit il bien ses piés amer ;</l>   
                                         <l n="21">Ne li vont ore pas ennuiant.</l>
                                         <l n="22">Mes si comme il s'en va fuiant,</l>
@@ -3338,7 +3340,7 @@
                                         <l n="52">Que povreté ne t’agravente.</l>
                                         <l n="53">Ne te fie pas en acroire</l>
                                         <l n="54">Ne en pompes ne en vaine gloire.</l>
-                                        <l n="55">De l'autrui ne t’a fai si gobes,</l>
+                                        <l n="55">De l'autrui ne te fai si gobes,</l>
                                         <l n="56">N'en viandes n'en belles robes</l>
                                         <l n="57">Car il convient l'escot paier.</l>
                                         <l n="58">Pour ce te dois bien esmaier</l>
@@ -3522,7 +3524,7 @@
                                         <l n="52"><expan>Q<ex>ue</ex></expan> pouretez ne t'acravante.</l>
                                         <l n="53">Ne te fie pas en acroire</l>
                                         <l n="54">Ne <expan>e<ex>n</ex></expan> ponpes ne en vainne gloire.</l>
-                                        <l n="55">De l'autrui ne t'a fai si gobes,</l>
+                                        <l n="55">De l'autrui ne te fai si gobes,</l>
                                         <l n="56">N'en viandes n'en belles robes</l>
                                         <l n="57">Car il convient l'escot paier.</l>
                                         <l n="58">Pour ce te dois <expan>b<ex>ie</ex>n</expan> esmaier</l>
@@ -3578,7 +3580,6 @@
                                         <l n="17">Qui ne li pleist pas a oïr.</l>
                                         <l n="18">Qui donc veïst le cerf fouir,</l>
                                         <l n="19">Il ne le deüst pas blasmer.</l>
-
                                         <l n="20">Or doit il bien ses piés amer ;</l>   
                                         <l n="21">Ne li vont ore pas ennuiant.</l>
                                         <l n="22">Mes si comme il s'en va fuiant,</l>
@@ -3617,7 +3618,7 @@
                                         <l n="52">Que povreté ne t’agravente.</l>
                                         <l n="53">Ne te fie pas en acroire</l>
                                         <l n="54">Ne en pompes ne en vaine gloire.</l>
-                                        <l n="55">De l'autrui ne t’a fai si gobes,</l>
+                                        <l n="55">De l'autrui ne te fai si gobes,</l>
                                         <l n="56">N'en viandes n'en belles robes</l>
                                         <l n="57">Car il convient l'escot paier.</l>
                                         <l n="58">Pour ce te dois bien esmaier</l>
@@ -3709,7 +3710,7 @@
                                         <l n="52">Que <app><rdg type="orthographic">pouvreté</rdg></app> ne <app><rdg type="orthographic">t'agravante</rdg></app>.</l>
                                         <l n="53">Ne te fie pas en acroire</l>
                                         <l n="54"><app><rdg type="orthographic">Ne em</rdg></app> pompes <app><rdg type="orthographic">n’en</rdg></app> vaine gloire.</l>
-                                        <l n="55">De <app><rdg type="orthographic">l’autri</rdg></app> ne <app><rdg type="substantive">te fais</rdg></app> si gobes,</l>
+                                        <l n="55">De <app><rdg type="orthographic">l’autri</rdg></app> ne te fais si gobes,</l>
                                         <l n="56">N'en viandes n'en belles robes</l>
                                         <l n="57">Car il convient l'escot paier.</l>
                                         <l n="58">Pour ce te dois bien esmaier</l>
@@ -3801,7 +3802,7 @@
                                         <l n="52">Que <app><rdg type="orthographic">pouretez</rdg></app> ne <app><rdg type="orthographic">t'acravante</rdg></app>.</l>
                                         <l n="53">Ne te fie pas en acroire</l>
                                         <l n="54">Ne en <app><rdg type="orthographic">ponpes</rdg></app> ne en <app><rdg type="orthographic">vainne</rdg></app> gloire.</l>
-                                        <l n="55">De l'autrui ne t'a fai si gobes,</l>
+                                        <l n="55">De l'autrui ne te fai si gobes,</l>
                                         <l n="56">N'en viandes n'en belles robes</l>
                                         <l n="57">Car il convient l'escot paier.</l>
                                         <l n="58">Pour ce te dois bien esmaier</l>
@@ -3882,7 +3883,7 @@
                                 <l n="8">mais d'un autre côté, il n’apprécie aucunement</l>
                                 <l n="9">ses maigres jambes et ses pieds.</l>
                                 </lg>
-                                <l n="10">Il se plaint de l’un, est attaché à l’autre.</l>
+                                <l n="10">Il se désole de l'un, se réjouit de l'autre.</l>
                                 <l n="11">Le cerf ne reste pas là davantage ; </l>
                                 <l n="12">il retourne dans <placeName ref="#bois">le bois</placeName></l>
                                 <l n="13">où il lui arriva des aventures</l>
@@ -3892,8 +3893,8 @@
                                 <l n="17">qu'il n'a pas plaisir à entendre.</l>
                                 <l n="18">Celui qui aurait vu le cerf s’enfuir</l>
                                 <l n="19">ne l’aurait pas désapprouvé.</l>
-                                <l n="20">Il apprécie pleinement ses pieds</l>
-                                <l n="21">qui ne lui causent alors plus de souci. </l>
+                                <l n="20">A présent, il doit bien apprécier ses pieds</l>
+                                <l n="21">qui ne lui causent plus de souci.</l>
                                     <lg corresp="#schema-evaluation">
                                 <l n="22">Mais tandis qu'il s’enfuit,</l>
                                 <l n="23">il arrive dans <placeName ref="#bois">un bois</placeName> touffu,</l>
@@ -4071,7 +4072,7 @@
                                     <l n="16"><app><rdg type="substantive">Qui doncques le vit fouïr</rdg></app>,</l>
                                     <l n="17"><app><rdg type="substantive">Jamais ne le deüst</rdg></app> blasmer.</l>
                                     <l n="18">Or <app><rdg type="substantive">doit bien</rdg></app> ses <app><rdg type="substantive">jambes</rdg></app> amer,</l>
-                                    <l n="19">Ne <app><rdg type="orthographic">li</rdg></app> vont pas <app><rdg type="substantive">or</rdg></app> <app><rdg type="orthographic"> onnuyant</rdg></app>,</l>
+                                    <l n="19">Ne <app><rdg type="orthographic">li</rdg></app> vont pas <app><rdg type="substantive">or onnuyant</rdg></app>,</l>
                                     <l n="20"><app><rdg type="substantive">Car au boys s'en va</rdg></app> fuyant.</l>
                                     <l n="21">En un <app><rdg type="orthographic">boys</rdg></app> espés <app><rdg type="orthographic">et venus</rdg></app> ;</l>
                                     <l n="22"><app><rdg type="substantive">La fu de ses cornes tenus</rdg></app></l>
@@ -4265,5 +4266,6 @@
                     </div>
                 </back>
            
+    
     
 </TEI>

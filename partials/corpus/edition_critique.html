@@ -20,8 +20,9 @@
         </div>
 
         <div class="col-sm-6 col-xs-12" ng-switch on="choice">
-                <p ng-switch-when="Traduction" ng-click="setChoice('Comparaison')" style="text-align:right;"><a href="">Comparer les deux éditions</a></p>
-                <p ng-switch-when="Comparaison" ng-click="setChoice('Traduction')" style="text-align:right;"><a href="">Revenir à la traduction</a></p>
+                <p ng-switch-when="Traduction" ng-click="setChoice('Comparaison')" style="text-align:right;"><span data-toggle="tooltipsw" data-container="body" data-placement="top" title="Comparer les deux éditions :
+Mettre en parallèle les éditions critiques des deux groupes de manuscrits."><a href="">Comparer les deux éditions</a></span></p>
+                <p ng-switch-when="Comparaison" ng-click="setChoice('Traduction')" style="text-align:right;"><span data-toggle="tooltipsw" data-container="body" data-placement="top" title="Revenir à la traduction française de l’édition critique initiale."><a href="">Revenir à la traduction</a></span></p>
 
 
             <div ng-switch-when="Traduction" ng-switch on="category" ng-if="fable_id != 0">
