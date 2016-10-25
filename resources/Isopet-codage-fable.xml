@@ -2637,7 +2637,7 @@
                     
                     <div n="f3-abc" xml:id="f3-ms-abc">
                         <div xml:lang="frm" type="edition-critique" xml:id="f3-abc-ed-crit">
-                            <head>D'un regnart et d'une segongne</head>
+                            <head>D'un regnart et d'une segongne<note type="note-critique">Titre présent seulement dans <c rend="ital">c</c>.</note></head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#actant-personnage">Regnart</name>, <app><lem wit="#c">qui onc bien n'abelli</lem><rdg wit="#a" type="substantive">qui oncques n'abelli</rdg><rdg wit="#b" type="substantive">qui onc n'enbelli</rdg></app>,</l>
@@ -3813,7 +3813,7 @@
                     </div>
                     <div n="f4-abc" xml:id="f4-ms-abc">
                         <div xml:lang="frm" type="edition-critique" xml:id="f4-abc-ed-crit">
-                            <head type="title">D’un cerf qui est en l’eaue</head>
+                            <head type="title">D’un cerf qui est en l’eaue<note type="note-critique">Titre présent seulement dans <c rend="ital">c</c>.</note></head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
                                 <l n="1"><app><lem wit="#c"><name ref="#cerf #actant-personnage">Un serf</name> qui <rs corresp="#actant-objet">tres grant soif</rs> avoit</lem><rdg wit="#a" type="substantive">un cerf lais qui grant seit tenoit</rdg><rdg wit="#b" type="substantive">un cerf qui grant soit tenoit</rdg></app></l>
