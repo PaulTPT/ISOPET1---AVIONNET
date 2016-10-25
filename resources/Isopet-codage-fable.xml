@@ -227,6 +227,8 @@
                                     <lg corresp="#morale-parenetique">
                                         <l n="12">Par ce compte poués entendre</l>
                                         <l n="13">Qu'au certain se fait bon tenir.</l>
+                                    </lg>
+                                    <lg corresp="#morale-paradigmatique">
                                         <l n="14">Dou sien puet bien mesavenir</l>
                                         <l n="15">A celui qui a chier l'autrui,</l>
                                         <l n="16">Aussin comme<note type="note-critique">La loc.
@@ -239,14 +241,14 @@
                                                 <rdg wit="#P" type="substantive">il fuist</rdg>
                                                 <rdg wit="#L" type="substantive">fist</rdg>
                                             </app> a cestui.</l>
-                                    </lg>
-                                    <lg corresp="#morale-personnel">
                                         <l n="17">Tout pert <app>
                                                 <lem wit="#B #P">cils qui l'autrui convoite</lem>
                                                 <rdg wit="#L" type="substantive">qui trestout
                                                   convoite</rdg>
                                             </app> :</l>
                                         <l n="18">Ceste raissons est assés droite.</l>
+                                    </lg>
+                                <lg corresp="#morale-personnel">
                                         <l n="19">L'exemple de ce nous apelle</l>
                                         <l n="20">La vielle cheï de la celle.</l>
                                         <l n="21">Qui sus deus selles <app>
@@ -334,15 +336,16 @@
                                     <lg corresp="#morale-parenetique">
                                         <l n="12">Comprenez à travers cette histoire</l>
                                         <l n="13">qu’il est bon de s’en tenir à ce qui est
-                                            sûr.</l>
+                                            sûr.</l></lg>
+                                        <lg corresp="#morale-paradigmatique">
                                         <l n="14">Il peut vite arriver malheur au bien</l>
                                         <l n="15">de celui qui en chérit un autre,</l>
                                         <l n="16">Comme il est advenu à celui-là.</l>
-                                    </lg>
-                                    <lg corresp="#morale-personnel">
                                         <l n="17">Il perd tout, celui qui convoite le bien
                                             d’autrui.</l>
                                         <l n="18">Cette morale est plutôt simple à comprendre.</l>
+                                        </lg>
+                                       <lg corresp="#morale-personnel"> 
                                         <l n="19">Cette histoire exemplaire nous rappelle</l>
                                         <l n="20">la vieille dame qui tomba de sa chaise.</l>
                                         <l n="21">Pour avoir voulu s'asseoir sur deux chaises,</l>
@@ -1069,11 +1072,11 @@
                                 <l n="5">Car, s’il s’en part, saiche de voir,</l>
                                 <l n="6">Il y puet bien dommaige avoir</l>
                                 <l n="7">Tel dont il se tendra pour fos.</l>
+                                <l n="8">En l’ostel l’a laissié enclos.</l> 
                                 </lg>
-                                <l n="8">En l’ostel l’a laissié enclos.</l>
                                 <l n="9">Si comme il fu demourés sous,</l>
                                 <lg corresp="#schema-action">
-                                <l n="10">Este vous <name ref="#loup">Ysangrin li loups</name></l>
+                                <l n="10">Este vous <name ref="#loup #actant-personnage">Ysangrin li loups</name></l>
                                 <l n="11">Vient a l’uis et boute et apelle,</l>
                                 <l n="12">Et change sa vois et chevrelle :</l>
                                 <l n="13"><seg corresp="#actant-objet">« Euvre l’uis, dit il, a ta mere.</seg></l>
@@ -1144,7 +1147,7 @@
                             <head type="title">De la chievre et du loup</head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
-                                <l n="1"><name ref="#actant-personnage #chevre">La chèvre</name> va chercher pâture</l>
+                                <l n="1"><name ref="#actant-intervenant #chevre">La chèvre</name> va chercher pâture</l>
                                 <l n="2">pour son <name ref="#actant-personnage #chevreau">chevreau</name> et lui recommande</l>
                                 <l n="3">et conseille de ne pas quitter</l>
                                 <l n="4">l’étable où il se trouvait,</l>
@@ -1637,9 +1640,9 @@
                                 <l n="9">Si comme il fu seul demouré,<note
                                 type="note-critique">Vers omis dans <c rend="ital"
                                     >a</c>.</note></l>
-                            <l n="10"><app><lem wit="#c"><name ref="#loup #actant-personnage">Le lou</name> est tantost arrivé</lem><rdg wit="#a" type="substantive">estes vous que Ysangrin li leux</rdg><rdg wit="#b" type="substantive">et veez cy Ysangrin li leus</rdg></app>,</l>
                             <lg corresp="#schema-action">
-                            <l n="11"><app><lem wit="#c">Hurte a l’uys, boute et appelle,</lem><rdg wit="#a" type="substantive">vint a l’uis, boute et appelle</rdg><rdg wit="#b" type="substantive">qui soit estre tant com puet cele</rdg></app><note
+                            <l n="10"><app><lem wit="#c"><name ref="#loup #actant-personnage">Le lou</name> est tantost arrivé</lem><rdg wit="#a" type="substantive">estes vous que Ysangrin li leux</rdg><rdg wit="#b" type="substantive">et veez cy Ysangrin li leus</rdg></app>,</l>
+                             <l n="11"><app><lem wit="#c">Hurte a l’uys, boute et appelle,</lem><rdg wit="#a" type="substantive">vint a l’uis, boute et appelle</rdg><rdg wit="#b" type="substantive">qui soit estre tant com puet cele</rdg></app><note
                                 type="note-critique">Le manuscrit <c rend="ital">b</c> a intercalé, entre ces vers 10 et 11, un vers que l’on ne retrouve dans aucun des manuscrits témoins de l’<seg rend="ital">Isopet 1-Avionnet</seg>, bien qu’il se rapproche par son sens du vers 12 des autres ms.</note></l>
                             <l n="12"><app><lem wit="#c">Et change sa voix et chevrelle :</lem><rdg wit="#a" type="substantive">change sa voix et si chevrelle</rdg><rdg wit="#b" type="substantive">vint a l’uis et boute et appelle</rdg></app></l>
                             <l n="13"><seg corresp="#actant-objet">« Euvre, dist il, l'uys a ta mere !</seg></l>
@@ -1675,14 +1678,14 @@
                             <l n="5">car, s’il s’en va, à coup sûr,</l>
                             <l n="6">il peut lui arriver des ennuis</l>
                             <l n="7">tels qu’il se tiendra pour fou.</l>
-                            </lg>
                             <l n="8">Elle le laisse enfermé dans la demeure.</l>
+                            </lg>
                             <l n="9">Et alors qu’il est resté seul,</l>
                             <lg corresp="#schema-action">
                             <l n="10"><name ref="#loup #actant-personnage">le loup</name> arrive sans tarder,</l>
                             <l n="11">frappe à la porte, heurte et appelle,</l>
                             <l n="12">change sa voix et imite la chèvre :</l>
-                            <l n="13">« Ouvre, dit-il, la porte à ta mère.</l>
+                            <l n="13"><seg corresp="#actant-objet">« Ouvre, dit-il, la porte à ta mère.</seg></l>
                             </lg>
                             <l n="14"> –  Je n’en ferai rien, par le respect que je dois à saint Pierre !</l>
                             <l n="15">Vous pouvez toujours appeler,</l>
@@ -1934,12 +1937,12 @@
                                 </figure>
                                 <head type="title">De vulpe et ciconia</head>
                                 <lg type="recit">
-                                    <l n="1" corresp="#schema-donnee"><name ref="#renard">Vulpe</name> <app><lem> vocante</lem><rdg wit="#B #P #L" ></rdg></app> venit speratque <name ref="#cigogne">ciconia</name> <rs corresp="#actant-objet">cenam</rs>.</l>
+                                    <l n="1" corresp="#schema-donnee"><name ref="#renard #actant-personnage">Vulpe</name> <app><lem> vocante</lem><rdg wit="#B #P #L" ></rdg></app> venit speratque <name ref="#cigogne #actant-personnage">ciconia</name> <rs corresp="#actant-objet"> cenam</rs>.</l>
                                     <lg corresp="#schema-action">
                                     <l n="2">Fallit eam liquidus vulpe <app><lem>vorante</lem><rdg wit="#B #P #L" type="lecon-rejetee">vocante</rdg></app> cibus.</l>
                                     <l n="3">Dum bibit illa cibum, solum bibit illa dolorem.</l></lg>
                                     <l n="4">Hic dolor in vulpem fabricat <rs corresp="#actant-objet">arma doli</rs>.</l>
-                                    <lg corresp="#schema-donnee">
+                                    <lg>
                                         <l n="5">Sunt pauci mora parva dies. <seg corresp="#schema-donnee">Avis <app><lem>inquid</lem><rdg wit="#B #P #L" type="lecon-rejetee">inquit</rdg></app> : « habemus</seg></l>
                                     <l n="6" corresp="#schema-donnee">Fercula que sapiunt, dulcis amica, veni.</l></lg>
                                     <l n="7"><seg corresp="#schema-action"><app><lem wit="#B">Hec venit</lem><rdg wit="#P #L" type="substantive">hic venit</rdg></app></seg>. <seg corresp="#schema-evaluation"><app><lem wit="#B"> Hec vase</lem><rdg wit="#P #L" type="substantive">hic vase</rdg></app> vitreo bona fercula condit</seg></l>
@@ -1971,9 +1974,9 @@
                                 <head><app><lem wit="#B #P">De Renart</lem><rdg wit="#L" type="substantive">du Renart</rdg></app> et de la cingoingne</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#renard">Renart,</name> <app><lem wit="#B #L"> qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
+                                    <l n="1"><name ref="#renard #actant-personnage">Renart,</name> <app><lem wit="#B #L"> qui onc</lem><rdg wit="#P" type="substantive">a qui onc</rdg></app> bien n'abeli,</l>
                                     <l n="2"><rs corresp="#actant-objet">Semont a mengier</rs> avec li</l>
-                                    <l n="3"><name ref="#cigogne">La cingongne</name> sa bonne amie.</l>
+                                    <l n="3"><name ref="#cigogne #actant-personnage">La cingongne</name> sa bonne amie.</l>
                                     </lg>
                                     <l n="4">Elle ne li refusa mie,</l>
                                     <l n="5">Qui cuida bien estre peüe,</l>
@@ -2637,7 +2640,9 @@
                     
                     <div n="f3-abc" xml:id="f3-ms-abc">
                         <div xml:lang="frm" type="edition-critique" xml:id="f3-abc-ed-crit">
-                            <head>D'un regnart et d'une segongne<note type="note-critique">Titre présent seulement dans <c rend="ital">c</c>.</note></head>
+                            <head>D'un regnart et d'une segongne<note
+                                type="note-critique">Titre présent seulement dans <c rend="ital"
+                                    >c</c>.</note></head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
                                 <l n="1"><name ref="#actant-personnage">Regnart</name>, <app><lem wit="#c">qui onc bien n'abelli</lem><rdg wit="#a" type="substantive">qui oncques n'abelli</rdg><rdg wit="#b" type="substantive">qui onc n'enbelli</rdg></app>,</l>
@@ -3027,7 +3032,7 @@
                                 <head type="title">De cervo sitiente</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><placeName ref="#fontaine">Fons</placeName> nitet argento similis. <rs corresp="#actant-objet">Sitis arida</rs> <name ref="#cerf #actant-personnage"> cervum</name></l>
+                                    <l n="1"><placeName ref="#fontaine">Fons</placeName> nitet argento similis. Sitis arida <name ref="#cerf #actant-personnage"> cervum</name></l>
                                     <l n="2"><app><lem wit="#L">Hic<note type="note-critique">McKenzie et Oldfather (1919), tout comme Julia Bastin (1930), ont corrigé leur manuscrit de base (<c rend="ital">B</c>) en introduisant l’adverbe de lieu <w rend="ital">huc</w>. Nous avons décidé de le corriger avec la leçon du ms. <c rend="ital">L</c>, puisque <w rend="ital">rapio</w>, qui peut avoir le sens de « se saisir vivement de » (<bibl>Gaffiot</bibl>, sens 3), n’implique pas forcément un adverbe de mouvement.</note> rapit</lem><rdg wit="#B #P" type="lecon-rejetee">hinc rapit</rdg></app>. Haurit aquas, se speculatur aquis.</l>
                                     </lg>
                                     <lg corresp="#schema-action">
@@ -3062,8 +3067,8 @@
                                 <head type="title">Du cerf morant de soif</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#cerf #actant-personnage">Un grant cerf</name> las que <rs corresp="#actant-objet">soif</rs> tenoit</l>
-                                    <l n="2">Boire a <placeName ref="#fontaine">la fontaine</placeName> <app><lem wit="#B #P">venoit</lem><rdg wit="#L" type="substantive">aloit</rdg></app>.</l>
+                                    <l n="1"><name ref="#cerf #actant-personnage">Un grant cerf</name> las que soif tenoit</l>
+                                    <l n="2">Boire a <placeName ref="#fontaine">la fontaine</placeName> <app><lem wit="#B #P"> venoit</lem><rdg wit="#L" type="substantive">aloit</rdg></app>.</l>
                                     
                                     <l n="3">S'embut assés et volentiers</l>
                                     <l n="4">Et remira endementiers</l>
@@ -3087,9 +3092,9 @@
                                     <l n="19">Il ne le deüst pas blasmer.</l>
                                     <l n="20">Or doit il bien ses piés amer ;</l>   
                                     <l n="21">Ne li vont ore pas ennuiant.</l>
+                                    <lg corresp="#schema-evaluation">
                                     <l n="22">Mes si comme il <app><lem wit="#B #L">s'en va fuiant</lem><rdg wit="#P" type="substantive">se va fuiant</rdg></app>,</l>
                                     <l n="23">Un <placeName ref="#bois">bois</placeName> espés <app><lem wit="#B #P">s'en est venus</lem><rdg wit="#L" type="substantive">en est venus</rdg></app>,</l>
-                                    <lg corresp="#schema-evaluation">
                                     <l n="24">Par ses cornes est retenus</l>
                                     <l n="25">Et arrestés en tieu manière</l>
                                     <l n="26"><app><lem wit="#B #P">Que il</lem><rdg wit="#L" type="substantive">qu'aller</rdg></app> ne puet <app><lem wit="#B #P">ne avant ne arriere</lem><rdg wit="#L" type="substantive">avant n'arriere</rdg></app>.</l>
@@ -3145,7 +3150,7 @@
                                 <head type="title">Le cerf assoiffé</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1">Une <placeName ref="#fontaine">fontaine</placeName> brille, semblable à de l’argent. En ce lieu, <rs corresp="#actant-objet">une soif ardente</rs></l>
+                                    <l n="1">Une <placeName ref="#fontaine">fontaine</placeName> brille, semblable à de l’argent. En ce lieu, une soif ardente</l>
                                     <l n="2">s’empare du <name ref="#cerf #actant-personnage">cerf</name>. Il puise dans les eaux et s’y contemple.</l>
                                     </lg>
                                     <lg corresp="#schema-action">
@@ -3177,7 +3182,7 @@
                                 <head>Le cerf qui mourait de soif</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#cerf #actant-personnage">Un grand cerf</name> fatigué et pris par <rs corresp="#actant-objet">la soif</rs></l>
+                                    <l n="1"><name ref="#cerf #actant-personnage">Un grand cerf</name> fatigué et pris par la soif</l>
                                     <l n="2">vint boire à <placeName ref="#fontaine">la fontaine</placeName>.</l>
                                     <l n="3">Il se désaltéra complètement et avec plaisir</l>
                                     <l n="4">tout en contemplant,</l>
@@ -3813,10 +3818,12 @@
                     </div>
                     <div n="f4-abc" xml:id="f4-ms-abc">
                         <div xml:lang="frm" type="edition-critique" xml:id="f4-abc-ed-crit">
-                            <head type="title">D’un cerf qui est en l’eaue<note type="note-critique">Titre présent seulement dans <c rend="ital">c</c>.</note></head>
+                            <head type="title">D’un cerf qui est en l’eaue<note
+                                type="note-critique">Titre présent seulement dans <c rend="ital"
+                                    >c</c>.</note></head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
-                                <l n="1"><app><lem wit="#c"><name ref="#cerf #actant-personnage">Un serf</name> qui <rs corresp="#actant-objet">tres grant soif</rs> avoit</lem><rdg wit="#a" type="substantive">un cerf lais qui grant seit tenoit</rdg><rdg wit="#b" type="substantive">un cerf qui grant soit tenoit</rdg></app></l>
+                                <l n="1"><app><lem wit="#c"><name ref="#cerf #actant-personnage">Un serf</name> qui tres grant soif avoit</lem><rdg wit="#a" type="substantive">un cerf lais qui grant seit tenoit</rdg><rdg wit="#b" type="substantive">un cerf qui grant soit tenoit</rdg></app></l>
                                 <l n="2">Boire a <placeName ref="#fontaine">la fontaine</placeName> venoit.</l>
                                 <l n="3"><app><lem wit="#c #a">S’enbut assez</lem><rdg wit="#b" type="substantive">s'en vint assés</rdg></app> et voulentiers</l>
                                 <l n="4"><app><lem wit="#a #b">Et remira</lem><rdg wit="#c" type="lecon-rejetee">se remira</rdg></app> en demantiers</l>
@@ -3869,7 +3876,7 @@
                             <head type="title">Un cerf qui va dans l’eau</head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
-                                <l n="1"><name ref="#cerf #actant-personnage">Un cerf</name> qui avait <rs corresp="#actant-objet">grande soif</rs></l>
+                                <l n="1"><name ref="#cerf #actant-personnage">Un cerf</name> qui avait grande soif</l>
                                 <l n="2">vint boire à <placeName ref="#fontaine">la fontaine</placeName>.</l>
                                 <l n="3">Il se désaltéra complètement et avec plaisir</l>
                                 <l n="4">tout en contemplant,</l>
@@ -3905,8 +3912,8 @@
                                 <l n="30">s'il n'avait eu ses amples ramures.</l>
                                     </lg>
                             </lg>
-                            <lg type="morale" corresp="#morale-paradigmatique">
-                                <lg>
+                            <lg type="morale">
+                                <lg corresp="#morale-paradigmatique">
                                 <l n="31">Nul ne doit mépriser</l>
                                 <l n="32">ce qui peut lui être utile et profitable,</l>
                                 <l n="33">ni chérir quelque chose</l>
@@ -4171,7 +4178,6 @@
                                     <l n="31">Nul ne doit chose despiter</l>
                                     <l n="32">Qui puet valoir et prouffiter,</l>
                                     <l n="33">Ne chose chiere aussi tenir</l>
-
                                     <l n="34">Dont dommaige lui puet venir.</l>
                                     <l n="35">Souvent fuyons ce qui nous vault,</l>
                                     <l n="36">Et de notre bien ne nous chault.</l>
