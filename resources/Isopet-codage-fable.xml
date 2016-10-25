@@ -818,7 +818,7 @@
                                         <lem wit="#c">au certain</lem>
                                         <rdg wit="#a" type="substantive">a certain</rdg>
                                         <rdg wit="#b" type="substantive">certain</rdg>
-                                    </app> se fait bon tenir ;</l>
+                                    </app> se fait bon tenir.</l>
                                 <l n="12">Du sien puet bien mesavenir</l>
                                 <l n="13">A cellui qui <app>
                                         <lem wit="#c">a chier l'autruy</lem>
@@ -2073,7 +2073,7 @@
                                 <head>Le renard et la cigogne</head>
                                 <lg type="recit">
                                     <lg corresp="#schema-donnee">
-                                    <l n="1"><name ref="#actant-personnage">Renard</name>, à qui jamais le bien n'a agréé,</l>
+                                    <l n="1"><name ref="#actant-personnage">Renart</name>, à qui jamais le bien n'a agréé,</l>
                                     <l n="2"><rs corresp="#actant-objet">invite à manger</rs> chez lui</l>
                                     <l n="3">son amie <name ref="#actant-personnage">la cigogne</name>.</l>
                                     </lg>
@@ -2082,7 +2082,7 @@
                                     <l n="6">et reçue chaleureusement,</l>
                                     <l n="7">car elle ne vit là aucune ruse.</l>
                                     <lg corresp="#schema-action">
-                                    <l n="8">Renard disposa sur la table</l>
+                                    <l n="8">Renart disposa sur la table</l>
                                     <l n="9">un pot rempli de miel qu’il allait</l>
                                     <l n="10">lui donner à manger.</l>
                                     <l n="11">Il boit, lèche et suce le miel</l>
@@ -2091,28 +2091,28 @@
                                     <l n="14">son bec n’étant pas fait pour cela.</l>
                                     </lg>
                                     <l n="15">Alors elle réfléchit à <rs corresp="#actant-objet">la manière</rs></l>
-                                    <l n="16"><rs corresp="#actant-objet">dont elle pourra tromper Renard.</rs></l>
-                                    <l n="17"><seg corresp="#schema-donnee">Elle invite Renard</seg> <seg corresp="#schema-action"> et prépare</seg></l>
+                                    <l n="16"><rs corresp="#actant-objet">dont elle pourra tromper Renart.</rs></l>
+                                    <l n="17"><seg corresp="#schema-donnee">Elle invite Renart</seg> <seg corresp="#schema-action"> et prépare</seg></l>
                                     <l n="18"><seg corresp="#schema-action">admirablement une très bonne viande,</seg></l>
                                     <l n="19">la meilleure qu'elle put préparer,</l>
                                     <lg corresp="#schema-evaluation">
                                     <l n="20">puis l'a mise dans un récipient</l>
                                     <l n="21">au col long et étroit, </l>
                                     <l n="22">en verre comme une ampoule.</l>
-                                    <l n="23">Renard n'y put plonger son groin</l>
+                                    <l n="23">Renart n'y put plonger son groin</l>
                                     <l n="24">ni goûter la viande,</l>
                                     <l n="25">mais la cigogne l'apprécie fort ;</l>
                                     <l n="26">elle y plonge le bec jusqu'au fond.</l>
-                                    <l n="27">Renard aurait préféré</l>
+                                    <l n="27">Renart aurait préféré</l>
                                     <l n="28">avoir un bec au lieu d'un groin.</l>
                                     <l n="29">La viande qui fleurait bon</l>
                                     <l n="30">et que l’on voyait à travers le verre</l>
-                                    <l n="31">redouble la faim de Renard</l>
+                                    <l n="31">redouble la faim de Renart</l>
                                     <l n="32">et le fait frémir de gourmandise.</l>
                                     <l n="33">Il subit le châtiment</l>
                                     <l n="34">qu'il avait imaginé en premier :</l>
                                     <l n="35">Si l'oiseau ne mengea pas de miel,</l>
-                                    <l n="36">il se vengea bien de Renard</l>
+                                    <l n="36">il se vengea bien de Renart.</l>
                                     </lg>
                                 </lg>
                                 <l rend="rubrique">morale</l>
@@ -2691,7 +2691,7 @@
                             <head type="title">Le renard et la cigogne</head>
                             <lg type="recit">
                                 <lg corresp="#schema-donnee">
-                                <l n="1"><name ref="#actant-personnage">Renard</name>, à qui jamais le bien n'a agréé,</l>
+                                <l n="1"><name ref="#actant-personnage">Renart</name>, à qui jamais le bien n'a agréé,</l>
                                 <l n="2"><rs corresp="#actant-objet">invite à manger chez lui</rs></l>
                                 <l n="3">son amie <name ref="#actant-personnage">la cigogne</name>.</l>
                                 </lg>
@@ -2700,7 +2700,7 @@
                                 <l n="6">et reçue chaleureusement,</l>
                                 <l n="7">car elle ne vit là aucune ruse.</l>
                                 <lg corresp="#schema-action">
-                                <l n="8">Renard disposa sur la table</l>
+                                <l n="8">Renart disposa sur la table</l>
                                 <l n="9">un pot rempli de miel qu’il avait</l>
                                 <l n="10">et qu'il devait lui donner à manger.</l>
                                 <l n="11">Il boit, lèche et suce le miel</l>
@@ -2709,28 +2709,28 @@
                                 <l n="14">son bec n’étant pas fait pour cela.</l>
                                 </lg>
                                 <l n="15">Alors elle réfléchit à <rs corresp="#actant-objet">la manière</rs></l>
-                                <l n="16"><rs corresp="#actant-objet">dont elle pourra tromper Renard.</rs></l>
-                                <l n="17"><seg corresp="#schema-donnee">Elle invite Renard</seg> <seg corresp="#schema-action"> et prépare</seg></l>
+                                <l n="16"><rs corresp="#actant-objet">dont elle pourra tromper Renart.</rs></l>
+                                <l n="17"><seg corresp="#schema-donnee">Elle invite Renart</seg> <seg corresp="#schema-action"> et prépare</seg></l>
                                 <l n="18">admirablement une très bonne viande,</l>
                                 <l n="19">la meilleure qu'elle put préparer.</l>
                                 <lg corresp="#schema-evaluation">
                                 <l n="20">Elle l'a ensuite mise dans un récipient</l>
                                 <l n="21">au col long et étroit,</l>
                                 <l n="22">en verre comme un urinal.</l>
-                                <l n="23">Renard n'y put plonger son groin</l>
+                                <l n="23">Renart n'y put plonger son groin</l>
                                 <l n="24">ni goûter la viande,</l>
                                 <l n="25">mais la cigogne l'apprécie fort ;</l>
                                 <l n="26">elle y plonge le bec jusqu'au fond.</l>
-                                <l n="27">Renard aurait préféré avoir</l>
-                                <l n="28">bec au lieu d'un groin.</l>
+                                <l n="27">Renart aurait préféré avoir</l>
+                                <l n="28">un bec au lieu d'un groin.</l>
                                 <l n="29">La viande qui fleurait bon</l>
                                 <l n="30">et que l’on voyait à travers le verre</l>
-                                <l n="31">redouble la faim de Renard</l>
+                                <l n="31">redouble la faim de Renart</l>
                                 <l n="32">et le fait frémir de gourmandise.</l>
                                 <l n="33">Il subit le châtiment</l>
                                 <l n="34">qu'il avait imaginé en premier :</l>
-                                <l n="35">La cigogne mangea très bien</l>
-                                <l n="36">et se vengea ainsi de Renard.</l></lg>
+                                <l n="35">la cigogne mangea très bien</l>
+                                <l n="36">et se vengea ainsi de Renart.</l></lg>
                             </lg>
                             <lg type="morale" corresp="#morale-paradigmatique">
                                 <l n="37">Celui qui fait ce qu’il ne voudrait pour lui-même</l>
@@ -4171,6 +4171,7 @@
                                     <l n="31">Nul ne doit chose despiter</l>
                                     <l n="32">Qui puet valoir et prouffiter,</l>
                                     <l n="33">Ne chose chiere aussi tenir</l>
+
                                     <l n="34">Dont dommaige lui puet venir.</l>
                                     <l n="35">Souvent fuyons ce qui nous vault,</l>
                                     <l n="36">Et de notre bien ne nous chault.</l>
